@@ -1,0 +1,45 @@
+<ModMetaData>
+    <name>Pawnmorpher Morphs Expanded</name>
+    <author>Sairus323, Le-Lo-Du-87</author>
+    <supportedVersions>
+        <li>1.3</li>
+    </supportedVersions>
+    <description>An addon for Pawnmorpher that adds new morphs based on Vanilla Animals Expanded mods.
+	
+&lt;size=24&gt;Features&lt;/size&gt;
+  
+	</description>
+    <packageId>tachyonite.pawnmorpher.morphexpanded</packageId>
+    <modDependencies>
+        <li>
+            <packageId>erdelf.HumanoidAlienRaces</packageId>
+            <displayName>Humanoid Alien Races 2.0</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>tachyonite.pawnmorpherpublic</packageId>
+            <displayName>Pawnmorpher</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1786466855</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadBefore>
+    </loadBefore>
+    <loadAfter>
+        <li>erdelf.HumanoidAlienRaces</li>
+        <li>PeteTimesSix.CompactHediffs</li>
+        <li>tachyonite.pawnmorpherpublic</li>
+		<li>vanillaexpanded.vaeas</li>
+		<li>vanillaexpanded.vaeau</li>
+		<li>vanillaexpanded.vaebf</li>
+		<li>vanillaexpanded.vaecaves</li>
+		<li>vanillaexpanded.vaecd</li>
+		<li>vanillaexpanded.vaed</li>
+		<li>vanillaexpanded.vaeed</li>
+		<li>vanillaexpanded.vaeendandext</li>
+		<li>vanillaexpanded.vaeis</li>
+		<li>vanillaexpanded.vaetf</li>
+		<li>vanillaexpanded.vaetr</li>
+		<li>vanillaexpanded.vaets</li>
+		<li>vanillaexpanded.vaet</li>
+    </loadAfter>
+</ModMetaData>

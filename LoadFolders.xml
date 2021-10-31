@@ -1,0 +1,32 @@
+<loadFolders>
+    <v1.3>
+        <li>1.3</li>
+        <li>/</li>
+		<li IfModActive="vanillaexpanded.vaeas">1.3/Mods/AridShrubland/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaeas_copy">1.3/Mods/AridShrubland/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaeau">1.3/Mods/Australia/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaeau_copy">1.3/Mods/Australia/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaebf">1.3/Mods/BorealForest/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaebf_copy">1.3/Mods/BorealForest/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaecd">1.3/Mods/CatsAndDogs/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaecd_copy">1.3/Mods/CatsAndDogs/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaecaves">1.3/Mods/Caves/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaecaves_copy">1.3/Mods/Caves/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaed">1.3/Mods/Desert/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaed_copy">1.3/Mods/Desert/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaeendandext">1.3/Mods/Endangered/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaeendandext_copy">1.3/Mods/Endangered/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaeed">1.3/Mods/ExtremeDesert/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaeed_copy">1.3/Mods/ExtremeDesert/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaeis">1.3/Mods/IceSheet/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaeis_copy">1.3/Mods/IceSheet/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaetf">1.3/Mods/TemperateForest/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaetf_copy">1.3/Mods/TemperateForest/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaetr">1.3/Mods/TropicalRainforest/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaetr_copy">1.3/Mods/TropicalRainforest/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaets">1.3/Mods/TropicalSwamp/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaets_copy">1.3/Mods/TropicalSwamp/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaet">1.3/Mods/Tundra/Defs/Morphs</li>
+		<li IfModActive="vanillaexpanded.vaet_copy">1.3/Mods/Tundra/Defs/Morphs</li>
+    </v1.3>
+</loadFolders>
