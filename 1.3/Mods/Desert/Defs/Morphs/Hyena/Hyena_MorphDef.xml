@@ -2,13 +2,14 @@
 	<Pawnmorph.MorphDef ParentName="CanineMorph">
 		<defName>HyenaMorph</defName>
 		<label>hyenamorph</label>
-		<description>A large humanoid hyena resulting from a human that has been exposed to hyena specific mutagens. TODO</description>
+		<description>TODO</description>
 		<race>AEXP_Hyena</race>
 		<classification>Canid</classification>
 		<categories>
 			<li>Arid</li>
 			<li>Canid</li>
 		</categories>
+		<injectorProperties></injectorProperties>
 		<fullTransformation>PawnmorphHyenaTF</fullTransformation>
 		<partialTransformation>PawnmorphHyenaTFPartial</partialTransformation>
 		<raceSettings>

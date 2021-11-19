@@ -1,4 +1,4 @@
-<Defs>
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocateion="../../../Schemas/ThoughtDef.xsd">
 	<HediffDef ParentName="NewPartialAspectedMorphParent">
 		<defName>PawnmorphHyenaTFPartial</defName>
 		<label>hyenamorph partial</label>

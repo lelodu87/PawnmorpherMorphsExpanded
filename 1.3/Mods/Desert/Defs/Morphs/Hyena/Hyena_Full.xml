@@ -1,11 +1,11 @@
-<Defs>
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocateion="../../../Schemas/ThoughtDef.xsd">
 	<HediffDef ParentName="NewAspectedMorphParent">
 		<defName>PawnmorphHyenaTF</defName>
-		<hediffClass>Pawnmorph.Hediffs.MorphTf</hediffClass>
+		<hediffClass>Pawnmorph.Hediffs.Hediff_MutagenicBase</hediffClass>
 		<label>hyenamorph</label>
 		<description>This person has mechanites in their blood that are slowly mutating them into a hyenamorph. Keep an eye on them, as leaving the mechanites unattended could lead to them becoming far more hyenish than human. But would that really be so bad?</description>
 		<stages>
-			<li Class="Pawnmorph.Hediffs.FullTransformationStage">
+			<li Class="Pawnmorph.Hediffs.HediffStage_Transformation">
 				<label>reeling</label>
 				<hungerRateFactor>1.6</hungerRateFactor>
 				<painOffset>0.05</painOffset>
@@ -15,10 +15,16 @@
 						<offset>-0.05</offset>
 					</li>
 				</capMods>
-				<pawnkinds>
-					<li>AEXP_Hyena</li>
-				</pawnkinds>
-				<transformationTale>TransformationCanid</transformationTale>
+				<tfTypes Class="Pawnmorph.Hediffs.Composable.TFTypes_Morph">
+					<morphDef>HyenaMorph</morphDef>
+				</tfTypes>
+				<tfChance Class="Pawnmorph.Hediffs.Composable.TFChance_BySetting" />
+				<tfSettings>
+					<tfTale>TransformationCanid</tfTale>
+				</tfSettings>
+				<tfGenderSelector Class="Pawnmorph.Hediffs.Composable.TFGenderSelector_Swap">
+					<chance>0.1</chance>
+				</tfGenderSelector>
 			</li>
 			<li Class="Pawnmorph.Hediffs.TransformationStage">
 				<label>transforming</label>
@@ -39,8 +45,7 @@
 						<offset>-0.05</offset>
 					</li>
 				</capMods>
-				<letterText>TransformationStageWarningContent</letterText>
-				<letterLabel>TransformationStageWarningLabel</letterLabel>
+				<alert />
 			</li>
 			<li Class="Pawnmorph.Hediffs.MorphTransformationStage">
 				<label>changing</label>
@@ -60,8 +65,14 @@
 						<capacity>Manipulation</capacity>
 						<offset>-0.05</offset>
 					</li>
-				<morph>HyenaMorph</morph>
 				</capMods>
+				<mutationTypes Class="Pawnmorph.Hediffs.Composable.MutTypes_Morph">
+					<morphDef>HyenaMorph</morphDef>
+				</mutationTypes>
+				<mutationRate Class="Pawnmorph.Hediffs.Composable.MutRate_MutationsPerDay">
+					<meanMutationsPerDay>5</meanMutationsPerDay>
+				</mutationRate>
+				<spreadOrder Class="Pawnmorph.Hediffs.Composable.MutSpreadOrder_RandomSpread" />
 			</li>
 		</stages>
 	</HediffDef>
