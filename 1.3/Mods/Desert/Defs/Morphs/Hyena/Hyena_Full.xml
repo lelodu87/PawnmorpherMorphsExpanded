@@ -23,7 +23,7 @@
 					<tfTale>TransformationCanid</tfTale>
 				</tfSettings>
 				<tfGenderSelector Class="Pawnmorph.Hediffs.Composable.TFGenderSelector_Swap">
-					<chance>0.1</chance>
+					<chance>1</chance>
 				</tfGenderSelector>
 			</li>
 			<li Class="Pawnmorph.Hediffs.HediffStage_MutagenicBase">
