@@ -14,7 +14,7 @@
 		<partialTransformation>PawnmorphHyenaTFPartial</partialTransformation>
 		<raceSettings>
 			<graphicsSettings>
-				<skinColorOverride>(123,104,89)</skinColorOverride>
+				<skinColorOverride>(130,114,98)</skinColorOverride>
 			</graphicsSettings>
 		</raceSettings>
 		<transformSettings>

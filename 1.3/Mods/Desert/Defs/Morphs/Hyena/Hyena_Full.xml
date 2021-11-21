@@ -26,7 +26,7 @@
 					<chance>0.1</chance>
 				</tfGenderSelector>
 			</li>
-			<li Class="Pawnmorph.Hediffs.TransformationStage">
+			<li Class="Pawnmorph.Hediffs.HediffStage_MutagenicBase">
 				<label>transforming</label>
 				<minSeverity>0.6</minSeverity>
 				<painOffset>0.1</painOffset>
@@ -47,7 +47,7 @@
 				</capMods>
 				<alert />
 			</li>
-			<li Class="Pawnmorph.Hediffs.MorphTransformationStage">
+			<li Class="Pawnmorph.Hediffs.HediffStage_Mutation">
 				<label>changing</label>
 				<minSeverity>0.65</minSeverity>
 				<painOffset>0.1</painOffset>
