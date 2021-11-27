@@ -4,9 +4,9 @@
 		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="Jaw"]/hediffGraphics</xpath>
 		<value>
 		    <EtherHyenaMuzzle>
-			    <path>Parts/Hyena/yeen_muzzle</path>
+			    <path>Parts/Hyena/Hyena_Muzzle</path>
 			    <severity>
-				    <a0.5>Parts/Hyena/yeen_muzzle</a0.5>
+				    <a0.5>Parts/Hyena/Hyena_Muzzle</a0.5>
 				    <a0.3>Parts/Partials/PartialMuzzle/PartialMuzzle</a0.3>
 				    <a0.1>Parts/Partials/PartialMuzzle/TinyMuzzle</a0.1>
 					<a0.0>Parts/None/None</a0.0>
@@ -18,21 +18,35 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="left ear" and inFrontOfBody="true"]/hediffGraphics</xpath>
 		<value>
-		    <EtherHyenaEar>Parts/Hyena/yeen_ear_left</EtherHyenaEar>
+		    <EtherHyenaEar>Parts/Hyena/Hyena_Ear_Left</EtherHyenaEar>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="left ear" and inFrontOfBody="true"]/hediffGraphics</xpath>
+		<value>
+		    <EtherHyenaEar>Parts/Hyena/Hyena_Ear_Left_Behind</EtherHyenaEar>
 		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="right ear" and inFrontOfBody="true"]/hediffGraphics</xpath>
 		<value>
-		    <EtherHyenaEar>Parts/Hyena/yeen_ear_right</EtherHyenaEar>
+		    <EtherHyenaEar>Parts/Hyena/Hyena_Ear_Right</EtherHyenaEar>
 		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="Tail" or bodyPart="tail"]/hediffGraphics</xpath>
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="right ear" and inFrontOfBody="true"]/hediffGraphics</xpath>
 		<value>
-		    <EtherHyenaTail>Parts/Hyena/yeen_tail</EtherHyenaTail>
+		    <EtherHyenaEar>Parts/Hyena/Hyena_Ear_Right_Behind</EtherHyenaEar>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="tail" or bodyPart="Tail"]/hediffGraphics</xpath>
+		<value>
+		    <EtherHyenaTail>Parts/Hyena/Hyena_Tail</EtherHyenaTail>
 		</value>
 	</Operation>
 </Patch>
