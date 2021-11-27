@@ -1,0 +1,139 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef Name="CrocodilePart" ParentName="PawnmorphPart" Abstract="true">
+		<classInfluence>CrocodileMorph</classInfluence>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	<Pawnmorph.Hediffs.MutationDef ParentName="CrocodilePart">
+		<defName>EtherCrocodileSnout</defName>
+		<label>crocodile snout</label>
+		<description>The powerful and toothy snout of a crocodile.</description>
+		<initialSeverity>0</initialSeverity>
+		<parts>
+			<li>Jaw</li>
+		</parts>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<label>pressing out</label>
+				<description>[PAWN_nameDef]'s face seems to be swelling, the nose and jaw pressing out and looking decidedly more like an animal's.</description>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.30</offset>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>0.10</offset>
+					</li>
+				</capMods>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<description>TODO</description>
+				<minSeverity>0.5</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.2</offset>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>0.10</offset>
+					</li>
+				</capMods>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<minSeverity>1</minSeverity>
+				<description>TODO</description>
+				<label>adapted</label>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.06</offset>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>0.10</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>10</power>
+						<cooldownTime>2.6</cooldownTime>
+						<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+						<chanceFactor>0.7</chanceFactor>
+					</li>
+				</tools>
+			</li>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+		<categories>
+			<li>Major</li>
+		</categories>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	<Pawnmorph.Hediffs.MutationDef ParentName="CrocodilePart">
+		<defName>EtherCrocodileTail</defName>
+		<label>crocodile tail</label>
+		<description>TODO</description>
+		<parts>
+			<li>Tail</li>
+			<li>MorphTail</li>
+		</parts>
+		<mutationTale>GrewTail</mutationTale>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<capMods>
+					<li>
+						<!--TODO-->
+						<capacity>Moving</capacity>
+						<offset>0.01</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<categories>
+			<li>Major</li>
+		</categories>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	<Pawnmorph.Hediffs.MutationDef ParentName="CrocodilePart">
+		<defName>EtherCrocodileFoot</defName>
+		<label>crocodile foot</label>
+		<description>TODO</description>
+		<parts>
+			<li>Foot</li>
+		</parts>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<minSeverity>1</minSeverity>
+				<label>adapted</label>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+		<categories>
+			<li>Major</li>
+		</categories>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+</Defs>

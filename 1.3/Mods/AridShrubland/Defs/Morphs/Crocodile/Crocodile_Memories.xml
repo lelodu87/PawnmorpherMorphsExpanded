@@ -1,0 +1,103 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocateion="../../../Schemas/ThoughtDef.xsd">
+    <ThoughtDef ParentName="OutlookMemoryBase">
+		<defName>CrocodileTransformationMemory</defName>
+        <stages>
+            <li>
+                <label>morphed</label>
+                <description>TODO</description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+            <li>
+                <label>morphed</label>
+                <description>TODO</description>
+                <baseMoodEffect>+3</baseMoodEffect>
+            </li>
+            <li>
+                <label>morphed</label>
+                <description>TODO</description>
+                <baseMoodEffect>-5</baseMoodEffect>
+            </li>
+            <li>
+                <label>morphed</label>
+                <description>TODO</description>
+                <baseMoodEffect>+1</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+    <ThoughtDef ParentName="OutlookMemoryBase">
+		<defName>CrocodileRevertedMemory</defName>
+        <stages>
+            <li>
+                <label>reverted</label>
+                <description>TODO</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+            <li>
+                <label>reverted</label>
+                <description>TODO</description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+            <li>
+                <label>reverted</label>
+                <description>TODO</description>
+                <baseMoodEffect>10</baseMoodEffect>
+            </li>
+            <li>
+                <label>reverted</label>
+                <description>TODO</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+	<ThoughtDef ParentName="OutlookMemoryBase">
+        <durationDays>1</durationDays>
+        <defName>EtherCrocodileSnout</defName>
+        <stages>
+            <li>
+                <label>crocodile snout</label>
+                <description>TODO</description>
+                <visible>true</visible>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+            <li>
+                <label>crocodile snout</label>
+                <description>TODO</description>
+                <visible>true</visible>
+                <baseMoodEffect>2</baseMoodEffect>
+            </li>
+            <li>
+                <label>crocodile snout</label>
+                <description>TODO</description>
+                <visible>true</visible>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+    <ThoughtDef ParentName="OutlookMemoryBase">
+        <durationDays>1</durationDays>
+        <defName>EtherCrocodileTail</defName>
+        <stages>
+            <li>
+                <label>Crocodile tail</label>
+                <description>TODO</description>
+                <visible>true</visible>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Crocodile tail</label>
+                <description>TODO</description>
+                <visible>true</visible>
+                <baseMoodEffect>1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Crocodile tail</label>
+                <description>TODO</description>
+                <visible>true</visible>
+                <baseMoodEffect>-2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>

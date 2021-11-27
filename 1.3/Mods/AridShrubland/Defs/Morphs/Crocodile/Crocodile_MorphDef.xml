@@ -1,0 +1,25 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="SensitiveFoodMorph">
+		<defName>CrocodileMorph</defName>
+		<label>crocodilemorph</label>
+		<description>TODO</description>
+		<race>AEXP_Crocodile</race>
+		<classification>Reptile</classification>
+		<categories>
+			<li>Arid</li>
+			<li>Reptile</li>
+		</categories>
+		<injectorProperties></injectorProperties>
+		<fullTransformation>PawnmorphCrocodileTF</fullTransformation>
+		<partialTransformation>PawnmorphCrocodileTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(92,99,70)</skinColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>CrocodileTransformationMemory</transformationMemory>
+			<revertedMemory>CrocodileRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>
