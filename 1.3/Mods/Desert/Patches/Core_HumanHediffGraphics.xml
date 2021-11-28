@@ -21,25 +21,11 @@
 		    <EtherHyenaEar>Parts/Hyena/Hyena_Ear_Left</EtherHyenaEar>
 		</value>
 	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="left ear" and inFrontOfBody="true"]/hediffGraphics</xpath>
-		<value>
-		    <EtherHyenaEar>Parts/Hyena/Hyena_Ear_Left_Behind</EtherHyenaEar>
-		</value>
-	</Operation>
-	
+
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="right ear" and inFrontOfBody="true"]/hediffGraphics</xpath>
 		<value>
 		    <EtherHyenaEar>Parts/Hyena/Hyena_Ear_Right</EtherHyenaEar>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="right ear" and inFrontOfBody="true"]/hediffGraphics</xpath>
-		<value>
-		    <EtherHyenaEar>Parts/Hyena/Hyena_Ear_Right_Behind</EtherHyenaEar>
 		</value>
 	</Operation>
 	
