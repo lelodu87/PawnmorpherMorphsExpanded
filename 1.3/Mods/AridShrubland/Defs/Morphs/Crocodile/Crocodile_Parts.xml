@@ -7,7 +7,6 @@
 		<defName>EtherCrocodileSnout</defName>
 		<label>crocodile snout</label>
 		<description>The powerful and toothy snout of a crocodile.</description>
-		<initialSeverity>0</initialSeverity>
 		<parts>
 			<li>Jaw</li>
 		</parts>
@@ -19,7 +18,7 @@
 				<capMods>
 					<li>
 						<capacity>Talking</capacity>
-						<offset>-0.30</offset>
+						<offset>-0.05</offset>
 					</li>
 					<li>
 						<capacity>Eating</capacity>
@@ -33,7 +32,7 @@
 				<capMods>
 					<li>
 						<capacity>Talking</capacity>
-						<offset>-0.2</offset>
+						<offset>-0.20</offset>
 					</li>
 					<li>
 						<capacity>Eating</capacity>
@@ -48,7 +47,7 @@
 				<capMods>
 					<li>
 						<capacity>Talking</capacity>
-						<offset>-0.06</offset>
+						<offset>-0.1</offset>
 					</li>
 					<li>
 						<capacity>Eating</capacity>

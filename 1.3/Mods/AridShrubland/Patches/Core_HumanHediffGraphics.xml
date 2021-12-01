@@ -3,7 +3,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="Jaw"]/hediffGraphics</xpath>
 		<value>
-		    <EtherCrocodileSnout>
+			<EtherCrocodileSnout>
 				<path>Parts/Crocodile/Crocodile_Face</path>
 			    <severity>
 				    <a0.5>Parts/Crocodile/Crocodile_Face</a0.5>
@@ -18,7 +18,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="Tail" or bodyPart="tail"]/hediffGraphics</xpath>
 		<value>
-		    <EtherCrocodileTail>Parts/Crocodile/Crocodile_Tail</EtherCrocodileTail>
+			<EtherCrocodileTail>Parts/Crocodile/Crocodile_Tail</EtherCrocodileTail>
 		</value>
 	</Operation>
 </Patch>
