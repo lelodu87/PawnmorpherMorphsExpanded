@@ -6,30 +6,63 @@
 	<Pawnmorph.Hediffs.MutationDef ParentName="HyenaPart">
 		<defName>EtherHyenaMuzzle</defName>
 		<label>hyena muzzle</label>
-		<description>The toothy muzzle of a hyena.</description>
+		<description>A snout graces [PAWN_nameDef]'s face, like that of a hyena.</description>
+		<mutationTale>GrewCanidMuzzle</mutationTale>
 		<parts>
 			<li>Jaw</li>
 		</parts>
-		<mutationTale>GrewCanidMuzzle</mutationTale>
+		<graphics>
+			<Muzzle>Parts/Hyena/Hyena_Muzzle</Muzzle>
+		</graphics>
 		<stages>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
-				<labelOverride>pressing out</labelOverride>
-				<description>[PAWN_nameDef]'s face seems to be swelling, the nose and jaw pressing out and looking decidedly more like an animal's.</description>
-				<minSeverity>0</minSeverity>
 				<capMods>
 					<li>
 						<capacity>Talking</capacity>
-						<offset>-0.05</offset>
+						<offset>-0.10</offset>
 					</li>
 					<li>
 						<capacity>Eating</capacity>
-						<offset>0.10</offset>
+						<offset>0.1</offset>
 					</li>
 				</capMods>
+				<graphics>
+					<Muzzle>Parts/None/None</Muzzle>
+				</graphics>
 			</li>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
-				<minSeverity>0.5</minSeverity>
-				<description>A snout graces [PAWN_nameDef]'s face, like that of a hyena. [PAWN_possessive] teeth are pointed to suit; speaking is more difficult, but eating is easier.</description>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.40</offset>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<graphics>
+					<Muzzle>Parts/Partials/PartialMuzzle/TinyMuzzle</Muzzle>
+				</graphics>
+				<minSeverity>0.1</minSeverity>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.40</offset>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<graphics>
+					<Muzzle>Parts/Partials/PartialMuzzle/PartialMuzzle</Muzzle>
+				</graphics>
+				<minSeverity>0.3</minSeverity>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
 				<capMods>
 					<li>
 						<capacity>Talking</capacity>
@@ -40,15 +73,18 @@
 						<offset>0.50</offset>
 					</li>
 				</capMods>
+				<graphics>
+					<Muzzle>Parts/Hyena/Hyena_Muzzle</Muzzle>
+				</graphics>
+				<minSeverity>0.5</minSeverity>
 			</li>
-			<li Class="Pawnmorph.Hediffs.MutationStage">
-				<minSeverity>1</minSeverity>
+			<li>
 				<label>adapted</label>
-				<description>A snout graces [PAWN_nameDef]'s face, like that of a hyena. [PAWN_possessive] teeth are pointed to suit, so eating is easier. Adaptation has reduced the difficulty with talking.</description>
+				<minSeverity>1</minSeverity>
 				<capMods>
 					<li>
 						<capacity>Talking</capacity>
-						<offset>-0.1</offset>
+						<offset>-0.10</offset>
 					</li>
 					<li>
 						<capacity>Eating</capacity>
@@ -59,7 +95,6 @@
 			<li Class="Pawnmorph.Hediffs.MutationStage">
 				<minSeverity>1.5</minSeverity>
 				<label>paragon</label>
-				<description>A snout graces [PAWN_nameDef]'s face, like that of a hyena. [PAWN_possessive] teeth are pointed to suit; speaking is a little more difficult, but eating is easier. [PAWN_pronoun] has also developed a taste for raw meat, and is less likely to get sick from it.</description>
 				<capMods>
 					<li>
 						<capacity>Eating</capacity>
@@ -105,20 +140,25 @@
 	<Pawnmorph.Hediffs.MutationDef ParentName="HyenaPart">
 		<defName>EtherHyenaEar</defName>
 		<label>hyenalike</label>
-		<description>The furred, rounded ears of a hyena.</description>
+		<description>[PAWN_nameDef]'s ears have grown into furred, rounded, hyena ears.</description>
 		<parts>
 			<li>Ear</li>
 		</parts>
-		<categories>
-			<li>Major</li>
-		</categories>
+		<graphics>
+			<LeftEar>Parts/Hyena/Hyena_Ear_Left</LeftEar>
+			<LeftEarBehind>Parts/Hyena/Hyena_Ear_Left_Behind</LeftEarBehind>
+			<RightEar>Parts/Hyena/Hyena_Ear_Right</RightEar>
+			<RightEarBehindHead>Parts/Hyena/Hyena_Ear_Right_Behind</RightEarBehindHead>
+		</graphics>
 		<mutationTale>EarsChangedCanid</mutationTale>
 		<stages>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
-				<description>Two furred and rounded ears have grown from [PAWN_nameDef]'s head, flicking left and right, listening for the sounds of prey.</description>
 				<partEfficiencyOffset>0.25</partEfficiencyOffset>
 			</li>
-		</stages>
+		</stages>	
+		<categories>
+			<li>Major</li>
+		</categories>
 	</Pawnmorph.Hediffs.MutationDef>
 	
 	<Pawnmorph.Hediffs.MutationDef ParentName="HyenaPart">
@@ -130,6 +170,9 @@
 			<li>MorphTail</li>
 		</parts>
 		<mutationTale>GrewTail</mutationTale>
+		<graphics>
+			<Tail>Parts/Hyena/Hyena_Tail</Tail>
+		</graphics>
 		<stages>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
 				<capMods>
