@@ -1,10 +1,10 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Schemas/MutationDef.xsd">
 	<Pawnmorph.Hediffs.MutationDef Name="CrocodilePart" ParentName="PawnmorphPart" Abstract="true">
-		<classInfluence>CrocodileMorph</classInfluence>
+		<classInfluence>PMEA_CrocodileMorph</classInfluence>
 	</Pawnmorph.Hediffs.MutationDef>
 	
 	<Pawnmorph.Hediffs.MutationDef ParentName="CrocodilePart">
-		<defName>EtherCrocodileSnout</defName>
+		<defName>PMEA_CrocodileSnout</defName>
 		<label>crocodile snout</label>
 		<description>A snout graces [PAWN_nameDef]'s face, like that of a crocodile.</description>
 		<mutationTale>GrewMuzzleMisc</mutationTale>
@@ -117,7 +117,7 @@
 	</Pawnmorph.Hediffs.MutationDef>
 	
 	<Pawnmorph.Hediffs.MutationDef ParentName="TortoisePart">
-		<defName>EtherCrocodileEar</defName>
+		<defName>PMEA_CrocodileEar</defName>
 		<label>earhole</label>
 		<description>A fleshy membrane has grown over the earhole, reducing sensitivity to higher pitches but granting the ability to detect stomping feet three rooms away.</description>
 		<parts>
@@ -144,7 +144,7 @@
 	</Pawnmorph.Hediffs.MutationDef>
 	
 	<Pawnmorph.Hediffs.MutationDef ParentName="CrocodilePart">
-		<defName>EtherCrocodileTail</defName>
+		<defName>PMEA_CrocodileTail</defName>
 		<label>crocodile tail</label>
 		<description>TODO</description>
 		<parts>

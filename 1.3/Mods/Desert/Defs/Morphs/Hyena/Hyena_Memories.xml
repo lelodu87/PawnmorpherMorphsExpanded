@@ -1,6 +1,6 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocateion="../../../Schemas/ThoughtDef.xsd">
     <ThoughtDef ParentName="OutlookMemoryBase">
-		<defName>HyenaTransformationMemory</defName>
+		<defName>PMEA_HyenaTransformationMemory</defName>
         <stages>
             <li>
                 <label>morphed</label>
@@ -26,7 +26,7 @@
     </ThoughtDef>
 	
     <ThoughtDef ParentName="OutlookMemoryBase">
-		<defName>HyenaRevertedMemory</defName>
+		<defName>PMEA_HyenaRevertedMemory</defName>
         <stages>
             <li>
                 <label>reverted</label>
@@ -53,7 +53,7 @@
 	
 	<ThoughtDef ParentName="OutlookMemoryBase">
         <durationDays>1</durationDays>
-        <defName>EtherHyenaMuzzle</defName>
+        <defName>PMEA_EtherHyenaMuzzle</defName>
         <stages>
             <li>
                 <label>Hyena snout</label>
@@ -78,7 +78,7 @@
 	
     <ThoughtDef ParentName="OutlookMemoryBase">
         <durationDays>1</durationDays>
-        <defName>EtherHyenaEar</defName>
+        <defName>PMEA_EtherHyenaEar</defName>
         <stages>
             <li>
                 <label>Hyena ears</label>
@@ -103,7 +103,7 @@
 	
     <ThoughtDef ParentName="OutlookMemoryBase">
         <durationDays>1</durationDays>
-        <defName>EtherHyenaTail</defName>
+        <defName>PMEA_EtherHyenaTail</defName>
         <stages>
             <li>
                 <label>Hyena tail</label>

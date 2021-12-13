@@ -1,10 +1,10 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Schemas/MutationDef.xsd">
 	<Pawnmorph.Hediffs.MutationDef Name="HyenaPart" ParentName="PawnmorphPart" Abstract="true">
-		<classInfluence>HyenaMorph</classInfluence>
+		<classInfluence>PMEA_HyenaMorph</classInfluence>
 	</Pawnmorph.Hediffs.MutationDef>
 	
 	<Pawnmorph.Hediffs.MutationDef ParentName="HyenaPart">
-		<defName>EtherHyenaMuzzle</defName>
+		<defName>PMEA_HyenaMuzzle</defName>
 		<label>hyena muzzle</label>
 		<description>A snout graces [PAWN_nameDef]'s face, like that of a hyena.</description>
 		<mutationTale>GrewCanidMuzzle</mutationTale>
@@ -138,7 +138,7 @@
 	</Pawnmorph.Hediffs.MutationDef>
 	
 	<Pawnmorph.Hediffs.MutationDef ParentName="HyenaPart">
-		<defName>EtherHyenaEar</defName>
+		<defName>PMEA_HyenaEar</defName>
 		<label>hyenalike</label>
 		<description>[PAWN_nameDef]'s ears have grown into furred, rounded, hyena ears.</description>
 		<parts>
@@ -162,7 +162,7 @@
 	</Pawnmorph.Hediffs.MutationDef>
 	
 	<Pawnmorph.Hediffs.MutationDef ParentName="HyenaPart">
-		<defName>EtherHyenaTail</defName>
+		<defName>PMEA_HyenaTail</defName>
 		<label>tufted tail</label>
 		<description>A thin tail with a tuft of fur at the end.</description>
 		<parts>

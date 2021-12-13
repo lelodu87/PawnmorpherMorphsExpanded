@@ -1,6 +1,6 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocateion="../../../Schemas/ThoughtDef.xsd">
 	<HediffDef ParentName="NewPartialAspectedMorphParent">
-		<defName>PawnmorphCrocodileTFPartial</defName>
+		<defName>PMEA_CrocodileTFPartial</defName>
 		<label>crocodilemorph partial</label>
 		<description>This person has mechanites in their blood that are providing them with crocodile-esque mutations.</description>
 		<stages>
@@ -21,7 +21,7 @@
 						<offset>-0.05</offset>
 					</li>
 				</capMods>
-				<morph>CrocodileMorph</morph>
+				<morph>PMEA_CrocodileMorph</morph>
 			</li>
 		</stages>
 	</HediffDef>
