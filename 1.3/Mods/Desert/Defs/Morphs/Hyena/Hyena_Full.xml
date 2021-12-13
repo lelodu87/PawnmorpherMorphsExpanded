@@ -1,6 +1,6 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocateion="../../../Schemas/ThoughtDef.xsd">
 	<HediffDef ParentName="NewAspectedMorphParent">
-		<defName>PME_HyenaTF</defName>
+		<defName>PMEA_HyenaTF</defName>
 		<hediffClass>Pawnmorph.Hediffs.Hediff_MutagenicBase</hediffClass>
 		<label>hyenamorph</label>
 		<description>This person has mechanites in their blood that are slowly mutating them into a hyenamorph. Keep an eye on them, as leaving the mechanites unattended could lead to them becoming far more hyenish than human. But would that really be so bad?</description>

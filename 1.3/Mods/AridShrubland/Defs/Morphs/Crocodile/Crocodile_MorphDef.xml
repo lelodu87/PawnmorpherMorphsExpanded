@@ -10,8 +10,8 @@
 			<li>Reptile</li>
 		</categories>
 		<injectorProperties></injectorProperties>
-		<fullTransformation>PMEA_PawnmorphCrocodileTF</fullTransformation>
-		<partialTransformation>PMEA_PawnmorphCrocodileTFPartial</partialTransformation>
+		<fullTransformation>PMEA_CrocodileTF</fullTransformation>
+		<partialTransformation>PMEA_CrocodileTFPartial</partialTransformation>
 		<raceSettings>
 			<graphicsSettings>
 				<skinColorOverride>(92,99,70)</skinColorOverride>
