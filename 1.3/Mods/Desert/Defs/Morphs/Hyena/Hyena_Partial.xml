@@ -1,6 +1,6 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocateion="../../../Schemas/ThoughtDef.xsd">
 	<HediffDef ParentName="NewPartialAspectedMorphParent">
-		<defName>PMEA_HyenaTFPartial</defName>
+		<defName>PMAE_HyenaTFPartial</defName>
 		<label>hyenamorph partial</label>
 		<description>This person has mechanites in their blood that are providing them with hyena-esque mutations.</description>
 		<stages>
@@ -21,7 +21,7 @@
 						<offset>-0.05</offset>
 					</li>
 				</capMods>
-				<morph>PMEA_HyenaMorph</morph>
+				<morph>PMAE_HyenaMorph</morph>
 			</li>
 		</stages>
 	</HediffDef>

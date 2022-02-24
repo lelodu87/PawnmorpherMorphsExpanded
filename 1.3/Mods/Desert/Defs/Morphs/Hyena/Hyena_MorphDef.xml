@@ -1,25 +1,22 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Schemas/MorphDef.xsd">
-	<Pawnmorph.MorphDef ParentName="CanineMorph">
-		<defName>PMEA_HyenaMorph</defName>
+	<Pawnmorph.MorphDef ParentName="ScavengerMorph">
+		<defName>PMAE_HyenaMorph</defName>
 		<label>hyenamorph</label>
-		<description>TODO</description>
+		<description>TODO Hyena</description>
 		<race>AEXP_Hyena</race>
-		<classification>Canid</classification>
 		<categories>
 			<li>Arid</li>
-			<li>Canid</li>
 		</categories>
-		<injectorProperties></injectorProperties>
-		<fullTransformation>PMEA_HyenaTF</fullTransformation>
-		<partialTransformation>PMEA_HyenaTFPartial</partialTransformation>
+		<fullTransformation>PMAE_HyenaTF</fullTransformation>
+		<partialTransformation>PMAE_HyenaTFPartial</partialTransformation>
 		<raceSettings>
 			<graphicsSettings>
 				<skinColorOverride>(130,114,98)</skinColorOverride>
 			</graphicsSettings>
 		</raceSettings>
 		<transformSettings>
-			<transformationMemory>PMEA_HyenaTransformationMemory</transformationMemory>
-			<revertedMemory>PMEA_HyenaRevertedMemory</revertedMemory>
+			<transformationMemory>PMAE_HyenaTransformationMemory</transformationMemory>
+			<revertedMemory>PMAE_HyenaRevertedMemory</revertedMemory>
 		</transformSettings>
 	</Pawnmorph.MorphDef>
 </Defs>
