@@ -4,7 +4,8 @@
 		<defName>PMAE_CrocodileJaw</defName>
 		<label>crocodile snout</label>
 		<graphics>
-			<Muzzle>Parts/Crocodile/Crocodile_Muzzle</Muzzle>
+			<MuzzleMale>Parts/Crocodile/Crocodile_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/Crocodile/Crocodile_Muzzle_Female</MuzzleFemale>
 		</graphics>
 		<stagePatches>
 			<li function="modify">

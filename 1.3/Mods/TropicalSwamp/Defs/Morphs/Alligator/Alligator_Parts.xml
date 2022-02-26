@@ -4,7 +4,8 @@
 		<defName>PMAE_AlligatorJaw</defName>
 		<label>alligator snout</label>
 		<graphics>
-			<Muzzle>Parts/Alligator/Alligator_Muzzle</Muzzle>
+			<MuzzleMale>Parts/Alligator/Alligator_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/Alligator/Alligator_Muzzle_Female</MuzzleFemale>
 		</graphics>
 		<stagePatches>
 			<li function="modify">
