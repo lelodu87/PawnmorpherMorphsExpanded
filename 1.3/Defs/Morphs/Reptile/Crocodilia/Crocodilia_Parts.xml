@@ -185,7 +185,7 @@
 			<li function="modify">
 				<stageKey>full</stageKey>
 				<values>
-					<description>TODO</description>
+					<description>Thick plates of green-brown scales have developed over this limb, creating a suit of natural armour and helping to absorb sunlight for body warmth.</description>
 					<statOffsets>
 						<ComfyTemperatureMin>+1.2</ComfyTemperatureMin>
 						<ComfyTemperatureMax>+3.5</ComfyTemperatureMax>

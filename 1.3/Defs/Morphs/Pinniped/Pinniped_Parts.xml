@@ -79,15 +79,15 @@
 			<li function="modify">
 				<stageKey>light</stageKey>
 				<values>
-					<label>TODO</label>
-					<description>TODO</description>
+					<label>heavier</label>
+					<description>[PAWN_nameDef]'s limb seems to be getting a little bit chubbier, and slight patches of silky hair are growing in patches.</description>
 				</values>
 			</li>
 			<li function="modify">
 				<stageKey>dusting</stageKey>
 				<values>
-					<label>TODO</label>
-					<description>TODO</description>
+					<label>insulated</label>
+					<description>This part is swelling with a thin layer of insulating blubber, and the silky fur is spreading further over the limb.</description>
 					<statOffsets>
 						<ComfyTemperatureMin>-1.75</ComfyTemperatureMin>
 						<ComfyTemperatureMax>-0.375</ComfyTemperatureMax>
@@ -97,8 +97,8 @@
 			<li function="modify">
 				<stageKey>thin</stageKey>
 				<values>
-					<label>curly fur</label>
-					<description>TODO</description>
+					<label>insulating fat</label>
+					<description>The fat is growing heavier still, a thicker layer of blubber helping to insulate [PAWN_nameDef], and smooth, silky fur has spread over most of the limb.</description>
 					<statOffsets>
 						<ComfyTemperatureMin>-3.5</ComfyTemperatureMin>
 						<ComfyTemperatureMax>-0.75</ComfyTemperatureMax>
@@ -108,8 +108,8 @@
 			<li function="modify">
 				<stageKey>patches</stageKey>
 				<values>
-					<label>TODO</label>
-					<description>TODO</description>
+					<label>blubber</label>
+					<description>This part has grown rather heavy with insulating blubber, and a smooth coat of silky fur coats it with a glossy sheen.</description>
 					<statOffsets>
 						<ComfyTemperatureMin>-5.25</ComfyTemperatureMin>
 						<ComfyTemperatureMax>-1.125</ComfyTemperatureMax>
@@ -119,8 +119,8 @@
 			<li function="modify">
 				<stageKey>full</stageKey>
 				<values>
-					<label>TODO</label>
-					<description>TODO.</description>
+					<label>insulating blubber</label>
+					<description>This part has grown rather heavy with a thick layer of insulating blubber, and a smooth coat of silky fur coats it with a glossy sheen. They're not fat, just big-boned.</description>
 					<statOffsets>
 						<ComfyTemperatureMin>-7</ComfyTemperatureMin>
 						<ComfyTemperatureMax>-1.5</ComfyTemperatureMax>

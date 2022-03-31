@@ -151,6 +151,7 @@
 			<li function="modify">
 				<stageKey>patches</stageKey>
 				<values>
+					<description>Swathes: Much of the skin here is covered in insulating feathers, needing to be preened and attended to with the occassional dust bath. They'll keep a fair amount of heat close to the body.</description>
 					<statOffsets>
 						<ComfyTemperatureMin>-5.25</ComfyTemperatureMin>
 						<ComfyTemperatureMax>-1.125</ComfyTemperatureMax>
@@ -160,7 +161,7 @@
 			<li function="modify">
 				<stageKey>full</stageKey>
 				<values>
-					<description>TODO</description>
+					<description>The skin here is entirely covered in feathers, needing to be preened and attended to with the occassional dust bath. They'll keep quite a bit of heat close to the body.</description>
 					<statOffsets>
 						<ComfyTemperatureMin>-7</ComfyTemperatureMin>
 						<ComfyTemperatureMax>-1.5</ComfyTemperatureMax>
