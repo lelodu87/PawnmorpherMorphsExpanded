@@ -203,10 +203,10 @@
 		</stagePatches>
 	</Pawnmorph.Hediffs.MutationDef>
 	
-	<!-- Quills (TODO) -->
+	<!-- Quills -->
 
 	<Pawnmorph.Hediffs.MutationDef ParentName ="PawnmorphGenericTorsoPart">
-		<description>TODO</description>
+		<description>A torso with many quills. They're sharp and detatch when they jab into someone.</description>
 		<defName>EtherQuills</defName>
 		<classInfluence>Quilled</classInfluence>
 		<label>quills</label>
@@ -214,19 +214,19 @@
 			<li function="modify">
 				<stageKey>initial</stageKey>
 				<values>
-					<description>TODO</description>
+					<description>Several thick protrusions are growing from [PAWN_nameDef]'s back, already sharp.</description>
 				</values>
 			</li>
 			<li function="modify">
 				<stageKey>growing</stageKey>
 				<values>
-					<description>TODO</description>
+					<description>Painful thick blackened protrusions are growing from [PAWN_nameDef]'s back, sharp and pointy. Like a human cactus.</description>
 				</values>
 			</li>
 			<li function="modify">
 				<stageKey>grown</stageKey>
 				<values>
-					<description>TODO</description>
+					<description>[PAWN_nameDef] has grown many quills over their back, they're sharp and detatch when they jab into someone. Hugs are not recommended, possibly to [PAWN_possessive] dismay.</description>
 					<capMods>
 						<li>
 							<capacity>Moving</capacity>
