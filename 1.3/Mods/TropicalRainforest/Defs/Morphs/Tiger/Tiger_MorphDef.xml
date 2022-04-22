@@ -1,0 +1,22 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="PantherineMorph">
+		<defName>PMAE_TigerMorph</defName>
+		<label>tigermorph</label>
+		<description>TODO Tiger</description>
+		<race>AEXP_Tiger</race>
+		<categories>
+			<li>Tropical</li>
+		</categories>
+		<fullTransformation>PMAE_TigerTF</fullTransformation>
+		<partialTransformation>PMAE_TigerTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(192,146,86)</skinColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>PMAE_TigerTransformationMemory</transformationMemory>
+			<revertedMemory>PMAE_TigerRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>
