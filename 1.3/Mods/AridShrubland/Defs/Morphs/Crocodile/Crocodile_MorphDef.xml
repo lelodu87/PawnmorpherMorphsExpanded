@@ -1,0 +1,22 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="CrocodiliaMorph">
+		<defName>PMAE_CrocodileMorph</defName>
+		<label>crocodilemorph</label>
+		<description>TODO Crocodile</description>
+		<race>AEXP_Crocodile</race>
+		<categories>
+			<li>Arid</li>
+		</categories>
+		<fullTransformation>PMAE_CrocodileTF</fullTransformation>
+		<partialTransformation>PMAE_CrocodileTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(92,99,70)</skinColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>PMAE_CrocodileTransformationMemory</transformationMemory>
+			<revertedMemory>PMAE_CrocodileRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>
