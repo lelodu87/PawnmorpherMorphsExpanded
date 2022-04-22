@@ -1,0 +1,22 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="ScavengerMorph">
+		<defName>PMAE_HyenaMorph</defName>
+		<label>hyenamorph</label>
+		<description>TODO Hyena</description>
+		<race>AEXP_Hyena</race>
+		<categories>
+			<li>Arid</li>
+		</categories>
+		<fullTransformation>PMAE_HyenaTF</fullTransformation>
+		<partialTransformation>PMAE_HyenaTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(130,114,98)</skinColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>PMAE_HyenaTransformationMemory</transformationMemory>
+			<revertedMemory>PMAE_HyenaRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>
