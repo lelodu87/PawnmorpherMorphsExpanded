@@ -1,10 +1,11 @@
-<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 	<Pawnmorph.Hediffs.MutationDef ParentName="ScavengerJawPart">
 		<classInfluence>PMAE_HyenaMorph</classInfluence>
 		<defName>PMAE_HyenaMuzzle</defName>
 		<label>hyena muzzle</label>
 		<graphics>
-			<Muzzle>Parts/Hyena/Hyena_Muzzle</Muzzle>
+			<MuzzleMale>Parts/Hyena/Hyena_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/Hyena/Hyena_Muzzle_Female</MuzzleFemale>
 		</graphics>
 		<stagePatches>
 			<li function="modify">

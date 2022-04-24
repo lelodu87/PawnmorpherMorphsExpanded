@@ -1,4 +1,4 @@
-<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocateion="../../../Schemas/ThoughtDef.xsd">
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/ComposableHediffs.xsd">
 	<HediffDef ParentName="NewPartialAspectedMorphParent">
 		<defName>PMAE_HyenaTFPartial</defName>
 		<label>hyenamorph partial</label>
