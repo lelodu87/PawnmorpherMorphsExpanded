@@ -1,0 +1,69 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef ParentName="ThickHideJawPart">
+		<classInfluence>PMAE_HippopotamusMorph</classInfluence>
+		<defName>PMAE_HippopotamusJaw</defName>
+		<label>hippopotamus snout</label>
+		<graphics>
+			<MuzzleMale>Parts/Hippopotamus/Hippo_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/Hippopotamus/Hippo_Muzzle_Female</MuzzleFemale>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>adapting</stageKey>
+				<values>
+					<description>TODO Hippopotamus. The strange shape makes speaking very difficult.</description>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>adapted</stageKey>
+				<values>
+					<description>TODO Hippopotamus. Adapting to it has made speaking less frustrating.</description>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>paragon</stageKey>
+				<values>
+					<description>TODO Hippopotamus. With further adaptation, [PAWN_nameDef] has learned to speak normally.</description>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+		<Pawnmorph.Hediffs.MutationDef ParentName="ThickHideEarPart">
+		<classInfluence>PMAE_HippopotamusMorph</classInfluence>
+		<defName>PMAE_HippopotamusEar</defName>
+		<label>hippopotamus ear</label>
+		<graphics>
+			<LeftEar>Parts/Hippopotamus/Hippo_Ear_Left</LeftEar>
+			<LeftEarBehind>Parts/None/None</LeftEarBehind>
+			<RightEar>Parts/Hippopotamus/Hippo_Ear_Right</RightEar>
+			<RightEarBehindHead>Parts/None/None</RightEarBehindHead>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>TODO Hippopotamus</description>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="ThickHideTailPart">
+		<classInfluence>PMAE_HippopotamusMorph</classInfluence>
+		<defName>PMAE_HippopotamusTail</defName>
+		<label>hippopotamus tail</label>
+		<graphics>
+			<Tail>Parts/Hippopotamus/Hippo_Tail</Tail>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>TODO Hippopotamus</description>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+</Defs>

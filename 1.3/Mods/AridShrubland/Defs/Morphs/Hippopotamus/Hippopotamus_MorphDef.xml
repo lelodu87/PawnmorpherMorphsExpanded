@@ -1,0 +1,19 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="ThickHideMorph">
+		<defName>PMAE_HippopotamusMorph</defName>
+		<label>hippopotamusmorph</label>
+		<description>TODO Hippopotamus</description>
+		<race>AEXP_Hippopotamus</race>
+		<fullTransformation>PMAE_HippopotamusTF</fullTransformation>
+		<partialTransformation>PMAE_HippopotamusTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(94, 79, 76)</skinColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>PMAE_HippopotamusTransformationMemory</transformationMemory>
+			<revertedMemory>PMAE_HippopotamusRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>
