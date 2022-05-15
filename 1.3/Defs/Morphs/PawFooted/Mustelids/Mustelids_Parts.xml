@@ -1,4 +1,4 @@
-<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../Schemas/MutationDef.xsd">
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 	<Pawnmorph.Hediffs.MutationDef Name ="MustelidsJawPart" ParentName="PawFootedJawPart" Abstract="true">
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
@@ -201,6 +201,18 @@
 			</values>
 			</li>
 		</stagePatches>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<key>paragon</key>
+				<label>paragon</label>
+				<minSeverity>2.5</minSeverity>
+				<description>[PAWN_nameDef]'s adrenal gland is now an adrenaline factory. Due to hormones, [PAWN_pronoun] believes pain is weakness leaving the body, and sleep a waste of time.</description>
+				<restFallFactorOffset>-1</restFallFactorOffset>
+				<statOffsets>
+					<PainShockThreshold>0.2</PainShockThreshold>
+				</statOffsets>
+			</li>
+		</stages>
 	</Pawnmorph.Hediffs.MutationDef>
 	
 </Defs>
