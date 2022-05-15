@@ -1,5 +1,4 @@
-<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Schemas/MorphDef.xsd">
-	<Pawnmorph.MorphDef ParentName="PantherineMorph">
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">	<Pawnmorph.MorphDef ParentName="PantherineMorph">
 		<defName>PMAE_TigerMorph</defName>
 		<label>tigermorph</label>
 		<description>TODO Tiger</description>
