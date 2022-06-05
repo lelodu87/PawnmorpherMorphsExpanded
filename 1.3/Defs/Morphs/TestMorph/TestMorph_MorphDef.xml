@@ -1,0 +1,26 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="AnimalMorph">
+		<defName>PMAE_TestMorph</defName>
+		<label>testmorph</label>
+		<race>Hare</race>
+		<description>Only to test textures.</description>
+		<noInjector>true</noInjector>
+		<raceSettings>
+			<graphicsSettings> <!--Here you can change stuff. You can also comment/uncomment lines -->
+				
+				<skinColorOverride>(0,0,0)</skinColorOverride>
+				<!-- <skinColorOverrideSecond>(0,0,0)</skinColorOverrideSecond> -->
+				<!-- <femaleSkinColorOverride>(0,0,0)</femaleSkinColorOverride> -->
+				<!-- <femaleSkinColorOverrideSecond>(0,0,0)</femaleSkinColorOverrideSecond> -->
+			
+				<!-- <hairColorOverride>(0,0,0)</hairColorOverride> -->
+				<!-- <hairColorOverrideSecond>(0,0,0)</hairColorOverrideSecond> -->
+				<!-- <femaleHairColorOverride>(0,0,0)</femaleHairColorOverride> -->
+				<!-- <femaleHairColorOverrideSecond>(0,0,0)</femaleHairColorOverrideSecond> -->
+			
+			</graphicsSettings>
+		</raceSettings>
+		<fullTransformation>PMAE_TestTF</fullTransformation>
+		<partialTransformation>PMAE_TestTFPartial</partialTransformation>
+	</Pawnmorph.MorphDef>
+</Defs>

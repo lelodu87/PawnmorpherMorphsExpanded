@@ -1,0 +1,46 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
+
+	<Pawnmorph.Hediffs.MutationDef Name ="TestJawPart" ParentName="PawnmorphJawPart">
+		<classInfluence>PMAE_TestMorph</classInfluence>
+		<defName>PMAE_TestMuzzle</defName>
+		<label>test muzzle</label>
+		<graphics>
+			<MuzzleMale>Parts/Test/Test_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/Test/Test_Muzzle_Female</MuzzleFemale>
+			<BirdJawOrnament>Parts/Test/Test_Muzzle_Fluff</BirdJawOrnament>
+		</graphics>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef Name ="TestEarPart" ParentName="PawnmorphEarPart">
+		<classInfluence>PMAE_TestMorph</classInfluence>
+		<defName>PMAE_TestEar</defName>
+		<label>test ear</label>
+		<graphics>
+			<LeftEar>Parts/Test/Test_Ear_Left</LeftEar>
+			<LeftEarBehind>Parts/Test/Test_Ear_Left_Behind</LeftEarBehind>
+			<RightEar>Parts/Test/Test_Ear_Right</RightEar>
+			<RightEarBehindHead>Parts/Test/Test_Ear_Right_Behind</RightEarBehindHead>
+		</graphics>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef Name ="TestTailPart" ParentName="PawnmorphTailPart">
+		<classInfluence>PMAE_TestMorph</classInfluence>
+		<defName>PMAE_TestTail</defName>
+		<label>test tail</label>
+		<graphics>
+			<MaleTail>Parts/Test/Test_Tail_Male</MaleTail>
+			<FemaleTail>Parts/Test/Test_Tail_Male</FemaleTail>
+			<BodyExtendingTail>Parts/Test/Test_Tail_BodyExtendingTail</BodyExtendingTail>
+		</graphics>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef Name ="TestHornPart" ParentName="PawnmorphHornPart">
+		<classInfluence>PMAE_TestMorph</classInfluence>
+		<defName>PMAE_TestHorn</defName>
+		<label>test horn</label>
+		<graphics>
+			<Horns>Parts/Test/Test_Horns</Horns>
+		</graphics>
+	</Pawnmorph.Hediffs.MutationDef>
+
+</Defs>
