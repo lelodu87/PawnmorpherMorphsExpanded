@@ -8,7 +8,8 @@
 		<partialTransformation>PMAE_WildebeestTFPartial</partialTransformation>
 		<raceSettings>
 			<graphicsSettings>
-				<skinColorOverride>(94, 79, 76)</skinColorOverride>
+				<skinColorOverride>(148, 105, 74)</skinColorOverride>
+				<hairColorOverride>(51, 51, 51)</hairColorOverride>
 			</graphicsSettings>
 		</raceSettings>
 		<transformSettings>

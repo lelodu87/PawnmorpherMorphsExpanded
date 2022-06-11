@@ -1,0 +1,20 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="EquineMorph">
+		<defName>PMAE_ZebraMorph</defName>
+		<label>zebramorph</label>
+		<description>TODO Zebra</description>
+		<race>AEXP_Zebra</race>
+		<fullTransformation>PMAE_ZebraTF</fullTransformation>
+		<partialTransformation>PMAE_ZebraTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(255, 255, 255)</skinColorOverride>
+				<hairColorOverride>(38, 38, 38)</hairColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>PMAE_ZebraTransformationMemory</transformationMemory>
+			<revertedMemory>PMAE_ZebraRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>
