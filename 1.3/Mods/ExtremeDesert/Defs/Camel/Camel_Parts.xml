@@ -1,8 +1,8 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 	<Pawnmorph.Hediffs.MutationDef ParentName="CamelidJawPart">
-		<classInfluence>CamelMorph</classInfluence>
-		<defName>EtherCamelSnout</defName>
-		<label>camel snout</label>
+		<classInfluence>PMAE_CamelMorph</classInfluence>
+		<defName>PMAE_CamelMuzzle</defName>
+		<label>camel muzzle</label>
 		<graphics>
 			<Muzzle>Parts/Camel/Camel_Muzzle</Muzzle>
 		</graphics>
@@ -29,8 +29,8 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="CamelidEarPart">
-		<classInfluence>CamelMorph</classInfluence>
-		<defName>EtherCamelEar</defName>
+		<classInfluence>PMAE_CamelMorph</classInfluence>
+		<defName>PMAE_EtherCamelEar</defName>
 		<label>camel ear</label>
 		<graphics>
 			<LeftEar>Parts/Camel/Camel_Ear_Left</LeftEar>
@@ -55,8 +55,8 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="CamelidTailPart">
-		<classInfluence>CamelMorph</classInfluence>
-		<defName>EtherCamelTail</defName>
+		<classInfluence>PMAE_CamelMorph</classInfluence>
+		<defName>PMAE_CamelTail</defName>
 		<label>camel tail</label>
 		<graphics>
 			<Tail>Parts/Camel/Camel_Tail</Tail>
@@ -71,26 +71,14 @@
 		</stagePatches>
 	</Pawnmorph.Hediffs.MutationDef>
 
-	<Pawnmorph.Hediffs.MutationDef ParentName ="PawnmorphGenericOrganPart">
-		<description>The humps of a cmel</description>
+	<Pawnmorph.Hediffs.MutationDef ParentName ="PawnmorphHump">
+		<description>The humps of a camel</description>
 		<defName>PMAE_CamelHumps</defName>
 		<classInfluences>
 			<li>PMAE_CamelMorph</li>
 		</classInfluences>
 		<label>humps</label>
-		<parts>
-			<li>Spine</li>
-		</parts>
 		<stagePatches>
-			<li function="modify">
-				<stageKey>initial</stageKey>
-				<values>
-					<description>[PAWN_nameDef] has a strange ache in their back. Nothing too bad though.</description>
-					<graphics>
-						<Spines>Parts/None/None</Spines>
-					</graphics>
-				</values>
-			</li>
 			<li function="modify">
 				<stageKey>growing</stageKey>
 				<values>
@@ -98,10 +86,6 @@
 					<graphics>
 						<Spines>Parts/Camel/Camel_Hump</Spines>
 					</graphics>
-					<statOffsets>
-						<ComfyTemperatureMax>15</ComfyTemperatureMax>
-					</statOffsets>
-					<hungerRateFactor>0.25</hungerRateFactor>
 				</values>
 			</li>
 			<li function="modify">
@@ -111,10 +95,6 @@
 					<graphics>
 						<Spines>Parts/Camel/Camel_Hump</Spines>
 					</graphics>
-					<statOffsets>
-						<ComfyTemperatureMax>30</ComfyTemperatureMax>
-					</statOffsets>
-					<hungerRateFactor>0.5</hungerRateFactor>
 				</values>
 			</li>
 		</stagePatches>

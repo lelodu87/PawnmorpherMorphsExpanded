@@ -3,7 +3,7 @@
 		<defName>PMAE_CamelMorph</defName>
 		<label>camelmorph</label>
 		<description>TODO Camel</description>
-		<race>AEXP_CamelMonster</race>
+		<race>AEXP_Camel</race>
 		<categories>
 			<li>Arid</li>
 		</categories>
