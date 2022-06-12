@@ -16,8 +16,7 @@
 		<defName>PMAE_GilaTail</defName>
 		<label>gila tail</label>
 		<graphics>
-			<Tail>Parts/None/None</Tail>
-			<BehindBodyTail>Parts/Gila/Gila_Tail</BehindBodyTail>
+			<Tail>Parts/Gila/Gila_Tail</Tail>
 		</graphics>
 		<stagePatches>
 			<li function="modify">

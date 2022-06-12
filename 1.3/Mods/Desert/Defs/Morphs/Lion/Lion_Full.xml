@@ -19,7 +19,7 @@
 				</tfTypes>
 				<tfChance Class="Pawnmorph.Hediffs.Composable.TFChance_BySetting" />
 				<tfSettings>
-					<tfTale>TransformationCanid</tfTale>
+					<tfTale>TransformationMisc</tfTale>
 				</tfSettings>
 				<tfGenderSelector Class="Pawnmorph.Hediffs.Composable.TFGenderSelector_Swap">
 					<chance>0.1</chance>
