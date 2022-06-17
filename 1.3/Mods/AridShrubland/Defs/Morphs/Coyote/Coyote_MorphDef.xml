@@ -15,9 +15,5 @@
 				<hairColorOverride>(38,24,13)</hairColorOverride>
 			</graphicsSettings>
 		</raceSettings>
-		<transformSettings>
-			<transformationMemory>PMAE_CoyoteTransformationMemory</transformationMemory>
-			<revertedMemory>PMAE_CoyoteRevertedMemory</revertedMemory>
-		</transformSettings>
 	</Pawnmorph.MorphDef>
 </Defs>

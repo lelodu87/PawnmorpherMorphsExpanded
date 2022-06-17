@@ -1,0 +1,10 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef ParentName="OphidiaJawPart">
+		<classInfluence>PMAE_RattlesnakeMorph</classInfluence>
+		<defName>PMAE_RattlesnakeSnout</defName>
+		<label>rattlesnake snout</label>
+		<graphics>
+			<Muzzle>Parts/Rattlesnake/Rattlesnake_Muzzle</Muzzle>
+		</graphics>
+	</Pawnmorph.Hediffs.MutationDef>
+</Defs>
