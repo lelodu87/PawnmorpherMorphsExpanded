@@ -1,0 +1,30 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef ParentName="LacertiliaJawPart">
+		<mutationMemory>PMAE_GilaMuzzle</mutationMemory>
+		<classInfluence>PMAE_GilaMorph</classInfluence>
+		<defName>PMAE_GilaMuzzle</defName>
+		<label>gila muzzle</label>
+		<graphics>
+			<MuzzleMale>Parts/Gila/Gila_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/Gila/Gila_Muzzle_Female</MuzzleFemale>
+		</graphics>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="LacertiliaTailPart">
+		<mutationMemory>PMAE_GilaTail</mutationMemory>
+		<classInfluence>PMAE_GilaMorph</classInfluence>
+		<defName>PMAE_GilaTail</defName>
+		<label>gila tail</label>
+		<graphics>
+			<Tail>Parts/Gila/Gila_Tail</Tail>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>TODO GILA</description>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+</Defs>
