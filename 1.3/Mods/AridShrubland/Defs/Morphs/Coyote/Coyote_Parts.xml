@@ -1,0 +1,33 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef ParentName="WolfJawBase">
+		<classInfluence>PMAE_CoyoteMorph</classInfluence>
+		<defName>PMAE_CoyoteJaw</defName>
+		<label>coyote muzzle</label>
+		<graphics>
+			<MuzzleMale>Parts/Coyote/Coyote_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/Coyote/Coyote_Muzzle_Female</MuzzleFemale>
+		</graphics>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="WolfEarPart">
+		<classInfluence>PMAE_CoyoteMorph</classInfluence>
+		<defName>PMAE_CoyoteEar</defName>
+		<label>coyote ear</label>
+		<graphics>
+			<LeftEar>Parts/Coyote/Coyote_Ear_Left</LeftEar>
+			<LeftEarBehind>Parts/None/None</LeftEarBehind>
+			<RightEar>Parts/Coyote/Coyote_Ear_Right</RightEar>
+			<RightEarBehindHead>Parts/None/None</RightEarBehindHead>
+		</graphics>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="WolfTailPart">
+		<classInfluence>PMAE_CoyoteMorph</classInfluence>
+		<defName>PMAE_CoyoteTail</defName>
+		<label>coyote tail</label>
+		<graphics>
+			<Tail>Parts/Coyote/Coyote_Tail</Tail>
+		</graphics>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+</Defs>

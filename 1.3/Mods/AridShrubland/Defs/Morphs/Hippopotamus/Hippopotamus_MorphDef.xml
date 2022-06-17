@@ -11,6 +11,7 @@
 				<skinColorOverride>(89, 75, 72)</skinColorOverride>
 			</graphicsSettings>
 		</raceSettings>
+		<injectorDef>PMAE_HippopotamusTransformer</injectorDef>
 		<transformSettings>
 			<transformationMemory>PMAE_HippopotamusTransformationMemory</transformationMemory>
 			<revertedMemory>PMAE_HippopotamusRevertedMemory</revertedMemory>

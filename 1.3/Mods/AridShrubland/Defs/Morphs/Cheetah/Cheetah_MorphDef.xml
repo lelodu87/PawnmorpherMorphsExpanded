@@ -1,0 +1,22 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="BigFelisMorph">
+		<defName>PMAE_CheetahMorph</defName>
+		<label>cheetahmorph</label>
+		<description>TODO Cheetah</description>
+		<race>AEXP_Cheetah</race>
+		<categories>
+			<li>Arid</li>
+		</categories>
+		<fullTransformation>PMAE_CheetahTF</fullTransformation>
+		<partialTransformation>PMAE_CheetahTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(255,199,127)</skinColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>PMAE_CheetahTransformationMemory</transformationMemory>
+			<revertedMemory>PMAE_CheetahRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>
