@@ -1,6 +1,5 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 	<Pawnmorph.Hediffs.MutationDef ParentName="PantherineJawPart">
-		<mutationMemory>PMAE_LionMuzzle</mutationMemory>
 		<classInfluence>PMAE_LionMorph</classInfluence>
 		<defName>PMAE_LionMuzzle</defName>
 		<label>lion muzzle</label>
@@ -31,7 +30,6 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="PantherineEarPart">
-		<mutationMemory>PMAE_LionEar</mutationMemory>
 		<classInfluence>PMAE_LionMorph</classInfluence>
 		<defName>PMAE_LionEar</defName>
 		<label>lion ear</label>
@@ -52,7 +50,6 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="PantherineTailPart">
-		<mutationMemory>PMAE_LionTail</mutationMemory>
 		<classInfluence>PMAE_LionMorph</classInfluence>
 		<defName>PMAE_LionTail</defName>
 		<label>lion tail</label>

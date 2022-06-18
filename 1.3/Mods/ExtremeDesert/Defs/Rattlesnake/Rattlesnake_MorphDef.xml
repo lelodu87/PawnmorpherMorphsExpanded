@@ -1,6 +1,6 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
 	<Pawnmorph.MorphDef ParentName="OphidiaMorph">
-		<defName>PMAE_RattleSnakeMorph</defName>
+		<defName>PMAE_RattlesnakeMorph</defName>
 		<label>rattlesnakemorph</label>
 		<description>TODO</description>
 		<race>AEXP_Rattlesnake</race>
