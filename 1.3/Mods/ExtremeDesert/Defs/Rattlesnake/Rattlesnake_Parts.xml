@@ -4,8 +4,8 @@
 		<defName>PMAE_RattlesnakeSnout</defName>
 		<label>rattlesnake snout</label>
 		<graphics>
-			<MuzzleMale>Parts/Rattlesnake/Rattlesnake_Muzzle_Male</MuzzleMale>
-			<MuzzleFemale>Parts/Rattlesnake/Rattlesnake_Muzzle_Female</MuzzleFemale>
+			<MuzzleMale>Parts/ExtremeDesert/Rattlesnake/Rattlesnake_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/ExtremeDesert/Rattlesnake/Rattlesnake_Muzzle_Female</MuzzleFemale>
 		</graphics>
 	</Pawnmorph.Hediffs.MutationDef>
 </Defs>

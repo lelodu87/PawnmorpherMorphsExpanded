@@ -5,8 +5,8 @@
 		<defName>PMAE_HyenaMuzzle</defName>
 		<label>hyena muzzle</label>
 		<graphics>
-			<MuzzleMale>Parts/Hyena/Hyena_Muzzle_Male</MuzzleMale>
-			<MuzzleFemale>Parts/Hyena/Hyena_Muzzle_Female</MuzzleFemale>
+			<MuzzleMale>Parts/Desert/Hyena/Hyena_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/Desert/Hyena/Hyena_Muzzle_Female</MuzzleFemale>
 		</graphics>
 		<stagePatches>
 			<li function="modify">
@@ -36,9 +36,9 @@
 		<defName>PMAE_HyenaEar</defName>
 		<label>hyena ear</label>
 		<graphics>
-			<LeftEar>Parts/Hyena/Hyena_Ear_Left</LeftEar>
+			<LeftEar>Parts/Desert/Hyena/Hyena_Ear_Left</LeftEar>
 			<LeftEarBehind>Parts/None/None</LeftEarBehind>
-			<RightEar>Parts/Hyena/Hyena_Ear_Right</RightEar>
+			<RightEar>Parts/Desert/Hyena/Hyena_Ear_Right</RightEar>
 			<RightEarBehindHead>Parts/None/None</RightEarBehindHead>
 		</graphics>
 		<stagePatches>
@@ -57,7 +57,7 @@
 		<defName>PMAE_HyenaTail</defName>
 		<label>hyena tail</label>
 		<graphics>
-			<Tail>Parts/Hyena/Hyena_Tail</Tail>
+			<Tail>Parts/Desert/Hyena/Hyena_Tail</Tail>
 		</graphics>
 		<stagePatches>
 			<li function="modify">

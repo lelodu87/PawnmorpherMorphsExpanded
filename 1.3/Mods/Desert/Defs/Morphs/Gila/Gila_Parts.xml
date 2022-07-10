@@ -4,8 +4,8 @@
 		<defName>PMAE_GilaMuzzle</defName>
 		<label>gila muzzle</label>
 		<graphics>
-			<MuzzleMale>Parts/Gila/Gila_Muzzle_Male</MuzzleMale>
-			<MuzzleFemale>Parts/Gila/Gila_Muzzle_Female</MuzzleFemale>
+			<MuzzleMale>Parts/Desert/Gila/Gila_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/Desert/Gila/Gila_Muzzle_Female</MuzzleFemale>
 		</graphics>
 	</Pawnmorph.Hediffs.MutationDef>
 
@@ -14,7 +14,7 @@
 		<defName>PMAE_GilaTail</defName>
 		<label>gila tail</label>
 		<graphics>
-			<Tail>Parts/Gila/Gila_Tail</Tail>
+			<Tail>Parts/Desert/Gila/Gila_Tail</Tail>
 		</graphics>
 		<stagePatches>
 			<li function="modify">

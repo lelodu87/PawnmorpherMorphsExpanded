@@ -4,7 +4,7 @@
 		<defName>PMAE_DesertTortoiseMuzzle</defName>
 		<label>desert tortoise muzzle</label>
 		<graphics>
-			<Muzzle>Parts/DesertTortoise/DesertTortoise_Muzzle</Muzzle>
+			<Muzzle>Parts/Desert/DesertTortoise/DesertTortoise_Muzzle</Muzzle>
 		</graphics>
 	</Pawnmorph.Hediffs.MutationDef>
 
@@ -13,7 +13,7 @@
 		<defName>PMAE_DesertTortoiseTail</defName>
 		<label>desert tortoise tail</label>
 		<graphics>
-			<Tail>Parts/DesertTortoise/DesertTortoise_Tail</Tail>
+			<Tail>Parts/Desert/DesertTortoise/DesertTortoise_Tail</Tail>
 		</graphics>
 		<stagePatches>
 			<li function="modify">
@@ -36,8 +36,8 @@
 				<stageKey>growing</stageKey>
 				<values>
 					<graphics>
-						<Spines>Parts/DesertTortoise/DesertTortoise_Shell</Spines>
-						<SpinesBehind>Parts/DesertTortoise/DesertTortoise_Shell_Behind</SpinesBehind>
+						<Spines>Parts/Desert/DesertTortoise/DesertTortoise_Shell</Spines>
+						<SpinesBehind>Parts/Desert/DesertTortoise/DesertTortoise_Shell_Behind</SpinesBehind>
 					</graphics>
 				</values>
 			</li>
@@ -45,8 +45,8 @@
 				<stageKey>grown</stageKey>
 				<values>
 					<graphics>
-						<Spines>Parts/DesertTortoise/DesertTortoise_Shell</Spines>
-						<SpinesBehind>Parts/DesertTortoise/DesertTortoise_Shell_Behind</SpinesBehind>
+						<Spines>Parts/Desert/DesertTortoise/DesertTortoise_Shell</Spines>
+						<SpinesBehind>Parts/Desert/DesertTortoise/DesertTortoise_Shell_Behind</SpinesBehind>
 					</graphics>
 				</values>
 			</li>
@@ -54,8 +54,8 @@
 				<stageKey>paragon</stageKey>
 				<values>
 					<graphics>
-						<Spines>Parts/DesertTortoise/DesertTortoise_Shell</Spines>
-						<SpinesBehind>Parts/DesertTortoise/DesertTortoise_Shell_Behind</SpinesBehind>
+						<Spines>Parts/Desert/DesertTortoise/DesertTortoise_Shell</Spines>
+						<SpinesBehind>Parts/Desert/DesertTortoise/DesertTortoise_Shell_Behind</SpinesBehind>
 					</graphics>
 				</values>
 			</li>

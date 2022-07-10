@@ -4,8 +4,8 @@
 		<defName>PMAE_CoyoteJaw</defName>
 		<label>coyote muzzle</label>
 		<graphics>
-			<MuzzleMale>Parts/Coyote/Coyote_Muzzle_Male</MuzzleMale>
-			<MuzzleFemale>Parts/Coyote/Coyote_Muzzle_Female</MuzzleFemale>
+			<MuzzleMale>Parts/AridShrubland/Coyote/Coyote_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/AridShrubland/Coyote/Coyote_Muzzle_Female</MuzzleFemale>
 		</graphics>
 	</Pawnmorph.Hediffs.MutationDef>
 
@@ -14,9 +14,9 @@
 		<defName>PMAE_CoyoteEar</defName>
 		<label>coyote ear</label>
 		<graphics>
-			<LeftEar>Parts/Coyote/Coyote_Ear_Left</LeftEar>
+			<LeftEar>Parts/AridShrubland/Coyote/Coyote_Ear_Left</LeftEar>
 			<LeftEarBehind>Parts/None/None</LeftEarBehind>
-			<RightEar>Parts/Coyote/Coyote_Ear_Right</RightEar>
+			<RightEar>Parts/AridShrubland/Coyote/Coyote_Ear_Right</RightEar>
 			<RightEarBehindHead>Parts/None/None</RightEarBehindHead>
 		</graphics>
 	</Pawnmorph.Hediffs.MutationDef>
@@ -26,7 +26,7 @@
 		<defName>PMAE_CoyoteTail</defName>
 		<label>coyote tail</label>
 		<graphics>
-			<Tail>Parts/Coyote/Coyote_Tail</Tail>
+			<Tail>Parts/AridShrubland/Coyote/Coyote_Tail</Tail>
 		</graphics>
 	</Pawnmorph.Hediffs.MutationDef>
 	

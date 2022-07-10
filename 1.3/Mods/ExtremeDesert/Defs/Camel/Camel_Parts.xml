@@ -4,7 +4,7 @@
 		<defName>PMAE_CamelMuzzle</defName>
 		<label>camel muzzle</label>
 		<graphics>
-			<Muzzle>Parts/Camel/Camel_Muzzle</Muzzle>
+			<Muzzle>Parts/ExtremeDesert/Camel/Camel_Muzzle</Muzzle>
 		</graphics>
 		<stagePatches>
 			<li function="modify">
@@ -33,10 +33,10 @@
 		<defName>PMAE_EtherCamelEar</defName>
 		<label>camel ear</label>
 		<graphics>
-			<LeftEar>Parts/Camel/Camel_Ear_Left</LeftEar>
-			<LeftEarBehind>Parts/Camel/Camel_Ear_Left_Behind</LeftEarBehind>
-			<RightEar>Parts/Camel/Camel_Ear_Right</RightEar>
-			<RightEarBehindHead>Parts/Camel/Camel_Ear_Right_Behind</RightEarBehindHead>
+			<LeftEar>Parts/ExtremeDesert/Camel/Camel_Ear_Left</LeftEar>
+			<LeftEarBehind>Parts/ExtremeDesert/Camel/Camel_Ear_Left_Behind</LeftEarBehind>
+			<RightEar>Parts/ExtremeDesert/Camel/Camel_Ear_Right</RightEar>
+			<RightEarBehindHead>Parts/ExtremeDesert/Camel/Camel_Ear_Right_Behind</RightEarBehindHead>
 		</graphics>
 		<stagePatches>
 			<li function="modify">
@@ -59,7 +59,7 @@
 		<defName>PMAE_CamelTail</defName>
 		<label>camel tail</label>
 		<graphics>
-			<Tail>Parts/Camel/Camel_Tail</Tail>
+			<Tail>Parts/ExtremeDesert/Camel/Camel_Tail</Tail>
 		</graphics>
 		<stagePatches>
 			<li function="modify">
@@ -84,7 +84,7 @@
 				<values>
 					<description>Reserves of fat has been diverted to [PAWN_nameDef]'s back where two noticiable humps have emerged. They'll keep [PAWN_objective] fed in a pinch.</description>
 					<graphics>
-						<Spines>Parts/Camel/Camel_Hump</Spines>
+						<Spines>Parts/ExtremeDesert/Camel/Camel_Hump</Spines>
 					</graphics>
 				</values>
 			</li>
@@ -93,7 +93,7 @@
 				<values>
 					<description>[PAWN_nameDef]'s humps have grown so that [PAWN_objective] can go days without food. The increased circulation also helps [PAWN_objective] cool off.</description>
 					<graphics>
-						<Spines>Parts/Camel/Camel_Hump</Spines>
+						<Spines>Parts/ExtremeDesert/Camel/Camel_Hump</Spines>
 					</graphics>
 				</values>
 			</li>

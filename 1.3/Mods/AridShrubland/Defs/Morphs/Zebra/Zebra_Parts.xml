@@ -4,8 +4,8 @@
 		<defName>PMAE_ZebraJaw</defName>
 		<label>zebra snout</label>
 		<graphics>
-			<MuzzleMale>Parts/Zebra/Zebra_Muzzle_Male</MuzzleMale>
-			<MuzzleFemale>Parts/Zebra/Zebra_Muzzle_Female</MuzzleFemale>
+			<MuzzleMale>Parts/AridShrubland/Zebra/Zebra_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/AridShrubland/Zebra/Zebra_Muzzle_Female</MuzzleFemale>
 		</graphics>
 	</Pawnmorph.Hediffs.MutationDef>
 	
@@ -14,9 +14,9 @@
 		<defName>PMAE_ZebraEar</defName>
 		<label>zebra ear</label>
 		<graphics>
-			<LeftEar>Parts/Zebra/Zebra_Ear_Left</LeftEar>
+			<LeftEar>Parts/AridShrubland/Zebra/Zebra_Ear_Left</LeftEar>
 			<LeftEarBehind>Parts/None/None</LeftEarBehind>
-			<RightEar>Parts/Zebra/Zebra_Ear_Right</RightEar>
+			<RightEar>Parts/AridShrubland/Zebra/Zebra_Ear_Right</RightEar>
 			<RightEarBehindHead>Parts/None/None</RightEarBehindHead>
 		</graphics>
 		<stagePatches>
@@ -34,7 +34,7 @@
 		<defName>PMAE_ZebraTail</defName>
 		<label>zebra tail</label>
 		<graphics>
-			<Tail>Parts/Zebra/Zebra_Tail</Tail>
+			<Tail>Parts/AridShrubland/Zebra/Zebra_Tail</Tail>
 		</graphics>
 		<stagePatches>
 			<li function="modify">

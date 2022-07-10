@@ -4,8 +4,8 @@
 		<defName>PMAE_CrocodileJaw</defName>
 		<label>crocodile snout</label>
 		<graphics>
-			<MuzzleMale>Parts/Crocodile/Crocodile_Muzzle_Male</MuzzleMale>
-			<MuzzleFemale>Parts/Crocodile/Crocodile_Muzzle_Female</MuzzleFemale>
+			<MuzzleMale>Parts/AridShrubland/Crocodile/Crocodile_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/AridShrubland/Crocodile/Crocodile_Muzzle_Female</MuzzleFemale>
 		</graphics>
 		<stagePatches>
 			<li function="modify">
@@ -34,7 +34,7 @@
 		<defName>PMAE_CrocodileTail</defName>
 		<label>crocodile tail</label>
 		<graphics>
-			<Tail>Parts/Crocodile/Crocodile_Tail</Tail>
+			<Tail>Parts/AridShrubland/Crocodile/Crocodile_Tail</Tail>
 		</graphics>
 		<stagePatches>
 			<li function="modify">

@@ -4,8 +4,8 @@
 		<defName>PMAE_WildebeestJaw</defName>
 		<label>wildebeest snout</label>
 		<graphics>
-			<MuzzleMale>Parts/Wildebeest/Wildebeest_Muzzle_Male</MuzzleMale>
-			<MuzzleFemale>Parts/Wildebeest/Wildebeest_Muzzle_Female</MuzzleFemale>
+			<MuzzleMale>Parts/AridShrubland/Wildebeest/Wildebeest_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/AridShrubland/Wildebeest/Wildebeest_Muzzle_Female</MuzzleFemale>
 		</graphics>
 	</Pawnmorph.Hediffs.MutationDef>
 	
@@ -14,9 +14,9 @@
 		<defName>PMAE_WildebeestEar</defName>
 		<label>wildebeest ear</label>
 		<graphics>
-			<LeftEar>Parts/Wildebeest/Wildebeest_Ear_Left</LeftEar>
+			<LeftEar>Parts/AridShrubland/Wildebeest/Wildebeest_Ear_Left</LeftEar>
 			<LeftEarBehind>Parts/None/None</LeftEarBehind>
-			<RightEar>Parts/Wildebeest/Wildebeest_Ear_Right</RightEar>
+			<RightEar>Parts/AridShrubland/Wildebeest/Wildebeest_Ear_Right</RightEar>
 			<RightEarBehindHead>Parts/None/None</RightEarBehindHead>
 		</graphics>
 		<stagePatches>
@@ -34,7 +34,7 @@
 		<defName>PMAE_WildebeestTail</defName>
 		<label>wildebeest tail</label>
 		<graphics>
-			<Tail>Parts/Wildebeest/Wildebeest_Tail</Tail>
+			<Tail>Parts/AridShrubland/Wildebeest/Wildebeest_Tail</Tail>
 		</graphics>
 		<stagePatches>
 			<li function="modify">
@@ -52,7 +52,7 @@
 		<label>horns</label>
 		<description>A pair of wildebeest horns.</description>
 		<graphics>
-			<Horns>Parts/Wildebeest/Wildebeest_Horns_C</Horns>
+			<Horns>Parts/AridShrubland/Wildebeest/Wildebeest_Horns_C</Horns>
 		</graphics>
 		<!-- <mutationTale>TODO</mutationTale>
 		<mutationMemory>TODO</mutationMemory> -->
@@ -61,7 +61,7 @@
 				<stageKey>nubs</stageKey>
 				<values>
 					<graphics>
-						<Horns>Parts/Wildebeest/Wildebeest_Horns_A</Horns>
+						<Horns>Parts/AridShrubland/Wildebeest/Wildebeest_Horns_A</Horns>
 					</graphics>
 				</values>
 			</li>
@@ -70,7 +70,7 @@
 				<values>
 					<description>Curved horns decorate [PAWN_nameDef]'s head, which can easily be used to stab and puncture anyone foolish enough to tussle with [PAWN_nameDef]. They have grown larger, but still have a little more growing to do.</description>
 					<graphics>
-						<Horns>Parts/Wildebeest/Wildebeest_Horns_B</Horns>
+						<Horns>Parts/AridShrubland/Wildebeest/Wildebeest_Horns_B</Horns>
 					</graphics>
 				</values>
 			</li>
@@ -79,7 +79,7 @@
 				<values>
 					<description>Two short horns grow from the sides of [PAWN_nameDef]'s head. They're sharp and dangerous to get near if [PAWN_nameDef] happened to be in a bad mood.</description>
 					<graphics>
-						<Horns>Parts/Wildebeest/Wildebeest_Horns_C</Horns>
+						<Horns>Parts/AridShrubland/Wildebeest/Wildebeest_Horns_C</Horns>
 					</graphics>
 				</values>
 			</li>

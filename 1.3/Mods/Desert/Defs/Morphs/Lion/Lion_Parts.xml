@@ -4,8 +4,8 @@
 		<defName>PMAE_LionMuzzle</defName>
 		<label>lion muzzle</label>
 		<graphics>
-			<MuzzleMale>Parts/Lion/Lion_Muzzle_Male</MuzzleMale>
-			<MuzzleFemale>Parts/Lion/Lion_Muzzle_Female</MuzzleFemale>
+			<MuzzleMale>Parts/Desert/Lion/Lion_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/Desert/Lion/Lion_Muzzle_Female</MuzzleFemale>
 		</graphics>
 		<stagePatches>
 			<li function="modify">
@@ -34,9 +34,9 @@
 		<defName>PMAE_LionEar</defName>
 		<label>lion ear</label>
 		<graphics>
-			<LeftEar>Parts/Lion/Lion_Ear_Left</LeftEar>
+			<LeftEar>Parts/Desert/Lion/Lion_Ear_Left</LeftEar>
 			<LeftEarBehind>Parts/None/None</LeftEarBehind>
-			<RightEar>Parts/Lion/Lion_Ear_Right</RightEar>
+			<RightEar>Parts/Desert/Lion/Lion_Ear_Right</RightEar>
 			<RightEarBehindHead>Parts/None/None</RightEarBehindHead>
 		</graphics>
 		<stagePatches>
@@ -54,8 +54,8 @@
 		<defName>PMAE_LionTail</defName>
 		<label>lion tail</label>
 		<graphics>
-			<MaleTail>Parts/Lion/Lion_Tail_Male</MaleTail>
-			<FemaleTail>Parts/Lion/Lion_Tail_Female</FemaleTail>
+			<MaleTail>Parts/Desert/Lion/Lion_Tail_Male</MaleTail>
+			<FemaleTail>Parts/Desert/Lion/Lion_Tail_Female</FemaleTail>
 		</graphics>
 		<stagePatches>
 			<li function="modify">
