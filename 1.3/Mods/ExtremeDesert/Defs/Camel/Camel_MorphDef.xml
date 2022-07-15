@@ -1,0 +1,22 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="CamelidMorph">
+		<defName>PME_CamelMorph</defName>
+		<label>camelmorph</label>
+		<description>TODO Camel</description>
+		<race>AEXP_Camel</race>
+		<categories>
+			<li>Arid</li>
+		</categories>
+		<fullTransformation>PME_CamelTF</fullTransformation>
+		<partialTransformation>PME_CamelTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(211,187,159)</skinColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>PME_CamelTransformationMemory</transformationMemory>
+			<revertedMemory>PME_CamelRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>

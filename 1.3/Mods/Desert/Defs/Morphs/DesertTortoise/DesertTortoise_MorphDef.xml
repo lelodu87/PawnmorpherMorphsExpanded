@@ -1,0 +1,22 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="TestudinidaeMorph">
+		<defName>PME_DesertTortoiseMorph</defName>
+		<label>desert tortoisemorph</label>
+		<description>TODO DesertTortoise</description>
+		<race>AEXP_DesertTortoise</race>
+		<categories>
+			<li>Arid</li>
+		</categories>
+		<fullTransformation>PME_DesertTortoiseTF</fullTransformation>
+		<partialTransformation>PME_DesertTortoiseTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(229,195,126)</skinColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>PME_DesertTortoiseTransformationMemory</transformationMemory>
+			<revertedMemory>PME_DesertTortoiseRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>

@@ -1,0 +1,54 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/ThoughtDef.xsd">
+	<ThoughtDef ParentName="OutlookMemoryBase">
+		<defName>PME_LionTransformationMemory</defName>
+        <stages>
+            <li>
+                <label>morphed</label>
+                <description>TODO Lion</description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+            <li>
+                <label>morphed</label>
+                <description>TODO Lion</description>
+                <baseMoodEffect>+3</baseMoodEffect>
+            </li>
+            <li>
+                <label>morphed</label>
+                <description>TODO Lion</description>
+                <baseMoodEffect>-5</baseMoodEffect>
+            </li>
+            <li>
+                <label>morphed</label>
+                <description>TODO Lion</description>
+                <baseMoodEffect>+1</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+    <ThoughtDef ParentName="OutlookMemoryBase">
+		<defName>PME_LionRevertedMemory</defName>
+        <stages>
+            <li>
+                <label>reverted</label>
+                <description>TODO Lion</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+            <li>
+                <label>reverted</label>
+                <description>TODO Lion</description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+            <li>
+                <label>reverted</label>
+                <description>TODO Lion</description>
+                <baseMoodEffect>10</baseMoodEffect>
+            </li>
+            <li>
+                <label>reverted</label>
+                <description>TODO Lion</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+</Defs>

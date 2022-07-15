@@ -1,0 +1,49 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef ParentName="BigFelisJawPart">
+		<classInfluence>PME_CheetahMorph</classInfluence>
+		<defName>PME_CheetahJaw</defName>
+		<label>cheetah muzzle</label>
+		<graphics>
+			<MuzzleMale>Parts/AridShrubland/Cheetah/Cheetah_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/AridShrubland/Cheetah/Cheetah_Muzzle_Female</MuzzleFemale>
+		</graphics>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="BigFelisEarPart">
+		<classInfluence>PME_CheetahMorph</classInfluence>
+		<defName>PME_CheetahEar</defName>
+		<label>cheetah ear</label>
+		<graphics>
+			<LeftEar>Parts/AridShrubland/Cheetah/Cheetah_Ear_Left</LeftEar>
+			<LeftEarBehind>Parts/None/None</LeftEarBehind>
+			<RightEar>Parts/AridShrubland/Cheetah/Cheetah_Ear_Right</RightEar>
+			<RightEarBehindHead>Parts/None/None</RightEarBehindHead>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>TODO Cheetah.</description>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="BigFelisTailPart">
+		<classInfluence>PME_CheetahMorph</classInfluence>
+		<defName>PME_CheetahTail</defName>
+		<label>cheetah tail</label>
+		<graphics>
+			<Tail>Parts/AridShrubland/Cheetah/Cheetah_Tail</Tail>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>TODO Cheetah</description>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+</Defs>
