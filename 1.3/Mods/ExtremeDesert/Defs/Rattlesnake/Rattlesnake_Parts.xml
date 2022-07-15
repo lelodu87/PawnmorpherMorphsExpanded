@@ -8,4 +8,13 @@
 			<MuzzleFemale>Parts/ExtremeDesert/Rattlesnake/Rattlesnake_Muzzle_Female</MuzzleFemale>
 		</graphics>
 	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="OphidiaTailPart">
+		<classInfluence>PMAE_RattlesnakeMorph</classInfluence>
+		<defName>PMAE_RattlesnakeTail</defName>
+		<label>rattlesnake tail</label>
+		<graphics>
+			<BodyExtendingTail>Parts/ExtremeDesert/Rattlesnake/Rattlesnake_Tail</BodyExtendingTail>
+		</graphics>
+	</Pawnmorph.Hediffs.MutationDef>
 </Defs>

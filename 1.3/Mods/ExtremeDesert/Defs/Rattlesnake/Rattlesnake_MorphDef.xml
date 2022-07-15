@@ -14,7 +14,7 @@
 				<skinColorOverride>(99,85,74)</skinColorOverride>
 				<hairColorOverride>(0,0,0,0)</hairColorOverride>
 			</graphicsSettings>
-			<explicitHybridRace>SnakeMorph</explicitHybridRace>
+			<explicitHybridRace>PMEA_RattlesnakeMorph</explicitHybridRace>
 			<transferHumanBodyAddons>false</transferHumanBodyAddons>
 			<requiredMutations>
 				<li>EtherSnakeTail</li>
