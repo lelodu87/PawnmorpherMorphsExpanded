@@ -1,7 +1,7 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 	<Pawnmorph.Hediffs.MutationDef ParentName="WildBovidJawPart">
-		<classInfluence>PMAE_WildebeestMorph</classInfluence>
-		<defName>PMAE_WildebeestJaw</defName>
+		<classInfluence>PME_WildebeestMorph</classInfluence>
+		<defName>PME_WildebeestJaw</defName>
 		<label>wildebeest snout</label>
 		<graphics>
 			<MuzzleMale>Parts/AridShrubland/Wildebeest/Wildebeest_Muzzle_Male</MuzzleMale>
@@ -10,8 +10,8 @@
 	</Pawnmorph.Hediffs.MutationDef>
 	
 		<Pawnmorph.Hediffs.MutationDef ParentName="WildBovidEarPart">
-		<classInfluence>PMAE_WildebeestMorph</classInfluence>
-		<defName>PMAE_WildebeestEar</defName>
+		<classInfluence>PME_WildebeestMorph</classInfluence>
+		<defName>PME_WildebeestEar</defName>
 		<label>wildebeest ear</label>
 		<graphics>
 			<LeftEar>Parts/AridShrubland/Wildebeest/Wildebeest_Ear_Left</LeftEar>
@@ -30,8 +30,8 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="WildBovidTailPart">
-		<classInfluence>PMAE_WildebeestMorph</classInfluence>
-		<defName>PMAE_WildebeestTail</defName>
+		<classInfluence>PME_WildebeestMorph</classInfluence>
+		<defName>PME_WildebeestTail</defName>
 		<label>wildebeest tail</label>
 		<graphics>
 			<Tail>Parts/AridShrubland/Wildebeest/Wildebeest_Tail</Tail>
@@ -48,7 +48,7 @@
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="WildBovidHornPart">
 		<defName>EtherWildebeestHorns</defName>
-		<classInfluence>PMAE_WildebeestMorph</classInfluence>
+		<classInfluence>PME_WildebeestMorph</classInfluence>
 		<label>horns</label>
 		<description>A pair of wildebeest horns.</description>
 		<graphics>

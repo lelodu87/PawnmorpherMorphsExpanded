@@ -1,7 +1,7 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 	<Pawnmorph.Hediffs.MutationDef ParentName="ThickHideJawPart">
-		<classInfluence>PMAE_HippopotamusMorph</classInfluence>
-		<defName>PMAE_HippopotamusJaw</defName>
+		<classInfluence>PME_HippopotamusMorph</classInfluence>
+		<defName>PME_HippopotamusJaw</defName>
 		<label>hippopotamus snout</label>
 		<graphics>
 			<MuzzleMale>Parts/AridShrubland/Hippopotamus/Hippo_Muzzle_Male</MuzzleMale>
@@ -30,8 +30,8 @@
 	</Pawnmorph.Hediffs.MutationDef>
 	
 		<Pawnmorph.Hediffs.MutationDef ParentName="ThickHideEarPart">
-		<classInfluence>PMAE_HippopotamusMorph</classInfluence>
-		<defName>PMAE_HippopotamusEar</defName>
+		<classInfluence>PME_HippopotamusMorph</classInfluence>
+		<defName>PME_HippopotamusEar</defName>
 		<label>hippopotamus ear</label>
 		<graphics>
 			<LeftEar>Parts/AridShrubland/Hippopotamus/Hippo_Ear_Left</LeftEar>
@@ -50,8 +50,8 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="ThickHideTailPart">
-		<classInfluence>PMAE_HippopotamusMorph</classInfluence>
-		<defName>PMAE_HippopotamusTail</defName>
+		<classInfluence>PME_HippopotamusMorph</classInfluence>
+		<defName>PME_HippopotamusTail</defName>
 		<label>hippopotamus tail</label>
 		<graphics>
 			<Tail>Parts/AridShrubland/Hippopotamus/Hippo_Tail</Tail>

@@ -1,7 +1,7 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 	<Pawnmorph.Hediffs.MutationDef ParentName="BigFelisJawPart">
-		<classInfluence>PMAE_CheetahMorph</classInfluence>
-		<defName>PMAE_CheetahJaw</defName>
+		<classInfluence>PME_CheetahMorph</classInfluence>
+		<defName>PME_CheetahJaw</defName>
 		<label>cheetah muzzle</label>
 		<graphics>
 			<MuzzleMale>Parts/AridShrubland/Cheetah/Cheetah_Muzzle_Male</MuzzleMale>
@@ -10,8 +10,8 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="BigFelisEarPart">
-		<classInfluence>PMAE_CheetahMorph</classInfluence>
-		<defName>PMAE_CheetahEar</defName>
+		<classInfluence>PME_CheetahMorph</classInfluence>
+		<defName>PME_CheetahEar</defName>
 		<label>cheetah ear</label>
 		<graphics>
 			<LeftEar>Parts/AridShrubland/Cheetah/Cheetah_Ear_Left</LeftEar>
@@ -30,8 +30,8 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="BigFelisTailPart">
-		<classInfluence>PMAE_CheetahMorph</classInfluence>
-		<defName>PMAE_CheetahTail</defName>
+		<classInfluence>PME_CheetahMorph</classInfluence>
+		<defName>PME_CheetahTail</defName>
 		<label>cheetah tail</label>
 		<graphics>
 			<Tail>Parts/AridShrubland/Cheetah/Cheetah_Tail</Tail>

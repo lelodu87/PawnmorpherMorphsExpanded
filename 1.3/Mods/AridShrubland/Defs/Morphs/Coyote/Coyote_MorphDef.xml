@@ -1,14 +1,14 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
 	<Pawnmorph.MorphDef ParentName="WolfMorphBase">
-		<defName>PMAE_CoyoteMorph</defName>
+		<defName>PME_CoyoteMorph</defName>
 		<label>coyotemorph</label>
 		<description>TODO Coyote</description>
 		<race>AEXP_Coyote</race>
 		<categories>
 			<li>Arid</li>
 		</categories>
-		<fullTransformation>PMAE_CoyoteTF</fullTransformation>
-		<partialTransformation>PMAE_CoyoteTFPartial</partialTransformation>
+		<fullTransformation>PME_CoyoteTF</fullTransformation>
+		<partialTransformation>PME_CoyoteTFPartial</partialTransformation>
 		<raceSettings>
 			<graphicsSettings>
 				<skinColorOverride>(200,149,78)</skinColorOverride>

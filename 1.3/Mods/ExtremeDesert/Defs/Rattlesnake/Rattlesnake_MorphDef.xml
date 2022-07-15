@@ -1,14 +1,14 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
 	<Pawnmorph.MorphDef ParentName="OphidiaMorph">
-		<defName>PMAE_RattlesnakeMorph</defName>
+		<defName>PME_RattlesnakeMorph</defName>
 		<label>rattlesnakemorph</label>
 		<description>TODO</description>
 		<race>AEXP_Rattlesnake</race>
 		<categories>
 			<li>Arid</li>
 		</categories>
-		<fullTransformation>PMAE_RattlesnakeTF</fullTransformation>
-		<partialTransformation>PMAE_RattlesnakeTFPartial</partialTransformation>
+		<fullTransformation>PME_RattlesnakeTF</fullTransformation>
+		<partialTransformation>PME_RattlesnakeTFPartial</partialTransformation>
 		<raceSettings>
 			<graphicsSettings>
 				<skinColorOverride>(99,85,74)</skinColorOverride>
@@ -21,8 +21,8 @@
 			</requiredMutations>
 		</raceSettings>
 		<transformSettings>
-			<transformationMemory>PMAE_RattlesnakeTransformationMemory</transformationMemory>
-			<revertedMemory>PMAE_RattlesnakeRevertedMemory</revertedMemory>
+			<transformationMemory>PME_RattlesnakeTransformationMemory</transformationMemory>
+			<revertedMemory>PME_RattlesnakeRevertedMemory</revertedMemory>
 		</transformSettings>
 	</Pawnmorph.MorphDef>
 </Defs>

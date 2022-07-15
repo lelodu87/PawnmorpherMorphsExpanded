@@ -1,6 +1,6 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/ComposableHediffs.xsd">
 	<HediffDef ParentName="NewPartialAspectedMorphParent">
-		<defName>PMAE_GilaTFPartial</defName>
+		<defName>PME_GilaTFPartial</defName>
 		<label>gilamorph partial</label>
 		<description>This person has mechanites in their blood that are providing them with gila-esque mutations.</description>
 		<stages>
@@ -22,7 +22,7 @@
 					</li>
 				</capMods>
 				<mutationTypes Class="Pawnmorph.Hediffs.Composable.MutTypes_Morph">
-					<morphDef>PMAE_GilaMorph</morphDef>
+					<morphDef>PME_GilaMorph</morphDef>
 				</mutationTypes>
 				<mutationRate Class="Pawnmorph.Hediffs.Composable.MutRate_MutationsPerDay">
 					<meanMutationsPerDay>7.7</meanMutationsPerDay>

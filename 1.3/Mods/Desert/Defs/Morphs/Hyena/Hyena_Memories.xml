@@ -1,6 +1,6 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/ThoughtDef.xsd">    
 	<ThoughtDef ParentName="OutlookMemoryBase">
-		<defName>PMAE_HyenaTransformationMemory</defName>
+		<defName>PME_HyenaTransformationMemory</defName>
         <stages>
             <li>
                 <label>morphed</label>
@@ -26,7 +26,7 @@
     </ThoughtDef>
 	
     <ThoughtDef ParentName="OutlookMemoryBase">
-		<defName>PMAE_HyenaRevertedMemory</defName>
+		<defName>PME_HyenaRevertedMemory</defName>
         <stages>
             <li>
                 <label>reverted</label>
@@ -53,7 +53,7 @@
 	
 	<ThoughtDef ParentName="OutlookMemoryBase">
         <durationDays>1</durationDays>
-        <defName>PMAE_HyenaMuzzle</defName>
+        <defName>PME_HyenaMuzzle</defName>
         <stages>
             <li>
                 <label>Hyena snout</label>
@@ -78,7 +78,7 @@
 	
     <ThoughtDef ParentName="OutlookMemoryBase">
         <durationDays>1</durationDays>
-        <defName>PMAE_HyenaEar</defName>
+        <defName>PME_HyenaEar</defName>
         <stages>
             <li>
                 <label>Hyena ears</label>
@@ -103,7 +103,7 @@
 	
     <ThoughtDef ParentName="OutlookMemoryBase">
         <durationDays>1</durationDays>
-        <defName>PMAE_HyenaTail</defName>
+        <defName>PME_HyenaTail</defName>
         <stages>
             <li>
                 <label>Hyena tail</label>

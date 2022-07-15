@@ -1,12 +1,12 @@
 <Defs>
 	<ThingDef ParentName="PowerfulInjectorBase">
-		<defName>PMAE_HippopotamusTransformer</defName>
+		<defName>PME_HippopotamusTransformer</defName>
 		<label>mutasyringe, hippopotamus</label>
 		<description>A mutagenic injector filled with mechanites and hippopotamus DNA. Use with caution, as leaving the mechanites unchecked may transform the user.</description>
 		<ingestible>
 			<outcomeDoers>
 				<li Class="Pawnmorph.IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>PMAE_HippopotamusTF</hediffDef>
+					<hediffDef>PME_HippopotamusTF</hediffDef>
 					<severity>1.00</severity>
 				</li>
 			</outcomeDoers>

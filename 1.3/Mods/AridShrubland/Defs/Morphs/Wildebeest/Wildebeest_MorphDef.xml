@@ -1,11 +1,11 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
 	<Pawnmorph.MorphDef ParentName="WildBovidMorph">
-		<defName>PMAE_WildebeestMorph</defName>
+		<defName>PME_WildebeestMorph</defName>
 		<label>wildebeestmorph</label>
 		<description>TODO Wildebeest</description>
 		<race>AEXP_Wildebeest</race>
-		<fullTransformation>PMAE_WildebeestTF</fullTransformation>
-		<partialTransformation>PMAE_WildebeestTFPartial</partialTransformation>
+		<fullTransformation>PME_WildebeestTF</fullTransformation>
+		<partialTransformation>PME_WildebeestTFPartial</partialTransformation>
 		<raceSettings>
 			<graphicsSettings>
 				<skinColorOverride>(148, 105, 74)</skinColorOverride>
@@ -13,8 +13,8 @@
 			</graphicsSettings>
 		</raceSettings>
 		<transformSettings>
-			<transformationMemory>PMAE_WildebeestTransformationMemory</transformationMemory>
-			<revertedMemory>PMAE_WildebeestRevertedMemory</revertedMemory>
+			<transformationMemory>PME_WildebeestTransformationMemory</transformationMemory>
+			<revertedMemory>PME_WildebeestRevertedMemory</revertedMemory>
 		</transformSettings>
 	</Pawnmorph.MorphDef>
 </Defs>

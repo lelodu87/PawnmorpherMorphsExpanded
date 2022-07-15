@@ -1,6 +1,6 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/ThoughtDef.xsd">
 	<ThoughtDef ParentName="OutlookMemoryBase">
-		<defName>PMAE_CrocodileTransformationMemory</defName>
+		<defName>PME_CrocodileTransformationMemory</defName>
         <stages>
             <li>
                 <label>morphed</label>
@@ -26,7 +26,7 @@
     </ThoughtDef>
 	
     <ThoughtDef ParentName="OutlookMemoryBase">
-		<defName>PMAE_CrocodileRevertedMemory</defName>
+		<defName>PME_CrocodileRevertedMemory</defName>
         <stages>
             <li>
                 <label>reverted</label>
@@ -53,7 +53,7 @@
 	
 	<ThoughtDef ParentName="OutlookMemoryBase">
         <durationDays>1</durationDays>
-        <defName>PMAE_CrocodileSnout</defName>
+        <defName>PME_CrocodileSnout</defName>
         <stages>
             <li>
                 <label>crocodile snout</label>
@@ -78,7 +78,7 @@
 	
     <ThoughtDef ParentName="OutlookMemoryBase">
         <durationDays>1</durationDays>
-        <defName>PMAE_CrocodileTail</defName>
+        <defName>PME_CrocodileTail</defName>
         <stages>
             <li>
                 <label>Crocodile tail</label>

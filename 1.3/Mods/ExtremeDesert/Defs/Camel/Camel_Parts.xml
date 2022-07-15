@@ -1,7 +1,7 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 	<Pawnmorph.Hediffs.MutationDef ParentName="CamelidJawPart">
-		<classInfluence>PMAE_CamelMorph</classInfluence>
-		<defName>PMAE_CamelMuzzle</defName>
+		<classInfluence>PME_CamelMorph</classInfluence>
+		<defName>PME_CamelMuzzle</defName>
 		<label>camel muzzle</label>
 		<graphics>
 			<Muzzle>Parts/ExtremeDesert/Camel/Camel_Muzzle</Muzzle>
@@ -29,8 +29,8 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="CamelidEarPart">
-		<classInfluence>PMAE_CamelMorph</classInfluence>
-		<defName>PMAE_EtherCamelEar</defName>
+		<classInfluence>PME_CamelMorph</classInfluence>
+		<defName>PME_EtherCamelEar</defName>
 		<label>camel ear</label>
 		<graphics>
 			<LeftEar>Parts/ExtremeDesert/Camel/Camel_Ear_Left</LeftEar>
@@ -55,8 +55,8 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="CamelidTailPart">
-		<classInfluence>PMAE_CamelMorph</classInfluence>
-		<defName>PMAE_CamelTail</defName>
+		<classInfluence>PME_CamelMorph</classInfluence>
+		<defName>PME_CamelTail</defName>
 		<label>camel tail</label>
 		<graphics>
 			<Tail>Parts/ExtremeDesert/Camel/Camel_Tail</Tail>
@@ -73,9 +73,9 @@
 
 	<Pawnmorph.Hediffs.MutationDef ParentName ="PawnmorphHump">
 		<description>The humps of a camel</description>
-		<defName>PMAE_CamelHumps</defName>
+		<defName>PME_CamelHumps</defName>
 		<classInfluences>
-			<li>PMAE_CamelMorph</li>
+			<li>PME_CamelMorph</li>
 		</classInfluences>
 		<label>humps</label>
 		<stagePatches>

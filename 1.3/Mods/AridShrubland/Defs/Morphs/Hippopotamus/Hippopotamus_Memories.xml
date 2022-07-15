@@ -1,6 +1,6 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/ThoughtDef.xsd">
 	<ThoughtDef ParentName="OutlookMemoryBase">
-		<defName>PMAE_HippopotamusTransformationMemory</defName>
+		<defName>PME_HippopotamusTransformationMemory</defName>
         <stages>
             <li>
                 <label>morphed</label>
@@ -26,7 +26,7 @@
     </ThoughtDef>
 	
     <ThoughtDef ParentName="OutlookMemoryBase">
-		<defName>PMAE_HippopotamusRevertedMemory</defName>
+		<defName>PME_HippopotamusRevertedMemory</defName>
         <stages>
             <li>
                 <label>reverted</label>
@@ -53,7 +53,7 @@
 	
 	<ThoughtDef ParentName="OutlookMemoryBase">
         <durationDays>1</durationDays>
-        <defName>PMAE_HippopotamusSnout</defName>
+        <defName>PME_HippopotamusSnout</defName>
         <stages>
             <li>
                 <label>hippopotamus snout</label>
@@ -78,7 +78,7 @@
 	
     <ThoughtDef ParentName="OutlookMemoryBase">
         <durationDays>1</durationDays>
-        <defName>PMAE_HippopotamusTail</defName>
+        <defName>PME_HippopotamusTail</defName>
         <stages>
             <li>
                 <label>Hippopotamus tail</label>

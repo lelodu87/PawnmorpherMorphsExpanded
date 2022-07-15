@@ -1,7 +1,7 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 	<Pawnmorph.Hediffs.MutationDef ParentName="PantherineJawPart">
-		<classInfluence>PMAE_LionMorph</classInfluence>
-		<defName>PMAE_LionMuzzle</defName>
+		<classInfluence>PME_LionMorph</classInfluence>
+		<defName>PME_LionMuzzle</defName>
 		<label>lion muzzle</label>
 		<graphics>
 			<MuzzleMale>Parts/Desert/Lion/Lion_Muzzle_Male</MuzzleMale>
@@ -30,8 +30,8 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="PantherineEarPart">
-		<classInfluence>PMAE_LionMorph</classInfluence>
-		<defName>PMAE_LionEar</defName>
+		<classInfluence>PME_LionMorph</classInfluence>
+		<defName>PME_LionEar</defName>
 		<label>lion ear</label>
 		<graphics>
 			<LeftEar>Parts/Desert/Lion/Lion_Ear_Left</LeftEar>
@@ -50,8 +50,8 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="PantherineTailPart">
-		<classInfluence>PMAE_LionMorph</classInfluence>
-		<defName>PMAE_LionTail</defName>
+		<classInfluence>PME_LionMorph</classInfluence>
+		<defName>PME_LionTail</defName>
 		<label>lion tail</label>
 		<graphics>
 			<MaleTail>Parts/Desert/Lion/Lion_Tail_Male</MaleTail>

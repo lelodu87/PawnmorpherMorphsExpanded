@@ -1,14 +1,14 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
 	<Pawnmorph.MorphDef ParentName="LacertiliaMorph">
-		<defName>PMAE_GilaMorph</defName>
+		<defName>PME_GilaMorph</defName>
 		<label>gilamorph</label>
 		<description>TODO Gila</description>
 		<race>AEXP_GilaMonster</race>
 		<categories>
 			<li>Arid</li>
 		</categories>
-		<fullTransformation>PMAE_GilaTF</fullTransformation>
-		<partialTransformation>PMAE_GilaTFPartial</partialTransformation>
+		<fullTransformation>PME_GilaTF</fullTransformation>
+		<partialTransformation>PME_GilaTFPartial</partialTransformation>
 		<raceSettings>
 			<graphicsSettings>
 				<skinColorOverride>(51,51,51)</skinColorOverride>
@@ -16,8 +16,8 @@
 			</graphicsSettings>
 		</raceSettings>
 		<transformSettings>
-			<transformationMemory>PMAE_GilaTransformationMemory</transformationMemory>
-			<revertedMemory>PMAE_GilaRevertedMemory</revertedMemory>
+			<transformationMemory>PME_GilaTransformationMemory</transformationMemory>
+			<revertedMemory>PME_GilaRevertedMemory</revertedMemory>
 		</transformSettings>
 	</Pawnmorph.MorphDef>
 </Defs>

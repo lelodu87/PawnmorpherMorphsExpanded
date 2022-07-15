@@ -1,6 +1,6 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/ThoughtDef.xsd">
 	<ThoughtDef ParentName="OutlookMemoryBase">
-		<defName>PMAE_DesertTortoiseTransformationMemory</defName>
+		<defName>PME_DesertTortoiseTransformationMemory</defName>
 		<stages>
 			<li>
 				<label>changed</label>
@@ -26,7 +26,7 @@
 	</ThoughtDef>
 
 	<ThoughtDef ParentName="OutlookMemoryBase">
-		<defName>PMAE_DesertTortoiseRevertedMemory</defName>
+		<defName>PME_DesertTortoiseRevertedMemory</defName>
 		<stages>
 			<li>
 				<label>reverted</label>

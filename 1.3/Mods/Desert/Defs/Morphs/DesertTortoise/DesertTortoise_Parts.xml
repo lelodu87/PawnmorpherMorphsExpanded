@@ -1,7 +1,7 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 	<Pawnmorph.Hediffs.MutationDef ParentName="TestudinidaeJawPart">
-		<classInfluence>PMAE_DesertTortoiseMorph</classInfluence>
-		<defName>PMAE_DesertTortoiseMuzzle</defName>
+		<classInfluence>PME_DesertTortoiseMorph</classInfluence>
+		<defName>PME_DesertTortoiseMuzzle</defName>
 		<label>desert tortoise muzzle</label>
 		<graphics>
 			<Muzzle>Parts/Desert/DesertTortoise/DesertTortoise_Muzzle</Muzzle>
@@ -9,8 +9,8 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="TestudinidaeTailPart">
-		<classInfluence>PMAE_DesertTortoiseMorph</classInfluence>
-		<defName>PMAE_DesertTortoiseTail</defName>
+		<classInfluence>PME_DesertTortoiseMorph</classInfluence>
+		<defName>PME_DesertTortoiseTail</defName>
 		<label>desert tortoise tail</label>
 		<graphics>
 			<Tail>Parts/Desert/DesertTortoise/DesertTortoise_Tail</Tail>
@@ -28,7 +28,7 @@
 	<Pawnmorph.Hediffs.MutationDef ParentName ="PawnmorphShell">
 		<defName>EtherDesertTortoiseShell</defName>
 		<classInfluences>
-			<li>PMAE_DesertTortoiseMorph</li>
+			<li>PME_DesertTortoiseMorph</li>
 		</classInfluences>
 		<label>desert tortoise shell</label>
 		<stagePatches>

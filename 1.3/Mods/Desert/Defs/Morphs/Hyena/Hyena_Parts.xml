@@ -1,8 +1,8 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 	<Pawnmorph.Hediffs.MutationDef ParentName="ScavengerJawPart">
-		<mutationMemory>PMAE_HyenaMuzzle</mutationMemory>
-		<classInfluence>PMAE_HyenaMorph</classInfluence>
-		<defName>PMAE_HyenaMuzzle</defName>
+		<mutationMemory>PME_HyenaMuzzle</mutationMemory>
+		<classInfluence>PME_HyenaMorph</classInfluence>
+		<defName>PME_HyenaMuzzle</defName>
 		<label>hyena muzzle</label>
 		<graphics>
 			<MuzzleMale>Parts/Desert/Hyena/Hyena_Muzzle_Male</MuzzleMale>
@@ -31,9 +31,9 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="ScavengerEarPart">
-		<mutationMemory>PMAE_HyenaEar</mutationMemory>
-		<classInfluence>PMAE_HyenaMorph</classInfluence>
-		<defName>PMAE_HyenaEar</defName>
+		<mutationMemory>PME_HyenaEar</mutationMemory>
+		<classInfluence>PME_HyenaMorph</classInfluence>
+		<defName>PME_HyenaEar</defName>
 		<label>hyena ear</label>
 		<graphics>
 			<LeftEar>Parts/Desert/Hyena/Hyena_Ear_Left</LeftEar>
@@ -52,9 +52,9 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="ScavengerTailPart">
-		<mutationMemory>PMAE_HyenaTail</mutationMemory>
-		<classInfluence>PMAE_HyenaMorph</classInfluence>
-		<defName>PMAE_HyenaTail</defName>
+		<mutationMemory>PME_HyenaTail</mutationMemory>
+		<classInfluence>PME_HyenaMorph</classInfluence>
+		<defName>PME_HyenaTail</defName>
 		<label>hyena tail</label>
 		<graphics>
 			<Tail>Parts/Desert/Hyena/Hyena_Tail</Tail>

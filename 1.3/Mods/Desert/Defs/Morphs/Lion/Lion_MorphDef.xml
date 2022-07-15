@@ -1,22 +1,22 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
 	<Pawnmorph.MorphDef ParentName="PantherineMorph">
-		<defName>PMAE_LionMorph</defName>
+		<defName>PME_LionMorph</defName>
 		<label>lionmorph</label>
 		<description>TODO Lion</description>
 		<race>AEXP_Lion</race>
 		<categories>
 			<li>Arid</li>
 		</categories>
-		<fullTransformation>PMAE_LionTF</fullTransformation>
-		<partialTransformation>PMAE_LionTFPartial</partialTransformation>
+		<fullTransformation>PME_LionTF</fullTransformation>
+		<partialTransformation>PME_LionTFPartial</partialTransformation>
 		<raceSettings>
 			<graphicsSettings> <!-- Male : (185,143,96) -->
 				<skinColorOverride>(214,184,139)</skinColorOverride>
 			</graphicsSettings>
 		</raceSettings>
 		<transformSettings>
-			<transformationMemory>PMAE_LionTransformationMemory</transformationMemory>
-			<revertedMemory>PMAE_LionRevertedMemory</revertedMemory>
+			<transformationMemory>PME_LionTransformationMemory</transformationMemory>
+			<revertedMemory>PME_LionRevertedMemory</revertedMemory>
 		</transformSettings>
 	</Pawnmorph.MorphDef>
 </Defs>

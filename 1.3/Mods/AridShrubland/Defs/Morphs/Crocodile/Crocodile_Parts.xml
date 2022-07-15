@@ -1,7 +1,7 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 	<Pawnmorph.Hediffs.MutationDef ParentName="CrocodiliaJawPart">
-		<classInfluence>PMAE_CrocodileMorph</classInfluence>
-		<defName>PMAE_CrocodileJaw</defName>
+		<classInfluence>PME_CrocodileMorph</classInfluence>
+		<defName>PME_CrocodileJaw</defName>
 		<label>crocodile snout</label>
 		<graphics>
 			<MuzzleMale>Parts/AridShrubland/Crocodile/Crocodile_Muzzle_Male</MuzzleMale>
@@ -30,8 +30,8 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="CrocodiliaTailPart">
-		<classInfluence>PMAE_CrocodileMorph</classInfluence>
-		<defName>PMAE_CrocodileTail</defName>
+		<classInfluence>PME_CrocodileMorph</classInfluence>
+		<defName>PME_CrocodileTail</defName>
 		<label>crocodile tail</label>
 		<graphics>
 			<Tail>Parts/AridShrubland/Crocodile/Crocodile_Tail</Tail>

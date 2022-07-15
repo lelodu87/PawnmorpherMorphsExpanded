@@ -1,7 +1,7 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 	<Pawnmorph.Hediffs.MutationDef ParentName="EquineJawPart">
-		<classInfluence>PMAE_ZebraMorph</classInfluence>
-		<defName>PMAE_ZebraJaw</defName>
+		<classInfluence>PME_ZebraMorph</classInfluence>
+		<defName>PME_ZebraJaw</defName>
 		<label>zebra snout</label>
 		<graphics>
 			<MuzzleMale>Parts/AridShrubland/Zebra/Zebra_Muzzle_Male</MuzzleMale>
@@ -10,8 +10,8 @@
 	</Pawnmorph.Hediffs.MutationDef>
 	
 		<Pawnmorph.Hediffs.MutationDef ParentName="EquineEarPart">
-		<classInfluence>PMAE_ZebraMorph</classInfluence>
-		<defName>PMAE_ZebraEar</defName>
+		<classInfluence>PME_ZebraMorph</classInfluence>
+		<defName>PME_ZebraEar</defName>
 		<label>zebra ear</label>
 		<graphics>
 			<LeftEar>Parts/AridShrubland/Zebra/Zebra_Ear_Left</LeftEar>
@@ -30,8 +30,8 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="EquineTailPart">
-		<classInfluence>PMAE_ZebraMorph</classInfluence>
-		<defName>PMAE_ZebraTail</defName>
+		<classInfluence>PME_ZebraMorph</classInfluence>
+		<defName>PME_ZebraTail</defName>
 		<label>zebra tail</label>
 		<graphics>
 			<Tail>Parts/AridShrubland/Zebra/Zebra_Tail</Tail>
