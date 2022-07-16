@@ -2,7 +2,7 @@
 	<Pawnmorph.MorphDef ParentName="OphidiaMorph">
 		<defName>PME_RattlesnakeMorph</defName>
 		<label>rattlesnakemorph</label>
-		<description>TODO</description>
+		<description>Unlike popular belief the Rattlesnakemorph only uses its rattle to ward off foes to preserving its incapacitating venom. (Somewhat) silent and deadly.</description>
 		<race>AEXP_Rattlesnake</race>
 		<categories>
 			<li>Arid</li>

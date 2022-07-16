@@ -2,7 +2,7 @@
 	<Pawnmorph.MorphDef ParentName="TestudinidaeMorph">
 		<defName>PME_DesertTortoiseMorph</defName>
 		<label>desert tortoisemorph</label>
-		<description>TODO DesertTortoise</description>
+		<description>This variant of the Tortoisemorph is extremely durable but quite slow on account of the heavy shell.</description>
 		<race>AEXP_DesertTortoise</race>
 		<categories>
 			<li>Arid</li>

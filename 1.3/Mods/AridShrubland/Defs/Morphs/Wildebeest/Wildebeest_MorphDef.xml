@@ -2,7 +2,7 @@
 	<Pawnmorph.MorphDef ParentName="WildBovidMorph">
 		<defName>PME_WildebeestMorph</defName>
 		<label>wildebeestmorph</label>
-		<description>TODO Wildebeest</description>
+		<description>The Wildebeestmorph is the wild and tough cousin of the domestic cowmorph. Its mean temper complements the sharp horns that can be honed by those with an affinity for mutation.</description>
 		<race>AEXP_Wildebeest</race>
 		<fullTransformation>PME_WildebeestTF</fullTransformation>
 		<partialTransformation>PME_WildebeestTFPartial</partialTransformation>

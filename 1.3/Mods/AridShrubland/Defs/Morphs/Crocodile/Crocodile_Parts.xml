@@ -40,7 +40,7 @@
 			<li function="modify">
 				<stageKey>grown</stageKey>
 				<values>
-					<description>TODO Crocodile</description>
+					<description>A thick, muscular tail has emerged at the end of [PAWN_nameDef]'s spine. It's very tough and can easily take a hit without getting seriously hurt.</description>
 				</values>
 			</li>
 		</stagePatches>

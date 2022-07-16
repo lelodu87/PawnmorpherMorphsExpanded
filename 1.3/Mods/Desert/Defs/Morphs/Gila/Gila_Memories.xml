@@ -4,23 +4,18 @@
 		<stages>
 			<li>
 				<label>morphed</label>
-				<description>TODO Gila</description>
+				<description>Could be worse I guess.</description>
 				<baseMoodEffect>-3</baseMoodEffect>
 			</li>
 			<li>
 				<label>morphed</label>
-				<description>TODO Gila</description>
+				<description>I really like the pattern of my skin!</description>
 				<baseMoodEffect>+3</baseMoodEffect>
 			</li>
 			<li>
 				<label>morphed</label>
-				<description>TODO Gila</description>
+				<description>I'm literally a monster!</description>
 				<baseMoodEffect>-5</baseMoodEffect>
-			</li>
-			<li>
-				<label>morphed</label>
-				<description>TODO Gila</description>
-				<baseMoodEffect>+1</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
@@ -30,23 +25,18 @@
 		<stages>
 			<li>
 				<label>reverted</label>
-				<description>TODO Gila</description>
+				<description>Hey, my bad breath cleared up!</description>
 				<baseMoodEffect>3</baseMoodEffect>
 			</li>
 			<li>
 				<label>reverted</label>
-				<description>TODO Gila</description>
+				<description>I miss my spots already...</description>
 				<baseMoodEffect>-3</baseMoodEffect>
 			</li>
 			<li>
 				<label>reverted</label>
-				<description>TODO Gila</description>
+				<description>How I missed having smooth skin!</description>
 				<baseMoodEffect>10</baseMoodEffect>
-			</li>
-			<li>
-				<label>reverted</label>
-				<description>TODO Gila</description>
-				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

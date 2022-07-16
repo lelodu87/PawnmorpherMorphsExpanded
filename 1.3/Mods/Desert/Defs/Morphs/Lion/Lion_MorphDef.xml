@@ -2,7 +2,7 @@
 	<Pawnmorph.MorphDef ParentName="PantherineMorph">
 		<defName>PME_LionMorph</defName>
 		<label>lionmorph</label>
-		<description>TODO Lion</description>
+		<description>Lionmorphs are powerful in combat and stealthy hunters but being the royalty of the animal kingdom gives them an attitude that other colonists may not appreciate.</description>
 		<race>AEXP_Lion</race>
 		<categories>
 			<li>Arid</li>

@@ -23,7 +23,7 @@
 			<li function="modify">
 				<stageKey>grown</stageKey>
 				<values>
-					<description>TODO Wildebeest</description>
+					<description>A rounded, bovine ear has grown out the side of [PAWN_nameDef]'s head. Because it's able to rotate it hears slightly better than a human, but is mostly decorative.</description>
 				</values>
 			</li>
 		</stagePatches>
@@ -40,7 +40,7 @@
 			<li function="modify">
 				<stageKey>grown</stageKey>
 				<values>
-					<description>TODO Wildebeest</description>
+					<description>[PAWN_nameDef]'s spine now ends in a thin tail decorated with long strands. Useful for whipping off flies but not much else.</description>
 				</values>
 			</li>
 		</stagePatches>
@@ -54,8 +54,6 @@
 		<graphics>
 			<Horns>Parts/AridShrubland/Wildebeest/Wildebeest_Horns_C</Horns>
 		</graphics>
-		<!-- <mutationTale>TODO</mutationTale>
-		<mutationMemory>TODO</mutationMemory> -->
 		<stagePatches>
 			<li function="modify">
 				<stageKey>nubs</stageKey>

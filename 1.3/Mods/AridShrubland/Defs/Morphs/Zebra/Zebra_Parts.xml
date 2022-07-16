@@ -23,7 +23,7 @@
 			<li function="modify">
 				<stageKey>grown</stageKey>
 				<values>
-					<description>TODO Zebra</description>
+					<description>A pointed, equine ear has grown on top of [PAWN_nameDef]'s head. Because it's able to rotate it hears slightly better than a human, but is mostly decorative.</description>
 				</values>
 			</li>
 		</stagePatches>
@@ -40,7 +40,7 @@
 			<li function="modify">
 				<stageKey>grown</stageKey>
 				<values>
-					<description>TODO Zebra</description>
+					<description>[PAWN_nameDef]'s spine now ends in a thin tail decorated with long strands. Useful for whipping off flies but not much else.</description>
 				</values>
 			</li>
 		</stagePatches>

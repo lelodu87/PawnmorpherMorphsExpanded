@@ -23,7 +23,7 @@
 			<li function="modify">
 				<stageKey>grown</stageKey>
 				<values>
-					<description>TODO Cheetah.</description>
+					<description>A sensitive, feline ear now sits on top of on top of [PAWN_nameDef]'s head. It flicks to and fro to pick up the slightest sound.</description>
 				</values>
 			</li>
 		</stagePatches>
@@ -40,7 +40,7 @@
 			<li function="modify">
 				<stageKey>grown</stageKey>
 				<values>
-					<description>TODO Cheetah</description>
+					<description>The tail of a predator has emerged from the end of [PAWN_nameDef]'s spine. Its length helps counterbalance the torso in full sprint.</description>
 				</values>
 			</li>
 		</stagePatches>

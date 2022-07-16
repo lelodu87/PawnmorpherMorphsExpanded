@@ -11,19 +11,19 @@
 			<li function="modify">
 				<stageKey>adapting</stageKey>
 				<values>
-					<description>TODO Hippopotamus. The strange shape makes speaking very difficult.</description>
+					<description>[PAWN_nameDef]'s face has broadened and swelled to a massive proportion, with an incredible jaw strength and huge teeth. The strange shape makes speaking very difficult.</description>
 				</values>
 			</li>
 			<li function="modify">
 				<stageKey>adapted</stageKey>
 				<values>
-					<description>TODO Hippopotamus. Adapting to it has made speaking less frustrating.</description>
+					<description>[PAWN_nameDef]'s face has broadened and swelled to a massive proportion, with an incredible jaw strength and huge teeth. Adapting to it has made speaking less frustrating.</description>
 				</values>
 			</li>
 			<li function="modify">
 				<stageKey>paragon</stageKey>
 				<values>
-					<description>TODO Hippopotamus. With further adaptation, [PAWN_nameDef] has learned to speak normally.</description>
+					<description>[PAWN_nameDef]'s face has broadened and swelled to a massive proportion, with an incredible jaw strength and huge teeth. With further adaptation, [PAWN_nameDef] has learned to speak normally.</description>
 				</values>
 			</li>
 		</stagePatches>
@@ -43,7 +43,7 @@
 			<li function="modify">
 				<stageKey>grown</stageKey>
 				<values>
-					<description>TODO Hippopotamus</description>
+					<description>A rounded, ear has grown out the side of [PAWN_nameDef]'s head. Because it's able to rotate it hears slightly better than a human, but is mostly decorative.</description>
 				</values>
 			</li>
 		</stagePatches>
@@ -60,7 +60,7 @@
 			<li function="modify">
 				<stageKey>grown</stageKey>
 				<values>
-					<description>TODO Hippopotamus</description>
+					<description>A stubby tail hangs at the end of [PAWN_nameDef]'s spine. It's use has yet to be determined.</description>
 				</values>
 			</li>
 		</stagePatches>

@@ -2,7 +2,7 @@
 	<Pawnmorph.MorphDef ParentName="ScavengerMorph">
 		<defName>PME_HyenaMorph</defName>
 		<label>hyenamorph</label>
-		<description>TODO Hyena</description>
+		<description>Hyenamorphs are tough canids with a have a powerful stomach that enables them to digest rotten bodies. They're also a great audience to any comedy show.</description>
 		<race>AEXP_Hyena</race>
 		<categories>
 			<li>Arid</li>

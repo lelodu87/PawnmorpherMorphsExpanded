@@ -3,7 +3,7 @@
 		<defName>PME_CamelTF</defName>
 		<hediffClass>Pawnmorph.Hediffs.Hediff_MutagenicBase</hediffClass>
 		<label>camelmorph</label>
-		<description>This person has mechanites in their blood that are slowly mutating them into a camelmorph. Keep an eye on them, as leaving the mechanites unattended could lead to them becoming far more camelish than human. But would that really be so bad?</description>
+		<description>This person has mechanites in their blood that are slowly mutating them into a camelmorph. Keep an eye on them, as leaving the mechanites unattended could lead to them becoming a desert-going creature.</description>
 		<stages>
 			<li Class="Pawnmorph.Hediffs.HediffStage_Transformation">
 				<label>reeling</label>

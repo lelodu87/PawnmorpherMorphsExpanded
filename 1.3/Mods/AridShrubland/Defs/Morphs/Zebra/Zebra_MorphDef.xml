@@ -2,7 +2,7 @@
 	<Pawnmorph.MorphDef ParentName="EquineMorph">
 		<defName>PME_ZebraMorph</defName>
 		<label>zebramorph</label>
-		<description>TODO Zebra</description>
+		<description>The Zebramorph might look like a Horsemorph but has white stripes instead. No one is sure why, but it looks pretty!</description>
 		<race>AEXP_Zebra</race>
 		<fullTransformation>PME_ZebraTF</fullTransformation>
 		<partialTransformation>PME_ZebraTFPartial</partialTransformation>

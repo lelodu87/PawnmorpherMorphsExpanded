@@ -2,7 +2,7 @@
 	<Pawnmorph.MorphDef ParentName="BigFelisMorph">
 		<defName>PME_CheetahMorph</defName>
 		<label>cheetahmorph</label>
-		<description>TODO Cheetah</description>
+		<description>Cheetahmorphs are the fastest of all morph hybrids and vicious hunters. Don't bet them anything.</description>
 		<race>AEXP_Cheetah</race>
 		<categories>
 			<li>Arid</li>

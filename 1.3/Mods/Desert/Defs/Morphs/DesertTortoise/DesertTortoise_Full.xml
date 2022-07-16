@@ -3,7 +3,7 @@
 		<defName>PME_DesertTortoiseTF</defName>
 		<hediffClass>Pawnmorph.Hediffs.Hediff_MutagenicBase</hediffClass>
 		<label>desert tortoisemorph</label>
-		<description>This person has mechanites in their blood that are slowly mutating them into a desert tortoisemorph. Keep an eye on them, as leaving the mechanites unattended could lead to them becoming far more tortoise than human.</description>
+		<description>This person has mechanites in their blood that are slowly mutating them into a desert tortoisemorph. Keep an eye on them, as leaving the mechanites unattended could lead to them becoming a hero in a half shell...but like, a tortoise, and lives in a desert, not a sewer.</description>
 		<stages>
 			<li Class="Pawnmorph.Hediffs.HediffStage_Transformation">
 				<label>reeling</label>

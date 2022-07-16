@@ -11,19 +11,19 @@
 			<li function="modify">
 				<stageKey>adapting</stageKey>
 				<values>
-					<description>TODO Lion. The strange shape makes speaking very difficult.</description>
+					<description>[PAWN_nameDef]'s face has elongated into a broad muzzle, like a lion. The strange shape makes speaking very difficult.</description>
 				</values>
 			</li>
 			<li function="modify">
 				<stageKey>adapted</stageKey>
 				<values>
-					<description>TODO Lion. Adapting to it has made speaking less frustrating.</description>
+					<description>[PAWN_nameDef]'s face has elongated into a broad muzzle, like a lion. Adapting to it has made speaking less frustrating.</description>
 				</values>
 			</li>
 			<li function="modify">
 				<stageKey>paragon</stageKey>
 				<values>
-					<description>TODO Lion. With further adaptation, [PAWN_nameDef] has learned to speak normally.</description>
+					<description>[PAWN_nameDef]'s face has elongated into a broad muzzle, like a lion. With further adaptation, [PAWN_nameDef] has learned to speak normally.</description>
 				</values>
 			</li>
 		</stagePatches>
@@ -43,7 +43,7 @@
 			<li function="modify">
 				<stageKey>grown</stageKey>
 				<values>
-					<description>TODO Lion</description>
+					<description>A sensitive, feline ear now sits on top of on top of [PAWN_nameDef]'s head. It flicks to and fro to pick up the slightest sound.</description>
 				</values>
 			</li>
 		</stagePatches>
@@ -61,7 +61,7 @@
 			<li function="modify">
 				<stageKey>grown</stageKey>
 				<values>
-					<description>TODO Lion</description>
+					<description>The tail of a predator has emerged from the end of [PAWN_nameDef]'s spine. It inspires a hunter's spirit when on the chase.</description>
 				</values>
 			</li>
 		</stagePatches>

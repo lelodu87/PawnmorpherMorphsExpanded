@@ -16,5 +16,13 @@
 		<graphics>
 			<BodyExtendingTail>Parts/ExtremeDesert/Rattlesnake/Rattlesnake_Tail</BodyExtendingTail>
 		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>[PAWN_nameDef]'s legs has fused into an elongated serpentine body and tail. At the end of the tail is a rattle that they can use when frightened.</description>
+				</values>
+			</li>
+		</stagePatches>
 	</Pawnmorph.Hediffs.MutationDef>
 </Defs>

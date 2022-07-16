@@ -19,6 +19,14 @@
 			<RightEar>Parts/AridShrubland/Coyote/Coyote_Ear_Right</RightEar>
 			<RightEarBehindHead>Parts/None/None</RightEarBehindHead>
 		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>A perked, pointed ear sit atop [PAWN_nameDef]'s head, keenly listening for every sound.</description>
+				</values>
+			</li>
+		</stagePatches>
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="WolfTailPart">
@@ -28,6 +36,14 @@
 		<graphics>
 			<Tail>Parts/AridShrubland/Coyote/Coyote_Tail</Tail>
 		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>From the end of [PAWN_nameDef]'s spine a fluffy tail has emerged. It helps communicating [PAWN_nameDef]'s mood, regardless of whether they want it to.</description>
+				</values>
+			</li>
+		</stagePatches>
 	</Pawnmorph.Hediffs.MutationDef>
 	
 </Defs>

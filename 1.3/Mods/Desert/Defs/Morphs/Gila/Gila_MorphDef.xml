@@ -2,7 +2,7 @@
 	<Pawnmorph.MorphDef ParentName="LacertiliaMorph">
 		<defName>PME_GilaMorph</defName>
 		<label>gilamorph</label>
-		<description>TODO Gila</description>
+		<description>In addition to an attractive colouring the Gila Monstermorph has a painful, toxic bite capable of incapacitating an enemy many times its size.</description>
 		<race>AEXP_GilaMonster</race>
 		<categories>
 			<li>Arid</li>

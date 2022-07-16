@@ -1,52 +1,42 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/ThoughtDef.xsd">
 	<ThoughtDef ParentName="OutlookMemoryBase">
-		<defName>PME_CheetahTransformationMemory</defName>
+		<defName>PME_CoyoteTransformationMemory</defName>
         <stages>
             <li>
                 <label>morphed</label>
-                <description>Well I suppose this could be useful at least.</description>
+                <description>I really want to talk....like a lot.</description>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>
             <li>
                 <label>morphed</label>
-                <description>I can already feel the thrill of the chase!</description>
+                <description>I can't wait to share all the important things I have to say!</description>
                 <baseMoodEffect>+3</baseMoodEffect>
             </li>
             <li>
                 <label>morphed</label>
-                <description>What's speed good for when all I want to do is lay around all day?</description>
+                <description>Even I don't want to hear myself talk any longer...</description>
                 <baseMoodEffect>-5</baseMoodEffect>
-            </li>
-            <li>
-                <label>morphed</label>
-                <description>I feel the need, the need for speed!</description>
-                <baseMoodEffect>+1</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
 	
     <ThoughtDef ParentName="OutlookMemoryBase">
-		<defName>PME_CheetahRevertedMemory</defName>
+		<defName>PME_CoyoteRevertedMemory</defName>
         <stages>
             <li>
                 <label>reverted</label>
-                <description>Ok. Time to move at a regular pace.</description>
+                <description>Having that keen a sense of smell wasn't always a blessing.</description>
                 <baseMoodEffect>3</baseMoodEffect>
             </li>
             <li>
                 <label>reverted</label>
-                <description>Compared to what I had everything feels so slow and sluggish! </description>
+                <description>I got a permanent tongue tie...</description>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>
             <li>
                 <label>reverted</label>
-                <description>Back to how I'm supposed to be!</description>
+                <description>Peace and quiet at last!</description>
                 <baseMoodEffect>10</baseMoodEffect>
-            </li>
-            <li>
-                <label>reverted</label>
-                <description>But I wanted to go fast!</description>
-				<baseMoodEffect>-5</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>

@@ -2,7 +2,7 @@
 	<Pawnmorph.MorphDef ParentName="ThickHideMorph">
 		<defName>PME_HippopotamusMorph</defName>
 		<label>hippopotamusmorph</label>
-		<description>TODO Hippopotamus</description>
+		<description>While they might look cute Hippomorphs are vicious fighters, capable of disembowling anything with their teeth and mean temper. Don't get on their bad side.</description>
 		<race>AEXP_Hippopotamus</race>
 		<fullTransformation>PME_HippopotamusTF</fullTransformation>
 		<partialTransformation>PME_HippopotamusTFPartial</partialTransformation>

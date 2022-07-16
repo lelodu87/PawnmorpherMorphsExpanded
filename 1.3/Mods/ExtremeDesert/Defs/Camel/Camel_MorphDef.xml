@@ -2,7 +2,7 @@
 	<Pawnmorph.MorphDef ParentName="CamelidMorph">
 		<defName>PME_CamelMorph</defName>
 		<label>camelmorph</label>
-		<description>TODO Camel</description>
+		<description>Camelmorphs can survive even the most extreme desert with ease. While they might look silly, their hooves can deliver a mean punch if brought to it. But no responsible person would let that happen.</description>
 		<race>AEXP_Camel</race>
 		<categories>
 			<li>Arid</li>
