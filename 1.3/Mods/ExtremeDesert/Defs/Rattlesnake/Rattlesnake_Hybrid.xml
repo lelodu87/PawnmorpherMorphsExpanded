@@ -132,7 +132,7 @@
 							<layerInvert>false</layerInvert>
 							<drawnInBed>false</drawnInBed>
 							<hediffGraphics>
-								<EtherSnakeTail>Parts/ExtremeDesert/Rattlesnake/Rattlesnake_Tail</EtherSnakeTail>
+								<PME_RattlesnakeTail>Parts/ExtremeDesert/Rattlesnake/Rattlesnake_Tail</PME_RattlesnakeTail>
 							</hediffGraphics>
 							<offsets>
 								<south/>

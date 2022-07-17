@@ -17,7 +17,7 @@
 			<explicitHybridRace>PMEA_RattlesnakeMorph</explicitHybridRace>
 			<transferHumanBodyAddons>false</transferHumanBodyAddons>
 			<requiredMutations>
-				<li>EtherSnakeTail</li>
+				<li>PME_RattlesnakeTail</li>
 			</requiredMutations>
 		</raceSettings>
 		<transformSettings>
