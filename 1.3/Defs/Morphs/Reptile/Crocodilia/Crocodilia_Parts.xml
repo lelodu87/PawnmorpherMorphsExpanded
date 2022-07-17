@@ -1,5 +1,6 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 	<Pawnmorph.Hediffs.MutationDef Name ="CrocodiliaJawPart" ParentName="ReptileJawPart" Abstract="true">
+		<mutationMemory>PME_CrocodiliaSnout</mutationMemory>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
@@ -121,6 +122,7 @@
 	</Pawnmorph.Hediffs.MutationDef>
 	
 	<Pawnmorph.Hediffs.MutationDef Name ="CrocodiliaTailPart" ParentName="ReptileTailPart" Abstract="true">
+		<mutationMemory>PME_CrocodiliaTail</mutationMemory>
 		<stagePatches>
 			<li function="modify">
 				<stageKey>growing</stageKey>

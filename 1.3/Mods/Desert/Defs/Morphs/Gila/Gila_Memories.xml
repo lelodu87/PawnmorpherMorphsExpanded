@@ -41,4 +41,29 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName="OutlookMemoryBase">
+		<durationDays>1</durationDays>
+		<defName>PME_GilaSnout</defName>
+		<stages>
+			<li>
+				<label>Gila snout</label>
+				<description>Does this bring out my smile more?</description>
+				<visible>true</visible>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Gila snout</label>
+				<description>Look at this, cheekbones to die for!!</description>
+				<visible>true</visible>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>Gila snout</label>
+				<description>Ugh even I can smell my breath now…</description>
+				<visible>true</visible>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

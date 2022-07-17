@@ -15,8 +15,8 @@
 			</graphicsSettings>
 		</raceSettings>
 		<transformSettings>
-			<transformationMemory>PME_CrocodileTransformationMemory</transformationMemory>
-			<revertedMemory>PME_CrocodileRevertedMemory</revertedMemory>
+			<transformationMemory>PME_CrocodiliaTransformationMemory</transformationMemory>
+			<revertedMemory>PME_CrocodiliaRevertedMemory</revertedMemory>
 		</transformSettings>
 	</Pawnmorph.MorphDef>
 </Defs>

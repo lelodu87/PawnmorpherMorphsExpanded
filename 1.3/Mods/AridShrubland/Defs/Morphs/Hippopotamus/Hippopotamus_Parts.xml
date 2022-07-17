@@ -7,6 +7,7 @@
 			<MuzzleMale>Parts/AridShrubland/Hippopotamus/Hippo_Muzzle_Male</MuzzleMale>
 			<MuzzleFemale>Parts/AridShrubland/Hippopotamus/Hippo_Muzzle_Female</MuzzleFemale>
 		</graphics>
+		<mutationMemory>PME_HippopotamusSnout</mutationMemory>
 		<stagePatches>
 			<li function="modify">
 				<stageKey>adapting</stageKey>
@@ -39,6 +40,7 @@
 			<RightEar>Parts/AridShrubland/Hippopotamus/Hippo_Ear_Right</RightEar>
 			<RightEarBehindHead>Parts/None/None</RightEarBehindHead>
 		</graphics>
+		<mutationMemory>PME_HippopotamusEar</mutationMemory>
 		<stagePatches>
 			<li function="modify">
 				<stageKey>grown</stageKey>
@@ -56,6 +58,7 @@
 		<graphics>
 			<Tail>Parts/AridShrubland/Hippopotamus/Hippo_Tail</Tail>
 		</graphics>
+		<mutationMemory>PME_HippopotamusTail</mutationMemory>
 		<stagePatches>
 			<li function="modify">
 				<stageKey>grown</stageKey>

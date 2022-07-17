@@ -7,6 +7,7 @@
 			<MuzzleMale>Parts/AridShrubland/Coyote/Coyote_Muzzle_Male</MuzzleMale>
 			<MuzzleFemale>Parts/AridShrubland/Coyote/Coyote_Muzzle_Female</MuzzleFemale>
 		</graphics>
+		<mutationMemory>PME_CoyoteMuzzle</mutationMemory>
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="WolfEarPart">
@@ -27,6 +28,7 @@
 				</values>
 			</li>
 		</stagePatches>
+		<mutationMemory>PME_CoyoteEar</mutationMemory>
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="WolfTailPart">
@@ -44,6 +46,7 @@
 				</values>
 			</li>
 		</stagePatches>
+		<mutationMemory>PME_CoyoteTail</mutationMemory>
 	</Pawnmorph.Hediffs.MutationDef>
 	
 </Defs>

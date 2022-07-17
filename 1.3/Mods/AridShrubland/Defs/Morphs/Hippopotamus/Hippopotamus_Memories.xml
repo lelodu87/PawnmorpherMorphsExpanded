@@ -47,24 +47,49 @@
         <stages>
             <li>
                 <label>hippopotamus snout</label>
-                <description>TODO Hippopotamus</description>
+                <description>They always said I had a big mouth...</description>
                 <visible>true</visible>
                 <baseMoodEffect>-1</baseMoodEffect>
             </li>
             <li>
                 <label>hippopotamus snout</label>
-                <description>TODO Hippopotamus</description>
+                <description>Haha! I'm a killing machine!</description>
                 <visible>true</visible>
                 <baseMoodEffect>2</baseMoodEffect>
             </li>
             <li>
                 <label>hippopotamus snout</label>
-                <description>TODO Hippopotamus</description>
+                <description>Does my dental plan cover this?</description>
                 <visible>true</visible>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
+	
+	<ThoughtDef ParentName="OutlookMemoryBase">
+		<durationDays>1</durationDays>
+		<defName>PME_HippopotamusEar</defName>
+		<stages>
+			<li>
+				<label>Hippopotamus ears</label>
+				<description>At least it's waterproof.</description>
+				<visible>true</visible>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Hippopotamus ears</label>
+				<description>Waterproof AND adorable!</description>
+				<visible>true</visible>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Hippopotamus ears</label>
+				<description>This day couldn't possibly get any worse...</description>
+				<visible>true</visible>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 	
     <ThoughtDef ParentName="OutlookMemoryBase">
         <durationDays>1</durationDays>
@@ -72,19 +97,19 @@
         <stages>
             <li>
                 <label>Hippopotamus tail</label>
-                <description>TODO Hippopotamus</description>
+                <description>I forgot what the purpose of a hippo's tail was...</description>
                 <visible>true</visible>
                 <baseMoodEffect>-1</baseMoodEffect>
             </li>
             <li>
                 <label>Hippopotamus tail</label>
-                <description>TODO Hippopotamus</description>
+                <description>Why, it complements the rest of me perfectly!</description>
                 <visible>true</visible>
                 <baseMoodEffect>1</baseMoodEffect>
             </li>
             <li>
                 <label>Hippopotamus tail</label>
-                <description>TODO Hippopotamus</description>
+                <description>Why does it want to wag when I go to the bathroom?!</description>
                 <visible>true</visible>
                 <baseMoodEffect>-2</baseMoodEffect>
             </li>

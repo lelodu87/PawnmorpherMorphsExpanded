@@ -41,4 +41,79 @@
         </stages>
     </ThoughtDef>
 	
+	<ThoughtDef ParentName="OutlookMemoryBase">
+        <durationDays>1</durationDays>
+        <defName>PME_CoyoteMuzzle</defName>
+        <stages>
+            <li>
+                <label>Coyote snout</label>
+                <description>So many new smells...is that bacon?</description>
+                <visible>true</visible>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Coyote snout</label>
+                <description>I think I can smell a road runner already!</description>
+                <visible>true</visible>
+                <baseMoodEffect>2</baseMoodEffect>
+            </li>
+            <li>
+                <label>Coyote snout</label>
+                <description>Please get this horrible animal appendage off my face!</description>
+                <visible>true</visible>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+    <ThoughtDef ParentName="OutlookMemoryBase">
+        <durationDays>1</durationDays>
+        <defName>PME_CoyoteEar</defName>
+        <stages>
+            <li>
+                <label>Coyote ears</label>
+                <description>I think I can hear a road runner...</description>
+                <visible>true</visible>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Coyote ears</label>
+                <description>I'll catch that big bird with these for sure!</description>
+                <visible>true</visible>
+                <baseMoodEffect>1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Coyote ears</label>
+                <description>What was wrong with some silence for once?!</description>
+                <visible>true</visible>
+                <baseMoodEffect>-2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+    <ThoughtDef ParentName="OutlookMemoryBase">
+        <durationDays>1</durationDays>
+        <defName>PME_CoyoteTail</defName>
+        <stages>
+            <li>
+                <label>Coyote tail</label>
+                <description>It sure is very fluffy!</description>
+                <visible>true</visible>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Coyote tail</label>
+                <description>It's SO fluffy!</description>
+                <visible>true</visible>
+                <baseMoodEffect>1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Coyote tail</label>
+                <description>Now everyone will think I'm one of THOSE PEOPLE.</description>
+                <visible>true</visible>
+                <baseMoodEffect>-2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
 </Defs>
