@@ -10,8 +10,10 @@
 		<fullTransformation>PME_LionTF</fullTransformation>
 		<partialTransformation>PME_LionTFPartial</partialTransformation>
 		<raceSettings>
-			<graphicsSettings> <!-- Male : (185,143,96) -->
+			<graphicsSettings>
 				<skinColorOverride>(214,184,139)</skinColorOverride>
+				<hairColorOverride>(49,33,16)</hairColorOverride>
+				<femaleHairColorOverride>(214,184,139)</femaleHairColorOverride>
 			</graphicsSettings>
 		</raceSettings>
 		<transformSettings>
