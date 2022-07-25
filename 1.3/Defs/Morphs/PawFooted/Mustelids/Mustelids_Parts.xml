@@ -169,7 +169,7 @@
 	
 	<!-- Overactive adrenal gland -->
 	
-	<Pawnmorph.Hediffs.MutationDef ParentName ="PawnmorphGenericOrganPart">
+	<!-- <Pawnmorph.Hediffs.MutationDef ParentName ="PawnmorphGenericOrganPart">
 		<description>The adrenal gland of the kidney is producing more adrenaline than normal.</description>
 		<defName>PME_AdrenalGlands</defName>
 		<classInfluence>Mustelids</classInfluence>
@@ -213,6 +213,6 @@
 				</statOffsets>
 			</li>
 		</stages>
-	</Pawnmorph.Hediffs.MutationDef>
+	</Pawnmorph.Hediffs.MutationDef> -->
 	
 </Defs>

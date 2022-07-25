@@ -71,7 +71,7 @@
 	
 	<!-- Insulating blubber -->
 		
-	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphSkinBasePart" Name="BlubberLimb">
+	<!-- <Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphSkinBasePart" Name="BlubberLimb">
 		<defName>PME_BlubberLimb</defName>
 		<label>blubber</label>
 		<classInfluence>Pinniped</classInfluence>
@@ -128,5 +128,5 @@
 				</values>
 			</li>
 		</stagePatches>
-	</Pawnmorph.Hediffs.MutationDef>
+	</Pawnmorph.Hediffs.MutationDef> -->
 </Defs>
