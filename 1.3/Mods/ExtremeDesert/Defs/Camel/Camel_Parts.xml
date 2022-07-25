@@ -30,7 +30,7 @@
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="CamelidEarPart">
 		<classInfluence>PME_CamelMorph</classInfluence>
-		<defName>PME_EtherCamelEar</defName>
+		<defName>PME_CamelEar</defName>
 		<label>camel ear</label>
 		<graphics>
 			<LeftEar>Parts/ExtremeDesert/Camel/Camel_Ear_Left</LeftEar>

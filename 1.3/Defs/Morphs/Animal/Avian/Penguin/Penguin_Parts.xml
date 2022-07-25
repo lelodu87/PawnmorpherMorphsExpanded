@@ -72,7 +72,7 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphArmPart">
-		<defName>EtherFlipperWing</defName>
+		<defName>PME_FlipperWing</defName>
 		<label>flipper</label>
 		<description>A flipper.</description>
 		<classInfluence>Penguin</classInfluence>
@@ -109,7 +109,7 @@
 		<comps>
 			<li Class="Pawnmorph.Hediffs.CompProperties_MutationDependency">
 				<mutationDependency>
-					<hediff>EtherWingTip</hediff>
+					<hediff>PME_WingTip</hediff>
 					<mtbDays>3</mtbDays>
 					<chance>5</chance>
 					<partsToAffect>
@@ -126,7 +126,7 @@
 	<!-- Insulating Feathers -->
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="AbstractFeatheredLimb" Name="InsulatingFeatheredLimb">
-		<defName>EtherInsulatingFeatheredLimb</defName>
+		<defName>PME_InsulatingFeatheredLimb</defName>
 		<label>insulating feathers</label>
 		<classInfluence>Penguin</classInfluence>
 		<stagePatches>

@@ -146,7 +146,7 @@
 	<!-- Crocodilia scales -->
 	
 	<Pawnmorph.Hediffs.MutationDef ParentName="AbstractScaledLimb" Name="CrocodiliaScaledLimb">
-		<defName>EtherCrocodiliaScaledLimb</defName>
+		<defName>PME_CrocodiliaScaledLimb</defName>
 		<label>crocodilia scales</label>
 		<classInfluence>Crocodilia</classInfluence>
 		<mutationLogRulePack>ScaleGrowthLogPack</mutationLogRulePack>

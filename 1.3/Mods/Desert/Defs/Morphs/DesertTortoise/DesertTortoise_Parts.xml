@@ -26,7 +26,7 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName ="PawnmorphShell">
-		<defName>EtherDesertTortoiseShell</defName>
+		<defName>PME_DesertTortoiseShell</defName>
 		<classInfluences>
 			<li>PME_DesertTortoiseMorph</li>
 		</classInfluences>

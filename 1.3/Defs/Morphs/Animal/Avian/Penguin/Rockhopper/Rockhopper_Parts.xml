@@ -1,6 +1,6 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 	<!--Pawnmorph.Hediffs.MutationDef ParentName="PenguinJawPart" Abstract="true">
-		<defName>EtherRockhopperBeak</defName>
+		<defName>PME_RockhopperBeak</defName>
 		<classInfluence>RockhopperMorph</classInfluence>
 		<label>rockhopper beak</label>
 		<graphics>
@@ -29,13 +29,13 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="PenguinEarPart" Abstract="true">
-		<defName>EtherRockhopperEar</defName>
+		<defName>PME_RockhopperEar</defName>
 		<classInfluence>RockhopperMorph</classInfluence>
 		<label>rockhopper earhole</label>
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="PenguinTailPart" Abstract="true">
-		<defName>EtherRockhopperTail</defName>
+		<defName>PME_rRockhopperTail</defName>
 		<classInfluence>RockhopperMorph</classInfluence>
 		<label>rockhopper tailfeathers</label>
 	</Pawnmorph.Hediffs.MutationDef-->

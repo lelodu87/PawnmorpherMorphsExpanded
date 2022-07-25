@@ -47,7 +47,7 @@
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="WildBovidHornPart">
-		<defName>EtherWildebeestHorns</defName>
+		<defName>PME_WildebeestHorns</defName>
 		<classInfluence>PME_WildebeestMorph</classInfluence>
 		<label>horns</label>
 		<description>A pair of wildebeest horns.</description>
