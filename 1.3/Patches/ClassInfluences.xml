@@ -18,6 +18,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/Pawnmorph.Hediffs.MutationDef[defName="EtherToughTorso"]/classInfluences</xpath>
 				<value>
+					<li>PME_AnacondaMorph</li>
 					<li>Crocodilia</li>
 				</value>
 			</li>
