@@ -142,14 +142,14 @@
 			</li>
 		</stagePatches>
 	</Pawnmorph.Hediffs.MutationDef>
-	
-	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphHandPart">
-		<defName>EtherDelicatePaw</defName>
+
+	<!-- <Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphHandPart">
+		<defName>PME_DelicatePaw</defName>
 		<label>delicate paw</label>
 		<description>a small delicate paw.</description>
 		<classInfluence>Quilled</classInfluence>
-		<!-- <mutationTale>TODO</mutationTale>
-		<mutationMemory>TODO</mutationMemory> -->
+		 <mutationTale>TODO</mutationTale>
+		<mutationMemory>TODO</mutationMemory>
 		<stagePatches>
 			<li function="modify">
 				<stageKey>readjusting</stageKey>
@@ -201,13 +201,13 @@
 				</values>
 			</li>
 		</stagePatches>
-	</Pawnmorph.Hediffs.MutationDef>
+	</Pawnmorph.Hediffs.MutationDef>  -->
 	
 	<!-- Quills -->
 
-	<Pawnmorph.Hediffs.MutationDef ParentName ="PawnmorphGenericTorsoPart">
+	<!-- <Pawnmorph.Hediffs.MutationDef ParentName ="PawnmorphGenericTorsoPart">
 		<description>A torso with many quills. They're sharp and detatch when they jab into someone.</description>
-		<defName>EtherQuills</defName>
+		<defName>PME_Quills</defName>
 		<classInfluence>Quilled</classInfluence>
 		<label>quills</label>
 		<stagePatches>
@@ -239,6 +239,6 @@
 				</values>
 			</li>
 		</stagePatches>
-	</Pawnmorph.Hediffs.MutationDef>
-	
+	</Pawnmorph.Hediffs.MutationDef>  -->
+
 </Defs>

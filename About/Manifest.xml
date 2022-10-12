@@ -1,0 +1,14 @@
+﻿<Manifest>
+	<identifier>Pawnmorpher: Expanded</identifier>
+	<version>1.0</version>
+	<dependencies>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>UnlimitedHugs.HugsLib</li>
+		<li>tachyonite.pawnmorpherpublic</li>
+	</dependencies>
+	<incompatibleWith>
+		<li>killface.facialstuff</li>
+		<li>changedresser.kv.rw</li>
+		<li>edb.preparecarefully</li>
+	</incompatibleWith>
+</Manifest>

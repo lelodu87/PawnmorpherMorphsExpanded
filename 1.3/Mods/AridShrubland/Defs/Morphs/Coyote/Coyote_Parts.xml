@@ -1,0 +1,52 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef ParentName="WolfJawBase">
+		<classInfluence>PME_CoyoteMorph</classInfluence>
+		<defName>PME_CoyoteJaw</defName>
+		<label>coyote muzzle</label>
+		<graphics>
+			<MuzzleMale>Parts/AridShrubland/Coyote/Coyote_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/AridShrubland/Coyote/Coyote_Muzzle_Female</MuzzleFemale>
+		</graphics>
+		<mutationMemory>PME_CoyoteMuzzle</mutationMemory>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="WolfEarPart">
+		<classInfluence>PME_CoyoteMorph</classInfluence>
+		<defName>PME_CoyoteEar</defName>
+		<label>coyote ear</label>
+		<graphics>
+			<LeftEar>Parts/AridShrubland/Coyote/Coyote_Ear_Left</LeftEar>
+			<LeftEarBehind>Parts/None/None</LeftEarBehind>
+			<RightEar>Parts/AridShrubland/Coyote/Coyote_Ear_Right</RightEar>
+			<RightEarBehindHead>Parts/None/None</RightEarBehindHead>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>A perked, pointed ear sit atop [PAWN_nameDef]'s head, keenly listening for every sound.</description>
+				</values>
+			</li>
+		</stagePatches>
+		<mutationMemory>PME_CoyoteEar</mutationMemory>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="WolfTailPart">
+		<classInfluence>PME_CoyoteMorph</classInfluence>
+		<defName>PME_CoyoteTail</defName>
+		<label>coyote tail</label>
+		<graphics>
+			<Tail>Parts/AridShrubland/Coyote/Coyote_Tail</Tail>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>From the end of [PAWN_nameDef]'s spine a fluffy tail has emerged. It helps communicating [PAWN_nameDef]'s mood, regardless of whether they want it to.</description>
+				</values>
+			</li>
+		</stagePatches>
+		<mutationMemory>PME_CoyoteTail</mutationMemory>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+</Defs>
