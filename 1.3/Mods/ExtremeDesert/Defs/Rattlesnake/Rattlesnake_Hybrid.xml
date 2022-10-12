@@ -102,27 +102,27 @@
 						<li>Narrow_Pointy</li>
 						<li>Narrow_Wide</li>
 					</aliencrowntypes>
-					<colorChannels Inherit="False">
-					<BodyAddons>
-						<li>
-						    	<name>skin</name>
-                                 			<first Class="ColorGenerator_Single">
-                              					<color>RGBA(216, 195, 162, 255)</color>
-                            				</first>
-                            				<second Class="ColorGenerator_Single">
-                                				<color>RGBA(216, 195, 162, 255)</color>
-                            				</second>
-						</li>
-						<li>
-							<name>hair</name>
-                            				<first Class="ColorGenerator_Single">
-                                				<color>RGBA(0, 0, 0, 255)</color>
-                            				</first>
-					    		<second Class="ColorGenerator_Single">
-								<color>RGBA(0, 0, 0, 255)</color>
-					    		</second>
-						</li>
-					</colorChannels>
+					<bodyAddons>
+						<colorChannels Inherit="False">
+								<li>
+						    		<name>skin</name>
+                                 				<first Class="ColorGenerator_Single">
+                              						<color>RGBA(216, 195, 162, 255)</color>
+                            					</first>
+                            					<second Class="ColorGenerator_Single">
+                                					<color>RGBA(216, 195, 162, 255)</color>
+                            					</second>
+							</li>
+							<li>
+								<name>hair</name>
+                            					<first Class="ColorGenerator_Single">
+                                					<color>RGBA(0, 0, 0, 255)</color>
+                            					</first>
+					    			<second Class="ColorGenerator_Single">
+									<color>RGBA(0, 0, 0, 255)</color>
+					    			</second>
+							</li>
+						</colorChannels>
 						<li>
 							<!-- Body Tails -->
 							<path>Parts/None/None</path>
