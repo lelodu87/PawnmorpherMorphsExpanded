@@ -1,0 +1,88 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef ParentName="WildBovidJawPart">
+		<classInfluence>PME_WildebeestMorph</classInfluence>
+		<defName>PME_WildebeestJaw</defName>
+		<label>wildebeest snout</label>
+		<graphics>
+			<MuzzleMale>Parts/AridShrubland/Wildebeest/Wildebeest_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/AridShrubland/Wildebeest/Wildebeest_Muzzle_Female</MuzzleFemale>
+		</graphics>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+		<Pawnmorph.Hediffs.MutationDef ParentName="WildBovidEarPart">
+		<classInfluence>PME_WildebeestMorph</classInfluence>
+		<defName>PME_WildebeestEar</defName>
+		<label>wildebeest ear</label>
+		<graphics>
+			<LeftEar>Parts/AridShrubland/Wildebeest/Wildebeest_Ear_Left</LeftEar>
+			<LeftEarBehind>Parts/None/None</LeftEarBehind>
+			<RightEar>Parts/AridShrubland/Wildebeest/Wildebeest_Ear_Right</RightEar>
+			<RightEarBehindHead>Parts/None/None</RightEarBehindHead>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>A rounded, bovine ear has grown out the side of [PAWN_nameDef]'s head. Because it's able to rotate it hears slightly better than a human, but is mostly decorative.</description>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="WildBovidTailPart">
+		<classInfluence>PME_WildebeestMorph</classInfluence>
+		<defName>PME_WildebeestTail</defName>
+		<label>wildebeest tail</label>
+		<graphics>
+			<Tail>Parts/AridShrubland/Wildebeest/Wildebeest_Tail</Tail>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>[PAWN_nameDef]'s spine now ends in a thin tail decorated with long strands. Useful for whipping off flies but not much else.</description>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="WildBovidHornPart">
+		<defName>PME_WildebeestHorns</defName>
+		<classInfluence>PME_WildebeestMorph</classInfluence>
+		<label>horns</label>
+		<description>A pair of wildebeest horns.</description>
+		<graphics>
+			<Horns>Parts/AridShrubland/Wildebeest/Wildebeest_Horns_C</Horns>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>nubs</stageKey>
+				<values>
+					<graphics>
+						<Horns>Parts/AridShrubland/Wildebeest/Wildebeest_Horns_A</Horns>
+					</graphics>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>short</stageKey>
+				<values>
+					<description>Curved horns decorate [PAWN_nameDef]'s head, which can easily be used to stab and puncture anyone foolish enough to tussle with [PAWN_nameDef]. They have grown larger, but still have a little more growing to do.</description>
+					<graphics>
+						<Horns>Parts/AridShrubland/Wildebeest/Wildebeest_Horns_B</Horns>
+					</graphics>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>horns</stageKey>
+				<values>
+					<description>Two short horns grow from the sides of [PAWN_nameDef]'s head. They're sharp and dangerous to get near if [PAWN_nameDef] happened to be in a bad mood.</description>
+					<graphics>
+						<Horns>Parts/AridShrubland/Wildebeest/Wildebeest_Horns_C</Horns>
+					</graphics>
+				</values>
+			</li>
+		</stagePatches>
+	
+	</Pawnmorph.Hediffs.MutationDef>
+	
+</Defs>
