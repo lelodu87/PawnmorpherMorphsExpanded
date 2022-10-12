@@ -1,0 +1,28 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="OphidiaMorph">
+		<defName>PME_AnacondaMorph</defName>
+		<label>anacondamorph</label>
+		<description>TODO</description>
+		<race>AEXP_Anaconda</race>
+		<categories>
+			<li>Tropical</li>
+		</categories>
+		<fullTransformation>PME_AnacondaTF</fullTransformation>
+		<partialTransformation>PME_AnacondaTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(76,76,27)</skinColorOverride>
+				<hairColorOverride>(0,0,0,0)</hairColorOverride>
+			</graphicsSettings>
+			<explicitHybridRace>PMEA_AnacondaMorph</explicitHybridRace>
+			<transferHumanBodyAddons>true</transferHumanBodyAddons>
+			<requiredMutations>
+				<li>PME_AnacondaTail</li>
+			</requiredMutations>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>PME_AnacondaTransformationMemory</transformationMemory>
+			<revertedMemory>PME_AnacondaRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>

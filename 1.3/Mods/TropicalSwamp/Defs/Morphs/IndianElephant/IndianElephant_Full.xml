@@ -1,9 +1,9 @@
-<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/ComposableHediffs.xsd">	
-	<HediffDef ParentName="NewAspectedMorphParent">
-		<defName>PMAE_AlligatorTF</defName>
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/ComposableHediffs.xsd">
+	<HediffDef ParentName="NewHerbavourMorphTfBase">
+		<defName>PMAE_IndianElephantTF</defName>
 		<hediffClass>Pawnmorph.Hediffs.Hediff_MutagenicBase</hediffClass>
-		<label>alligatormorph</label>
-		<description>This person has mechanites in their blood that are slowly mutating them into a alligatormorph. Keep an eye on them, as leaving the mechanites unattended could lead to them becoming far more hyenish than human. But would that really be so bad?</description>
+		<label>indianelephantmorph</label>
+		<description>This person has mechanites in their blood that are slowly mutating them into an indian elephantmorph. Keep an eye on them, as leaving the mechanites unattended could lead to them becoming larger than life.</description>
 		<stages>
 			<li Class="Pawnmorph.Hediffs.HediffStage_Transformation">
 				<label>reeling</label>
@@ -16,7 +16,7 @@
 					</li>
 				</capMods>
 				<tfTypes Class="Pawnmorph.Hediffs.Composable.TFTypes_Morph">
-					<morphDef>PMAE_AlligatorMorph</morphDef>
+					<morphDef>PMAE_IndianElephantMorph</morphDef>
 				</tfTypes>
 				<tfChance Class="Pawnmorph.Hediffs.Composable.TFChance_BySetting" />
 				<tfSettings>
@@ -29,6 +29,7 @@
 			<li Class="Pawnmorph.Hediffs.HediffStage_MutagenicBase">
 				<label>transforming</label>
 				<minSeverity>0.6</minSeverity>
+				<hungerRateFactor>3</hungerRateFactor>
 				<painOffset>0.1</painOffset>
 				<vomitMtbDays>1</vomitMtbDays>
 				<capMods>
@@ -50,6 +51,7 @@
 			<li Class="Pawnmorph.Hediffs.HediffStage_Mutation">
 				<label>changing</label>
 				<minSeverity>0.65</minSeverity>
+				<hungerRateFactor>3</hungerRateFactor>
 				<painOffset>0.1</painOffset>
 				<vomitMtbDays>1</vomitMtbDays>
 				<capMods>
@@ -67,7 +69,7 @@
 					</li>
 				</capMods>
 				<mutationTypes Class="Pawnmorph.Hediffs.Composable.MutTypes_Morph">
-					<morphDef>PMAE_AlligatorMorph</morphDef>
+					<morphDef>PMAE_IndianElephantMorph</morphDef>
 				</mutationTypes>
 				<mutationRate Class="Pawnmorph.Hediffs.Composable.MutRate_MutationsPerDay">
 					<meanMutationsPerDay>5</meanMutationsPerDay>

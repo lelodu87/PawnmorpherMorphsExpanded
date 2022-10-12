@@ -1,10 +1,11 @@
-<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">	<Pawnmorph.Hediffs.MutationDef ParentName="CrocodiliaJawPart">
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">	
+	<Pawnmorph.Hediffs.MutationDef ParentName="CrocodiliaJawPart">
 		<classInfluence>PMAE_AlligatorMorph</classInfluence>
 		<defName>PMAE_AlligatorJaw</defName>
 		<label>alligator snout</label>
 		<graphics>
-			<MuzzleMale>Parts/Alligator/Alligator_Muzzle_Male</MuzzleMale>
-			<MuzzleFemale>Parts/Alligator/Alligator_Muzzle_Female</MuzzleFemale>
+			<MuzzleMale>Parts/TropicalSwamp/Alligator/Alligator_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/TropicalSwamp/Alligator/Alligator_Muzzle_Female</MuzzleFemale>
 		</graphics>
 		<stagePatches>
 			<li function="modify">
@@ -33,7 +34,7 @@
 		<defName>PMAE_AlligatorTail</defName>
 		<label>alligator tail</label>
 		<graphics>
-			<Tail>Parts/Alligator/Alligator_Tail</Tail>
+			<Tail>Parts/TropicalSwamp/Alligator/Alligator_Tail</Tail>
 		</graphics>
 		<stagePatches>
 			<li function="modify">
