@@ -15,7 +15,7 @@
 				<hairColorOverride>(0,0,0,0)</hairColorOverride>
 			</graphicsSettings>
 			<explicitHybridRace>PMEA_RattlesnakeMorph</explicitHybridRace>
-			<transferHumanBodyAddons>false</transferHumanBodyAddons>
+			<transferHumanBodyAddons>true</transferHumanBodyAddons>
 			<requiredMutations>
 				<li>PME_RattlesnakeTail</li>
 			</requiredMutations>
