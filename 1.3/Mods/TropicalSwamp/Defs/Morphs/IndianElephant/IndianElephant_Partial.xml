@@ -1,6 +1,6 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/ComposableHediffs.xsd">
 	<HediffDef ParentName="NewPartialAspectedMorphParent">
-		<defName>PMAE_IndianElepehantTFPartial</defName>
+		<defName>PMAE_IndianElephantTFPartial</defName>
 		<label>indianelephantmorph partial</label>
 		<description>This person has mechanites in their blood that are providing them with indian elephant-esque mutations.</description>
 		<stages>
