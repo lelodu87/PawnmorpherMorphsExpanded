@@ -1,0 +1,22 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">	
+	<Pawnmorph.MorphDef ParentName="CrocodiliaMorph">
+		<defName>PMAE_AlligatorMorph</defName>
+		<label>alligatormorph</label>
+		<description>TODO Alligator</description>
+		<race>AEXP_Alligator</race>
+		<categories>
+			<li>Tropical</li>
+		</categories>
+		<fullTransformation>PMAE_AlligatorTF</fullTransformation>
+		<partialTransformation>PMAE_AlligatorTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(67,78,98)</skinColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>PMAE_AlligatorTransformationMemory</transformationMemory>
+			<revertedMemory>PMAE_AlligatorRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>

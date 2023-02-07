@@ -1,0 +1,23 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="LacertiliaMorph">
+		<defName>PME_GilaMorph</defName>
+		<label>gilamorph</label>
+		<description>In addition to an attractive colouring the Gila Monstermorph has a painful, toxic bite capable of incapacitating an enemy many times its size.</description>
+		<race>AEXP_GilaMonster</race>
+		<categories>
+			<li>Arid</li>
+		</categories>
+		<fullTransformation>PME_GilaTF</fullTransformation>
+		<partialTransformation>PME_GilaTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(51,51,51)</skinColorOverride>
+				<skinColorOverrideSecond>(255,116,38)</skinColorOverrideSecond>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>PME_GilaTransformationMemory</transformationMemory>
+			<revertedMemory>PME_GilaRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>

@@ -1,0 +1,132 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef Name ="PinnipedJawPart" ParentName="AnimalJawPart" Abstract="true">
+		<stagePatches>
+			<li function="modify">
+				<stageKey>pressing</stageKey>
+				<values>
+					<graphics>
+						<Muzzle>Parts/Partials/PartialMuzzle/TinyMuzzle</Muzzle>
+					</graphics>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>growing</stageKey>
+				<values>
+					<graphics>
+						<Muzzle>Parts/Partials/PartialMuzzle/PartialMuzzle</Muzzle>
+					</graphics>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>adapting</stageKey>
+				<values>
+					<statOffsets>
+						<MeleeArmorPenetration>0.1</MeleeArmorPenetration>
+					</statOffsets>
+					<capMods>
+						<li>
+							<capacity>Talking</capacity>
+							<offset>-0.2</offset>
+						</li>
+					</capMods>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>adapted</stageKey>
+				<values>
+					<statOffsets>
+						<MeleeArmorPenetration>0.2</MeleeArmorPenetration>
+					</statOffsets>
+					<capMods>
+						<li>
+							<capacity>Talking</capacity>
+							<offset>-0.1</offset>
+						</li>
+						<li>
+							<capacity>Eating</capacity>
+							<offset>0.2</offset>
+						</li>
+					</capMods>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>paragon</stageKey>
+				<values>
+					<statOffsets>
+						<MeleeArmorPenetration>0.25</MeleeArmorPenetration>
+					</statOffsets>
+					<capMods>
+						<li>
+							<capacity>Eating</capacity>
+							<offset>0.3</offset>
+						</li>
+					</capMods>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef Name ="PinnipedTailPart" ParentName="AnimalTailPart" Abstract="true">
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	<!-- Insulating blubber -->
+		
+	<!-- <Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphSkinBasePart" Name="BlubberLimb">
+		<defName>PME_BlubberLimb</defName>
+		<label>blubber</label>
+		<classInfluence>Pinniped</classInfluence>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>light</stageKey>
+				<values>
+					<label>heavier</label>
+					<description>[PAWN_nameDef]'s limb seems to be getting a little bit chubbier, and slight patches of silky hair are growing in patches.</description>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>dusting</stageKey>
+				<values>
+					<label>insulated</label>
+					<description>This part is swelling with a thin layer of insulating blubber, and the silky fur is spreading further over the limb.</description>
+					<statOffsets>
+						<ComfyTemperatureMin>-1.75</ComfyTemperatureMin>
+						<ComfyTemperatureMax>-0.375</ComfyTemperatureMax>
+					</statOffsets>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>thin</stageKey>
+				<values>
+					<label>insulating fat</label>
+					<description>The fat is growing heavier still, a thicker layer of blubber helping to insulate [PAWN_nameDef], and smooth, silky fur has spread over most of the limb.</description>
+					<statOffsets>
+						<ComfyTemperatureMin>-3.5</ComfyTemperatureMin>
+						<ComfyTemperatureMax>-0.75</ComfyTemperatureMax>
+					</statOffsets>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>patches</stageKey>
+				<values>
+					<label>blubber</label>
+					<description>This part has grown rather heavy with insulating blubber, and a smooth coat of silky fur coats it with a glossy sheen.</description>
+					<statOffsets>
+						<ComfyTemperatureMin>-5.25</ComfyTemperatureMin>
+						<ComfyTemperatureMax>-1.125</ComfyTemperatureMax>
+					</statOffsets>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>full</stageKey>
+				<values>
+					<label>insulating blubber</label>
+					<description>This part has grown rather heavy with a thick layer of insulating blubber, and a smooth coat of silky fur coats it with a glossy sheen. They're not fat, just big-boned.</description>
+					<statOffsets>
+						<ComfyTemperatureMin>-7</ComfyTemperatureMin>
+						<ComfyTemperatureMax>-1.5</ComfyTemperatureMax>
+					</statOffsets>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef> -->
+</Defs>

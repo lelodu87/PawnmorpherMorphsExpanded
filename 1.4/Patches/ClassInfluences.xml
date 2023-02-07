@@ -1,0 +1,27 @@
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/Pawnmorph.Hediffs.MutationDef[defName="EtherEarHole"]/classInfluences</xpath>
+				<value>
+					<li>Pinniped</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/Pawnmorph.Hediffs.MutationDef[defName="EtherThickArm"]/classInfluences</xpath>
+				<value>
+					<li>Ape</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/Pawnmorph.Hediffs.MutationDef[defName="EtherToughTorso"]/classInfluences</xpath>
+				<value>
+					<li>PME_AnacondaMorph</li>
+					<li>Crocodilia</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

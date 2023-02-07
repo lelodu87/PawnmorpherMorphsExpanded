@@ -1,0 +1,70 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef ParentName="PantherineJawPart">
+		<classInfluence>PME_LionMorph</classInfluence>
+		<defName>PME_LionMuzzle</defName>
+		<label>lion muzzle</label>
+		<graphics>
+			<MuzzleMale>Parts/Desert/Lion/Lion_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/Desert/Lion/Lion_Muzzle_Female</MuzzleFemale>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>adapting</stageKey>
+				<values>
+					<description>[PAWN_nameDef]'s face has elongated into a broad muzzle, like a lion. The strange shape makes speaking very difficult.</description>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>adapted</stageKey>
+				<values>
+					<description>[PAWN_nameDef]'s face has elongated into a broad muzzle, like a lion. Adapting to it has made speaking less frustrating.</description>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>paragon</stageKey>
+				<values>
+					<description>[PAWN_nameDef]'s face has elongated into a broad muzzle, like a lion. With further adaptation, [PAWN_nameDef] has learned to speak normally.</description>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="PantherineEarPart">
+		<classInfluence>PME_LionMorph</classInfluence>
+		<defName>PME_LionEar</defName>
+		<label>lion ear</label>
+		<graphics>
+			<LeftEar>Parts/Desert/Lion/Lion_Ear_Left</LeftEar>
+			<LeftEarBehind>Parts/None/None</LeftEarBehind>
+			<RightEar>Parts/Desert/Lion/Lion_Ear_Right</RightEar>
+			<RightEarBehindHead>Parts/None/None</RightEarBehindHead>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>A sensitive, feline ear now sits on top of on top of [PAWN_nameDef]'s head. It flicks to and fro to pick up the slightest sound.</description>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="PantherineTailPart">
+		<classInfluence>PME_LionMorph</classInfluence>
+		<defName>PME_LionTail</defName>
+		<label>lion tail</label>
+		<graphics>
+			<MaleTail>Parts/Desert/Lion/Lion_Tail_Male</MaleTail>
+			<FemaleTail>Parts/Desert/Lion/Lion_Tail_Female</FemaleTail>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>The tail of a predator has emerged from the end of [PAWN_nameDef]'s spine. It inspires a hunter's spirit when on the chase.</description>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+</Defs>

@@ -1,0 +1,244 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef Name ="QuilledJawPart" ParentName="PawFootedJawPart" Abstract="true">
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>teeth</label>
+						<labelUsedInLogging>False</labelUsedInLogging>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>2</power>
+						<cooldownTime>1.5</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>initial</stageKey>
+				<values>
+					<verbOverrides>
+						<li>
+							<label>teeth</label>
+							<power>0</power>
+						</li>
+					</verbOverrides>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>pressing</stageKey>
+				<values>
+					<verbOverrides>
+						<li>
+							<label>teeth</label>
+							<power>0</power>
+						</li>
+					</verbOverrides>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>growing</stageKey>
+				<values>
+					<verbOverrides>
+						<li>
+							<label>teeth</label>
+							<power>0</power>
+						</li>
+					</verbOverrides>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>adapting</stageKey>
+				<values>
+					<verbOverrides>
+						<li>
+							<label>teeth</label>
+							<power>1</power>
+						</li>
+					</verbOverrides>
+					<statOffsets>
+						<MedicalTendQualityOffset>0.025</MedicalTendQualityOffset>
+					</statOffsets>
+					<capMods>
+						<li>
+							<capacity>Talking</capacity>
+							<offset>-0.2</offset>
+						</li>
+					</capMods>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>adapted</stageKey>
+				<values>
+					<statOffsets>
+						<MedicalTendQualityOffset>0.05</MedicalTendQualityOffset>
+					</statOffsets>
+					<capMods>
+						<li>
+							<capacity>Talking</capacity>
+							<offset>-0.1</offset>
+						</li>
+					</capMods>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>paragon</stageKey>
+				<values>
+					<statOffsets>
+						<MedicalTendQualityOffset>0.075</MedicalTendQualityOffset>
+					</statOffsets>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef Name ="QuilledEarPart" ParentName="PawFootedEarPart" Abstract="true">
+		<stagePatches>
+			<li function="modify">
+				<stageKey>growing</stageKey>
+				<values>
+					<capMods>
+						<li>
+							<capacity>Hearing</capacity>
+							<offset>+0.025</offset>
+						</li>
+					</capMods>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<capMods>
+						<li>
+							<capacity>Hearing</capacity>
+							<offset>+0.05</offset>
+						</li>
+					</capMods>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef Name ="QuilledTailPart" ParentName="PawFootedTailPart" Abstract="true">
+		<stagePatches>
+			<li function="modify">
+				<stageKey>growing</stageKey>
+				<values>
+					<statOffsets>
+						<MedicalSurgerySuccessChance>+0.025</MedicalSurgerySuccessChance>
+				</statOffsets>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<statOffsets>
+						<MedicalSurgerySuccessChance>+0.05</MedicalSurgerySuccessChance>
+					</statOffsets>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<!-- <Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphHandPart">
+		<defName>PME_DelicatePaw</defName>
+		<label>delicate paw</label>
+		<description>a small delicate paw.</description>
+		<classInfluence>Quilled</classInfluence>
+		 <mutationTale>TODO</mutationTale>
+		<mutationMemory>TODO</mutationMemory>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>readjusting</stageKey>
+				<values>
+					<description>TODO</description>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>unfamiliar</stageKey>
+				<values>
+					<description>TODO</description>
+					<capMods>
+						<li>
+							<capacity>Manipulation</capacity>
+							<offset>0.025</offset>
+						</li>
+					</capMods>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>adapting</stageKey>
+				<values>
+					<description>TODO</description>
+					<capMods>
+						<li>
+							<capacity>Manipulation</capacity>
+							<offset>0.05</offset>
+						</li>
+					</capMods>
+					<statOffsets>
+						<MedicalTendQuality>0.025</MedicalTendQuality>
+					</statOffsets>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>adapted</stageKey>
+				<values>
+					<description>TODO</description>
+					<capMods>
+						<li>
+							<capacity>Manipulation</capacity>
+							<offset>0.05</offset>
+						</li>
+					</capMods>
+					<statOffsets>
+						<MedicalTendQuality>0.05</MedicalTendQuality>
+						<MedicalTendSpeed>0.1</MedicalTendSpeed>
+					</statOffsets>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>  -->
+	
+	<!-- Quills -->
+
+	<!-- <Pawnmorph.Hediffs.MutationDef ParentName ="PawnmorphGenericTorsoPart">
+		<description>A torso with many quills. They're sharp and detatch when they jab into someone.</description>
+		<defName>PME_Quills</defName>
+		<classInfluence>Quilled</classInfluence>
+		<label>quills</label>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>initial</stageKey>
+				<values>
+					<description>Several thick protrusions are growing from [PAWN_nameDef]'s back, already sharp.</description>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>growing</stageKey>
+				<values>
+					<description>Painful thick blackened protrusions are growing from [PAWN_nameDef]'s back, sharp and pointy. Like a human cactus.</description>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>[PAWN_nameDef] has grown many quills over their back, they're sharp and detatch when they jab into someone. Hugs are not recommended, possibly to [PAWN_possessive] dismay.</description>
+					<capMods>
+						<li>
+							<capacity>Moving</capacity>
+							<offset>-0.05</offset>
+						</li>
+					</capMods>
+					<statOffsets>
+						<MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
+					</statOffsets>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>  -->
+
+</Defs>

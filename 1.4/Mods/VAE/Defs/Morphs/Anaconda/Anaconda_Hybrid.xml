@@ -1,0 +1,203 @@
+<Defs>
+	<ThingDef Class="AlienRace.ThingDef_AlienRace" ParentName="HumanRace">
+		<defName>PMEA_AnacondaMorph</defName>
+		<label>anaconda naga</label>
+		<description>TODO</description>
+		<statBases>
+			<MarketValue>1750</MarketValue>
+			<MoveSpeed>4.6</MoveSpeed>
+			<Flammability>1.0</Flammability>
+			<ComfyTemperatureMin>16</ComfyTemperatureMin>
+			<ComfyTemperatureMax>26</ComfyTemperatureMax>
+			<LeatherAmount>50</LeatherAmount>
+			<RoyalFavorValue>4</RoyalFavorValue>
+		</statBases>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8.2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8.2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>teeth</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>8.2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.07</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<lifeExpectancy>80</lifeExpectancy>
+			<leatherDef>Leather_Lizard</leatherDef>
+			<nameCategory>HumanStandard</nameCategory>
+			<body>SnakeHybridBody</body>
+			<baseBodySize>1</baseBodySize>
+			<baseHealthScale>1</baseHealthScale>
+			<foodType>OmnivoreHuman</foodType>
+			<gestationPeriodDays>45</gestationPeriodDays>
+			<meatMarketValue>0.8</meatMarketValue>
+			<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+		</race>
+		<alienRace>
+			<generalSettings>
+				<humanRecipeImport>true</humanRecipeImport>
+				<alienPartGenerator>
+					<headTypes>
+						<li>Male_AverageNormal</li>
+						<li>Male_AverageWide</li>
+						<li>Male_AveragePointy</li>
+						<li>Female_AverageNormal</li>
+						<li>Female_AverageWide</li>
+						<li>Female_AveragePointy</li>
+					</headTypes>
+					<colorChannels Inherit="False">
+						<li>
+						    <name>skin</name>
+                            <first Class="ColorGenerator_Single">
+                                <color>RGBA(76, 76, 27, 255)</color>
+                            </first>
+                            <second Class="ColorGenerator_Single">
+                                <color>RGBA(76, 76, 27, 255)</color>
+                            </second>
+						</li>
+						<li>
+							<name>hair</name>
+                            <first Class="ColorGenerator_Single">
+                                <color>RGBA(0, 0, 0, 255)</color>
+                            </first>
+                            <second Class="ColorGenerator_Single">
+                                <color>RGBA(0, 0, 0, 255)</color>
+                            </second>
+						</li>
+					</colorChannels>
+					<bodyAddons>
+						<li>
+							<!-- Body Tails -->
+							<path>Parts/None/None</path>
+							<bodyPart>TailLeg</bodyPart>
+							<inFrontOfBody>true</inFrontOfBody>
+							<layerInvert>false</layerInvert>
+							<drawnInBed>false</drawnInBed>
+							<hediffGraphics>
+								<PME_AnacondaTail>Parts/TropicalSwamp/Anaconda/Anaconda_Tail</PME_AnacondaTail>
+							</hediffGraphics>
+							<offsets>
+								<south/>
+								<north>
+									<bodyTypes>
+										<Male>(0,-0.35)</Male>
+										<Female>(0,-0.39)</Female>
+										<Thin>(0,-0.35)</Thin>
+										<Fat>(0,-0.39)</Fat>
+										<Hulk>(0,-0.39)</Hulk>
+									</bodyTypes>
+								</north>
+								<east>
+									<bodyTypes>
+										<Male>(0.22,-0.24)</Male>
+										<Female>(0.18,-0.31)</Female>
+										<Thin>(0.17,-0.24)</Thin>
+										<Hulk>(0.36,-0.45)</Hulk>
+										<Fat>(0.44,-0.27)</Fat>
+									</bodyTypes>
+								</east>
+							</offsets>
+						</li>
+					</bodyAddons>
+				</alienPartGenerator>
+			</generalSettings>
+			<graphicPaths Inherit="False"></graphicPaths>
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+					<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+				    <key>BeardDef</key>
+					<value>
+					<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
+			<thoughtSettings>
+				<cannotReceiveThoughts></cannotReceiveThoughts>
+				<canStillReceiveThoughts></canStillReceiveThoughts>
+			</thoughtSettings>
+			<relationSettings>
+				<renamer></renamer>
+			</relationSettings>
+			<raceRestriction>
+				<apparelList></apparelList>
+				<whiteApparelList></whiteApparelList>
+				<weaponList></weaponList>
+				<whiteWeaponList></whiteWeaponList>
+				<buildingList></buildingList>
+				<whiteBuildingList></whiteBuildingList>
+				<recipeList></recipeList>
+				<plantList></plantList>
+				<whitePlantList></whitePlantList>
+				<traitList></traitList>
+				<whiteTraitList></whiteTraitList>
+				<foodList></foodList>
+				<petList></petList>
+				<conceptList></conceptList>
+				<workGiverList></workGiverList>
+			</raceRestriction>
+
+		</alienRace>
+	</ThingDef>
+</Defs>

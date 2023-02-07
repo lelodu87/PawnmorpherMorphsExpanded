@@ -1,0 +1,9 @@
+<Defs>
+	<VBE.BackgroundImageDef>
+		<defName>PMAE_Background</defName>
+		<label>mutagenic greenhouse</label>
+		<description>MutaCorp Datalog YE-3n: We couldn't contain the leak. We feel more exotic now...</description>
+		<path>Backgrounds/PME_BG</path>
+		<iconPath>UI/MutagenicHazard</iconPath>
+	</VBE.BackgroundImageDef>
+</Defs>
