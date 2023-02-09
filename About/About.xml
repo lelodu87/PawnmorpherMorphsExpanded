@@ -25,8 +25,18 @@
         <li>
             <packageId>tachyonite.pawnmorpher</packageId>
             <displayName>Pawnmorpher</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1786466855</steamWorkshopUrl>
         </li>
     </modDependencies>
+	<modDependenciesByVersion>
+		<v1.4>
+			<li>
+				<packageId>vanillaexpanded.vanillaanimalsexpanded</packageId>
+				<displayName>Vanilla Animals Expanded</displayName>
+				<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2871933948</steamWorkshopUrl>
+			</li>
+		</v1.4>
+	</modDependenciesByVersion>
     <loadBefore>
     </loadBefore>
     <loadAfter>
