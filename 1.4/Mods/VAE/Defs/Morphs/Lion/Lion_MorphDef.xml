@@ -1,0 +1,24 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="PantherineMorph">
+		<defName>PME_LionMorph</defName>
+		<label>lionmorph</label>
+		<description>Lionmorphs are powerful in combat and stealthy hunters but being the royalty of the animal kingdom gives them an attitude that other colonists may not appreciate.</description>
+		<race>AEXP_Lion</race>
+		<categories>
+			<li>Arid</li>
+		</categories>
+		<fullTransformation>PME_LionTF</fullTransformation>
+		<partialTransformation>PME_LionTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(214,184,139)</skinColorOverride>
+				<hairColorOverride>(49,33,16)</hairColorOverride>
+				<femaleHairColorOverride>(214,184,139)</femaleHairColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>PME_LionTransformationMemory</transformationMemory>
+			<revertedMemory>PME_LionRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>

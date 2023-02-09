@@ -1,0 +1,147 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/ThoughtDef.xsd">
+	<ThoughtDef ParentName="OutlookMemoryBase">
+		<defName>PME_CheetahTransformationMemory</defName>
+        <stages>
+            <li>
+                <label>morphed</label>
+                <description>Well I suppose this could be useful at least.</description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+            <li>
+                <label>morphed</label>
+                <description>I can already feel the thrill of the chase!</description>
+                <baseMoodEffect>+3</baseMoodEffect>
+            </li>
+            <li>
+                <label>morphed</label>
+                <description>What's speed good for when all I want to do is lay around all day?</description>
+                <baseMoodEffect>-5</baseMoodEffect>
+            </li>
+            <li>
+                <label>morphed</label>
+                <description>I feel the need, the need for speed!</description>
+                <baseMoodEffect>+1</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+    <ThoughtDef ParentName="OutlookMemoryBase">
+		<defName>PME_CheetahRevertedMemory</defName>
+        <stages>
+            <li>
+                <label>reverted</label>
+                <description>Ok. Time to move at a regular pace.</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+            <li>
+                <label>reverted</label>
+                <description>Compared to what I had everything feels so slow and sluggish! </description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+            <li>
+                <label>reverted</label>
+                <description>Back to how I'm supposed to be!</description>
+                <baseMoodEffect>10</baseMoodEffect>
+            </li>
+            <li>
+                <label>reverted</label>
+                <description>But I wanted to go fast!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+	<ThoughtDef ParentName="OutlookMemoryBase">
+		<durationDays>1</durationDays>
+		<defName>PME_CheetahMuzzle</defName>
+		<stages>
+			<li>
+				<label>Cheetah snout</label>
+				<description>Will I need to find a dentist for these?</description>
+				<visible>true</visible>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Cheetah snout</label>
+				<description>No steak will ever be too tough ever again!</description>
+				<visible>true</visible>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>Cheetah snout</label>
+				<description>I can't have fun, if I laugh I'll scare someone!</description>
+				<visible>true</visible>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+			<li>
+				<label>Cheetah snout</label>
+				<description>I'm fierce and mighty! Everyone is my prey!</description>
+				<visible>true</visible>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="OutlookMemoryBase">
+		<durationDays>1</durationDays>
+		<defName>PME_CheetahEar</defName>
+		<stages>
+			<li>
+				<label>Cheetah ears</label>
+				<description>I can hear the slighest sound, it's...interesting.</description>
+				<visible>true</visible>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Cheetah ears</label>
+				<description>These will be useful while on the hunt!</description>
+				<visible>true</visible>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Cheetah ears</label>
+				<description>These don't make me a cat-person does it?</description>
+				<visible>true</visible>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+			<li>
+				<label>Cheetah ears</label>
+				<description>Nothing can hide from me! I think I can already hear something to chase!</description>
+				<visible>true</visible>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="OutlookMemoryBase">
+		<durationDays>1</durationDays>
+		<defName>PME_CheetahTail</defName>
+		<stages>
+			<li>
+				<label>Cheetah tail</label>
+				<description>Handy, hope I won't trip over it though.</description>
+				<visible>true</visible>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Cheetah tail</label>
+				<description>It's not only elegant but useful too!</description>
+				<visible>true</visible>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Cheetah tail</label>
+				<description>It's just there waiting to be stepped on!</description>
+				<visible>true</visible>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+			<li>
+				<label>Cheetah tail</label>
+				<description>Yes! It's what I've always wanted!</description>
+				<visible>true</visible>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+</Defs>

@@ -1,0 +1,53 @@
+<Defs>
+	
+	<!-- Avian -->
+	
+	<Pawnmorph.AnimalClassDef>
+		<defName>Penguin</defName>
+		<label>penguin</label>
+		<parent>Avian</parent>
+	</Pawnmorph.AnimalClassDef>
+
+	<!-- PawFooted -->
+
+	<!-- Sub - Mustelids -->
+
+	<Pawnmorph.AnimalClassDef>
+		<defName>Mustelids</defName>
+		<label>mustelids</label>
+		<parent>PawFooted</parent>
+	</Pawnmorph.AnimalClassDef>
+
+	<!-- Sub - Quilled -->
+
+	<Pawnmorph.AnimalClassDef>
+		<defName>Quilled</defName>
+		<label>quilled</label>
+		<parent>PawFooted</parent>
+	</Pawnmorph.AnimalClassDef>
+
+	<!-- Pinniped -->
+
+	<Pawnmorph.AnimalClassDef>
+		<defName>Pinniped</defName>
+		<label>pinniped</label>
+		<parent>Animal</parent>
+	</Pawnmorph.AnimalClassDef>
+
+	<!-- Reptile -->
+
+	<Pawnmorph.AnimalClassDef>
+		<defName>Crocodilia</defName>
+		<label>crocodilia</label>
+		<parent>Reptile</parent>
+	</Pawnmorph.AnimalClassDef>
+
+	<!-- Simian -->
+
+	<Pawnmorph.AnimalClassDef>
+		<defName>Ape</defName>
+		<label>ape</label>
+		<parent>Simian</parent>
+	</Pawnmorph.AnimalClassDef>
+	
+</Defs>
