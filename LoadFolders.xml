@@ -33,7 +33,6 @@
     <v1.4>
 	<li>/</li>
 	<li>1.4</li>
-		<li IfModActive="vanillaexpanded.vanillaanimalsexpanded">1.4/Mods/VAE</li>
 		<li IfModActive="vanillaexpanded.backgrounds">1.4/Mods/VBE</li>
     </v1.4>
 </loadFolders>
