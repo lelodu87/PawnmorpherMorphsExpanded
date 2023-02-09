@@ -102,26 +102,26 @@
 						<li>Female_AverageWide</li>
 						<li>Female_AveragePointy</li>
 					</headTypes>
-						<colorChannels Inherit="False">
-							<li>
-						    	<name>skin</name>
-                                 <first Class="ColorGenerator_Single">
-                              		<color>RGBA(216, 195, 162, 255)</color>
-                            	</first>
-                            	<second Class="ColorGenerator_Single">
-                                	<color>RGBA(216, 195, 162, 255)</color>
-                            	</second>
+					<colorChannels Inherit="False">
+								<li>
+						    		<name>skin</name>
+                                 				<first Class="ColorGenerator_Single">
+                              						<color>RGBA(216, 195, 162, 255)</color>
+                            					</first>
+                            					<second Class="ColorGenerator_Single">
+                                					<color>RGBA(216, 195, 162, 255)</color>
+                            					</second>
 							</li>
 							<li>
 								<name>hair</name>
-                            	<first Class="ColorGenerator_Single">
-                                	<color>RGBA(0, 0, 0, 255)</color>
-                            	</first>
-					    		<second Class="ColorGenerator_Single">
+                            					<first Class="ColorGenerator_Single">
+                                					<color>RGBA(0, 0, 0, 255)</color>
+                            					</first>
+					    			<second Class="ColorGenerator_Single">
 									<color>RGBA(0, 0, 0, 255)</color>
-					    		</second>
+					    			</second>
 							</li>
-						</colorChannels>
+					</colorChannels>
 					<bodyAddons>
 						<li>
 							<!-- Body Tails -->
@@ -159,20 +159,6 @@
 				</alienPartGenerator>
 			</generalSettings>
 			<graphicPaths Inherit="False"></graphicPaths>
-			<styleSettings>
-				<li>
-					<key>HairDef</key>
-					<value>
-					<hasStyle>false</hasStyle>
-					</value>
-				</li>
-				<li>
-				    	<key>BeardDef</key>
-					<value>
-					<hasStyle>false</hasStyle>
-					</value>
-				</li>
-			</styleSettings>
 			<thoughtSettings>
 				<cannotReceiveThoughts></cannotReceiveThoughts>
 				<canStillReceiveThoughts></canStillReceiveThoughts>
@@ -197,7 +183,6 @@
 				<conceptList></conceptList>
 				<workGiverList></workGiverList>
 			</raceRestriction>
-
 		</alienRace>
 	</ThingDef>
 </Defs>
