@@ -1,0 +1,20 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="ThickHideMorph">
+		<defName>PME_HippopotamusMorph</defName>
+		<label>hippopotamusmorph</label>
+		<description>While they might look cute Hippomorphs are vicious fighters, capable of disembowling anything with their teeth and mean temper. Don't get on their bad side.</description>
+		<race>AEXP_Hippopotamus</race>
+		<fullTransformation>PME_HippopotamusTF</fullTransformation>
+		<partialTransformation>PME_HippopotamusTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(89, 75, 72)</skinColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<injectorDef>PME_HippopotamusTransformer</injectorDef>
+		<transformSettings>
+			<transformationMemory>PME_HippopotamusTransformationMemory</transformationMemory>
+			<revertedMemory>PME_HippopotamusRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>

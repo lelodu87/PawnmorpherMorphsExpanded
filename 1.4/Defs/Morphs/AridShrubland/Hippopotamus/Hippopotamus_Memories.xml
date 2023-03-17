@@ -1,0 +1,118 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/ThoughtDef.xsd">
+	<ThoughtDef ParentName="OutlookMemoryBase">
+		<defName>PME_HippopotamusTransformationMemory</defName>
+        <stages>
+            <li>
+                <label>morphed</label>
+                <description>Does my old wardrobe still fit?</description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+            <li>
+                <label>morphed</label>
+                <description>Cute AND Dangerous?! It’s the best of both worlds!</description>
+                <baseMoodEffect>+3</baseMoodEffect>
+            </li>
+            <li>
+                <label>morphed</label>
+                <description>Do I look fat like this?</description>
+                <baseMoodEffect>-5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+    <ThoughtDef ParentName="OutlookMemoryBase">
+		<defName>PME_HippopotamusRevertedMemory</defName>
+        <stages>
+            <li>
+                <label>reverted</label>
+                <description>Going to have to find a belt now...</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+            <li>
+                <label>reverted</label>
+                <description>Decidedly not cute anymore...</description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+            <li>
+                <label>reverted</label>
+                <description>Those teeth were killing me!</description>
+                <baseMoodEffect>10</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+	<ThoughtDef ParentName="OutlookMemoryBase">
+        <durationDays>1</durationDays>
+        <defName>PME_HippopotamusSnout</defName>
+        <stages>
+            <li>
+                <label>hippopotamus snout</label>
+                <description>They always said I had a big mouth...</description>
+                <visible>true</visible>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+            <li>
+                <label>hippopotamus snout</label>
+                <description>Haha! I'm a killing machine!</description>
+                <visible>true</visible>
+                <baseMoodEffect>2</baseMoodEffect>
+            </li>
+            <li>
+                <label>hippopotamus snout</label>
+                <description>Does my dental plan cover this?</description>
+                <visible>true</visible>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+	<ThoughtDef ParentName="OutlookMemoryBase">
+		<durationDays>1</durationDays>
+		<defName>PME_HippopotamusEar</defName>
+		<stages>
+			<li>
+				<label>Hippopotamus ears</label>
+				<description>At least it's waterproof.</description>
+				<visible>true</visible>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Hippopotamus ears</label>
+				<description>Waterproof AND adorable!</description>
+				<visible>true</visible>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Hippopotamus ears</label>
+				<description>This day couldn't possibly get any worse...</description>
+				<visible>true</visible>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+    <ThoughtDef ParentName="OutlookMemoryBase">
+        <durationDays>1</durationDays>
+        <defName>PME_HippopotamusTail</defName>
+        <stages>
+            <li>
+                <label>Hippopotamus tail</label>
+                <description>I forgot what the purpose of a hippo's tail was...</description>
+                <visible>true</visible>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Hippopotamus tail</label>
+                <description>Why, it complements the rest of me perfectly!</description>
+                <visible>true</visible>
+                <baseMoodEffect>1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Hippopotamus tail</label>
+                <description>Why does it want to wag when I go to the bathroom?!</description>
+                <visible>true</visible>
+                <baseMoodEffect>-2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>

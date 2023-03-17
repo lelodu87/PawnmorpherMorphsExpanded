@@ -1,0 +1,49 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef ParentName="CrocodiliaJawPart">
+		<classInfluence>PME_CrocodileMorph</classInfluence>
+		<defName>PME_CrocodileJaw</defName>
+		<label>crocodile snout</label>
+		<graphics>
+			<MuzzleMale>Parts/AridShrubland/Crocodile/Crocodile_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/AridShrubland/Crocodile/Crocodile_Muzzle_Female</MuzzleFemale>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>adapting</stageKey>
+				<values>
+					<description>[PAWN_nameDef]'s face has elongated into a scaly snout, like a crocodile. The strange shape makes speaking very difficult.</description>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>adapted</stageKey>
+				<values>
+					<description>[PAWN_nameDef]'s face has elongated into a scaly snout, like a crocodile. Adapting to it has made speaking less frustrating.</description>
+				</values>
+			</li>
+			<li function="modify">
+				<stageKey>paragon</stageKey>
+				<values>
+					<description>[PAWN_nameDef]'s face has elongated into a scaly snout, like a crocodile. With further adaptation, [PAWN_nameDef] has learned to speak normally.</description>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="CrocodiliaTailPart">
+		<classInfluence>PME_CrocodileMorph</classInfluence>
+		<defName>PME_CrocodileTail</defName>
+		<label>crocodile tail</label>
+		<graphics>
+			<Tail>Parts/AridShrubland/Crocodile/Crocodile_Tail</Tail>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>A thick, muscular tail has emerged at the end of [PAWN_nameDef]'s spine. It's very tough and can easily take a hit without getting seriously hurt.</description>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+</Defs>

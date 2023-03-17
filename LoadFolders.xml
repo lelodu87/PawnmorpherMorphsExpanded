@@ -30,4 +30,9 @@
 		<li IfModActive="vanillaexpanded.vaet_copy">1.3/Mods/Tundra</li>
 		<li IfModActive="vanillaexpanded.backgrounds">1.3/Mods/VBE</li>
     </v1.3>
+    <v1.4>
+	<li>/</li>
+	<li>1.4</li>
+		<li IfModActive="vanillaexpanded.backgrounds">1.4/Mods/VBE</li>
+    </v1.4>
 </loadFolders>

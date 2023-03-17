@@ -1,0 +1,103 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/ThoughtDef.xsd">
+	<ThoughtDef ParentName="OutlookMemoryBase">
+		<defName>PME_CrocodiliaTransformationMemory</defName>
+		<stages>
+			<li>
+				<label>morphed</label>
+				<description>I won't cry over this!</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+			<li>
+				<label>morphed</label>
+				<description>No one's going to mess with me anymore!</description>
+				<baseMoodEffect>+3</baseMoodEffect>
+			</li>
+			<li>
+				<label>morphed</label>
+				<description>I better hide before someone makes a bag out of me...</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>morphed</label>
+				<description>Time for a death roll!</description>
+				<baseMoodEffect>+1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="OutlookMemoryBase">
+		<defName>PME_CrocodiliaRevertedMemory</defName>
+		<stages>
+			<li>
+				<label>reverted</label>
+				<description>Finally I can eat soup again!</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+			<li>
+				<label>reverted</label>
+				<description>But everyone's still scared of me right?</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+			<li>
+				<label>reverted</label>
+				<description>Back to me wearing animals as it was intended!</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+			<li>
+				<label>reverted</label>
+				<description>I was so fierce and now I'm not....</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef ParentName="OutlookMemoryBase">
+		<durationDays>1</durationDays>
+		<defName>PME_CrocodiliaSnout</defName>
+		<stages>
+			<li>
+				<label>Crocodilia snout</label>
+				<description>So many teeth...?! This can't be natural.</description>
+				<visible>true</visible>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Crocodilia snout</label>
+				<description>I hope my smiles aren't too intimidating now, this is great.</description>
+				<visible>true</visible>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>Crocodilia snout</label>
+				<description>My face...! I'm an ugly, toothy lizard...!</description>
+				<visible>true</visible>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="OutlookMemoryBase">
+		<durationDays>1</durationDays>
+		<defName>PME_CrocodiliaTail</defName>
+		<stages>
+			<li>
+				<label>Crocodilia tail</label>
+				<description>This thing is so heavy to carry around, and I don't even know how to swim.</description>
+				<visible>true</visible>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Crocodilia tail</label>
+				<description>Look it's almost prehensile! It's great!</description>
+				<visible>true</visible>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Crocodilia tail</label>
+				<description>It keeps dragging on the ground and getting caught on things!</description>
+				<visible>true</visible>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>
