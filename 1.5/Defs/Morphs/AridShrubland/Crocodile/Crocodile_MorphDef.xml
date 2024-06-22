@@ -1,0 +1,22 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="CrocodiliaMorph">
+		<defName>PME_CrocodileMorph</defName>
+		<label>crocodilemorph</label>
+		<description>Crocodilemorphs are incredibly tough and have a bite few other morphs can match. They will shed no tears for missing fingers if given the opportunity to test their bite.</description>
+		<race>AEXP_Crocodile</race>
+		<categories>
+			<li>Arid</li>
+		</categories>
+		<fullTransformation>PME_CrocodileTF</fullTransformation>
+		<partialTransformation>PME_CrocodileTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(92,99,70)</skinColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>PME_CrocodiliaTransformationMemory</transformationMemory>
+			<revertedMemory>PME_CrocodiliaRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>

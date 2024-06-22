@@ -1,0 +1,49 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef ParentName="BigFelisJawPart">
+		<classInfluence>PME_CheetahMorph</classInfluence>
+		<defName>PME_CheetahJaw</defName>
+		<label>cheetah muzzle</label>
+		<graphics>
+			<MuzzleMale>Parts/AridShrubland/Cheetah/Cheetah_Muzzle_Male</MuzzleMale>
+			<MuzzleFemale>Parts/AridShrubland/Cheetah/Cheetah_Muzzle_Female</MuzzleFemale>
+		</graphics>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="BigFelisEarPart">
+		<classInfluence>PME_CheetahMorph</classInfluence>
+		<defName>PME_CheetahEar</defName>
+		<label>cheetah ear</label>
+		<graphics>
+			<LeftEar>Parts/AridShrubland/Cheetah/Cheetah_Ear_Left</LeftEar>
+			<LeftEarBehind>Parts/None/None</LeftEarBehind>
+			<RightEar>Parts/AridShrubland/Cheetah/Cheetah_Ear_Right</RightEar>
+			<RightEarBehindHead>Parts/None/None</RightEarBehindHead>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>A sensitive, feline ear now sits on top of on top of [PAWN_nameDef]'s head. It flicks to and fro to pick up the slightest sound.</description>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="BigFelisTailPart">
+		<classInfluence>PME_CheetahMorph</classInfluence>
+		<defName>PME_CheetahTail</defName>
+		<label>cheetah tail</label>
+		<graphics>
+			<Tail>Parts/AridShrubland/Cheetah/Cheetah_Tail</Tail>
+		</graphics>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>grown</stageKey>
+				<values>
+					<description>The tail of a predator has emerged from the end of [PAWN_nameDef]'s spine. Its length helps counterbalance the torso in full sprint.</description>
+				</values>
+			</li>
+		</stagePatches>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+</Defs>
